@@ -19,12 +19,12 @@ summarylength = 25
   [[menu.nav]]
     parent     = "about"
     name       = "Mission"
-    url        = "mission"
+    url        = "about/mission"
     weight     = 1
   [[menu.nav]]
     parent     = "about"
     name       = "Team"
-    url        = "team"
+    url        = "about/team"
     weight     = 2
   [[menu.nav]]
     identifier = "what"

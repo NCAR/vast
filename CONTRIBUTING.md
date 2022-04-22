@@ -204,7 +204,7 @@ The `themes` directory contains the .scss files that control the look of the sit
 
 ## Publishing the website at dart.ucar.edu
 
-**Note, these instructions are for when the dart website has been switched to gh-pages**
+**Note, these instructions are for when the VAST website has been switched to gh-pages**
 
 The dart webiste is hosted on the `gh-pages` branch on  https://github.com/NCAR/DART.git
 

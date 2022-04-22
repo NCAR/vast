@@ -27,32 +27,30 @@ You will see something like this:
 
 ````
 Start building sites …
+hugo v0.97.3+extended darwin/amd64 BuildDate=unknown
 
                    | EN
 -------------------+------
-  Pages            |  32
-  Paginator pages  |   2
+  Pages            |  39
+  Paginator pages  |   1
   Non-page files   |   0
-  Static files     | 175
+  Static files     | 203
   Processed images |   0
-  Aliases          |   2
+  Aliases          |   7
   Sitemaps         |   1
   Cleaned          |   0
 
-Built in 438 ms
-Watching for changes in /Users/hkershaw/DART/website/hugo-website/Fresh/hugo-dart/{archetypes,content,data,layouts,static,themes}
-Watching for config changes in /Users/hkershaw/DART/website/hugo-website/Fresh/hugo-dart/config.toml
+Built in 360 ms
+Watching for changes in /Users/kpaul/Software/Development/vast-web/{archetypes,content,data,layouts,static,themes}
+Watching for config changes in /Users/kpaul/Software/Development/vast-web/config.toml
 Environment: "development"
 Serving pages from memory
 Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
-Web Server is available at http://localhost:51000/ (bind address 127.0.0.1)
-
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
 ````
 
-Using your favorite browser, navigate to ` http://localhost:XXXX/`
-
-Where XXXX is the port number given in the hugo message.  Hugo uses live reload, so as you edit your files, the site will be rebuilt.
-
+Using your favorite browser, navigate to ` http://localhost:XXXX/` where `XXXX` is the port number given in the hugo message.  Hugo uses live reload, so as you edit your files, the site will be rebuilt.
 
 ## Adding content
 
@@ -60,77 +58,58 @@ The hugo directory structure looks like this:
 
 ````
 .
-├── archetypes
+├── archetypes/
 ├── config.toml
-├── content
-├── data
-├── layouts
-├── static
-└── themes
+├── content/
+├── data/
+├── layouts/
+├── static/
+└── themes/
 ````
 
 The following are used when adding content to the website:
 
-`config.toml` Is site wide settings, for example, the base-url and the navigation items
+- `config.toml` Is site wide settings, for example, the base-url and the navigation items
 
-`content` contains the website pages. Each directory is a section. Single pages are in the top level
+- `content` contains the website pages. Each directory is a section. Single pages are in the top level.
 
-`data` contains data to pull into the website, for example the team members info.
+- `data` contains data to pull into the website, for example the team members info.
 
-`static` contains files used in the website as-is, such as images and pdfs and the CNAME file.
+- `static` contains files used in the website as-is, such as images and pdfs and the CNAME file.
 
-
-
-#### Adding a new team member
+### Adding a new team member
 
 Edit `data/team.yml` to add a new team member
 
 ````
   - image       : images/team/profile-pic.jpg
     name        : MARGARET HAMILTON
-    designation : Scientist
+    designation : Software Engineer
     ncarpage    : https://staff.ucar.edu/users/mhamilton
     github      : https://github.com/mhamilton
 ````
 
-#### Adding an item to the impact list
+### Adding a new project
 
-Edit `data/counter.yml` to add an item to the impact list
-
-````
-  - title: "Models supported"
-    number: "20"
-````
-
-If you want the counter to link to another page, add a url
+You can use Hugo to create a new `project.md` file with the Hugo front matter. In the top level directory run the command:
 
 ````
-  - title: "Publications"
-    number: "100"
-    url: "publications"
+hugo new projects/my-cool-project.md
 ````
 
-#### Adding a new reseach project
+This creates `content/projects/my-cool-project.md`
 
-You can use Hugo to create a new project.md file with the Hugo front matter. In the top level directory run the command:
-
-````
-hugo new research/my-cool-project.md
-````
-
-This creates `content/research/my-cool-project.md`
-
-#### Adding a new tutorial page
+### Adding a new tutorial page
 
 You can use Hugo to create a new tutorial.md file with the hugo front matter. In the top level dircetcory run the command:
 
 ````
-hugo new tutorials/my-cool-tutorial.md
+hugo new training/my-cool-tutorial.md
 ````
 
-This creates `content/tutorials/my-cool-tutorials.md`
+This creates `content/training/my-cool-tutorials.md`
 
-#### Adding a regular static page
+### Adding a regular static page
 
 You can create a regular page with
 
@@ -140,23 +119,23 @@ hugo new my-new-page.md
 
 This creates `content/my-new-page.md`
 
-#### Adding a redirect
+### Adding a redirect
 
 You can use _aliases_ to add redirects. For example, publications used
 to be on the page:
 
 ````
-https://dart.ucar.edu/pages/Publications.html
+https://vast.ucar.edu/pages/publications.html
 ````
 
-which no longer exists on dart.ucar.edu. Rather than having `pages/Publications.html` give a 404 error, you can have `pages/Publications.html` redirect to the new publications page `https://dart.ucar.edu/publications/`. To do this, add an aliases line to the front matter of `publications.md`.
+which no longer exists on dart.ucar.edu. Rather than having `pages/publications.html` give a 404 error, you can have `pages/publications.html` redirect to the new publications page `https://dart.ucar.edu/publications/`. To do this, add an aliases line to the front matter of `publications.md`.
 
 ````
 ---
-title       : "Publications featuring DART"
+title       : "Publications"
 layout      : "staticpage"
 aliases     :
-   - /pages/Publications.html
+   - /pages/publications.html
 ---
 ````
 
@@ -173,7 +152,7 @@ aliases     :
 
 ````
 
-#### Using re-structured-text rather than markdown
+### Using re-structured-text rather than markdown
 
 To use rst, you will need to have rst2hml installed. To install rst2html in
 a virtual environment:

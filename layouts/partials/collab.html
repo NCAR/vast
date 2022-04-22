@@ -1,0 +1,70 @@
+{{ with .Site.Params.Collab }}
+  {{ if .enable }}
+
+  <section class="site-collab" style="background-image: url('{{ .background_image }}');">
+    <div class="container">
+      
+      <span class="site-collab-title">
+        <h2> {{ .heading | safeHTML }} </h2>
+      </span>
+      <table class="table">
+        <tr>
+          <th>Lower Atmosphere</th>
+          <th>Upper Atmosphere</th>
+          <th>Ocean</th>
+          <th>Cryosphere</th>
+          <th>Land Surface</th>
+          <th>Hydrology</th>
+          <th>Conceptual</th>
+        </tr>
+        <tr>
+          <td>CAM</td>
+          <td>WACCM</td>
+          <td>POP</td>
+          <td>CICE</td>
+          <td>CLM</td>
+          <td>WRF-Hydro</td>
+          <td>Lorenz '63, '84, '96, '05</td>
+        </tr>
+        <tr>
+          <td>WRF</td>
+          <td>GITM</td>
+          <td>ROMS</td>
+          <td></td>
+          <td>NOAH, NOAH-MP</td>
+          <td></td>
+          <td>Ikeda</td>
+        </tr>
+        <tr>
+          <td>WRF-Chem</td>
+          <td>Open GGCM</td>
+          <td>MITgcm-ocean</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>B-grid</td>
+        </tr>
+        <tr>
+          <td>MPAS-Atmosphere</td>
+          <td>TIE GCM</td>
+          <td>MPAS-ocean</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>SQG</td>
+        </tr>
+        <tr>
+          <td>AM2</td>
+          <td>ROSE</td>
+          <td>FESOM</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>9-variable</td>
+        </tr>
+      </table>
+  </section>
+
+  {{ end }}
+{{ end }}
+

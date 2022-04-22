@@ -1,0 +1,27 @@
+{{ with .Site.Data.testimonial }}
+  {{ if .enable }}
+  <section class="site-testimonial">
+    <div class="container">
+      <div class="row">
+        {{ range .testimonial_item }}
+        <div class="col-lg-4 col-md-6">
+          <div class="site-testimonial-item ncar-blue">
+            <div class="site-testimonial-item-header">
+              <div class="thumb">
+                <img src="{{ .thumb | absURL }}" alt="user-thumb-one">
+              </div>
+            </div>
+            <p class="site-testimonial-item-body">
+              <div class="person">
+                <h5>{{ .name }}</h5>
+              </div>
+              {{ .quote }}
+            </p>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

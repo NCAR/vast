@@ -59,6 +59,10 @@ summarylength = 25
     name    = "Publications"
     url     = "publications"
     weight  = 4
+  [[menu.nav]]
+    name    = "Presentations"
+    url     = "presentations"
+    weight  = 5
 
 # Site Params
 [params]
@@ -135,6 +139,9 @@ summarylength = 25
         [[params.footer.sitemap.link]]
           name = "Publications"
           url  = "publications"
+        [[params.footer.sitemap.link]]
+          name = "Presentations"
+          url  = "presentations"
 
       [params.footer.research]
         title  = "What we do"

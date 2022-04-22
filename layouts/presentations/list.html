@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<section class="site-presentations-header">
+  <div class="container" >
+    <div class="row justify-content-right">
+      <div class="col-lg-12 text-center">
+        <h1>{{ .Title }}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="site-presentations-content">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        {{ .Content  | safeHTML }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

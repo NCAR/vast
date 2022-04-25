@@ -15,7 +15,7 @@ jobs:
     defaults:
       run:
         shell: bash -l {0}
-    if: github.repository == 'NCAR/vast-web'
+    if: github.repository == 'NCAR/vast'
     steps:
 
       - name: Checkout repository

@@ -1,4 +1,4 @@
-baseURL       = "https://vast.ucar.edu/"
+baseURL       = "https://ncar.github.io/vast/"
 languageCode  = "en-us"
 title         = "VAST | Visualization and Analysis Software Team"
 theme         = "roxo-hugo"

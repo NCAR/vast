@@ -48,7 +48,7 @@ menu:
 
 # Site Params
 params:
-  logo: /images/logos/ncar-vast-logo-navy.svg
+  logo: images/logos/ncar-vast-logo-navy.svg
   dateFormat: "26 FEB 1994"
   description: "VAST is the Visualization and Analysis Software Team at the National Center for Atmospheric Research (NCAR)."
   author: "VAST"
@@ -65,7 +65,7 @@ params:
   # Banner Section
   banner:
     enable               : true
-    background_image     : /images/backgrounds/NCAR-Waves.png
+    background_image     : images/backgrounds/NCAR-Waves.png
     heading              : The Visualization and Analysis Software Team
     tagline              : tagline
     primary_button       : Software
@@ -92,12 +92,12 @@ params:
     secondary_button_url: /presentations/
 
   training:
-    background_image    : /images/backgrounds/NCAR-Waves.png
+    background_image    : images/backgrounds/NCAR-Waves.png
 
   collab:
     enable          : true
     heading         : Supported models
-    background_image: /images/backgrounds/NCAR-Waves.png
+    background_image: images/backgrounds/NCAR-Waves.png
 
   footer:
     contactInfo:

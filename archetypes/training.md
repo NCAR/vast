@@ -6,6 +6,6 @@ type: training
 image: ""
 feature_image: ""
 category: ""
-author: dart
+author: vast
 ---
 

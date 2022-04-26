@@ -1,4 +1,4 @@
-.site-tutorials{
+.site-training{
     &-header{
       background: $gray;
       background-image: url('/images/banners/peaks.jpg');
@@ -15,7 +15,7 @@
         padding-bottom: 0px;
         text-transform: uppercase;
         margin-bottom: 50px;
-      } 
+      }
       h2 {
         margin: 30px 0 20px;
         font-size: 36px;
@@ -27,13 +27,13 @@
           font-size: 32px;
         }
       }
-      h3{ 
+      h3{
         color: $secondary-color;
         text-transform: uppercase;
         letter-spacing: 2px;
         @include mobile{
           font-size: 35px;
-        }   
+        }
       }
       p{
         line-height: 30px;

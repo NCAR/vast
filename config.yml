@@ -94,11 +94,6 @@ params:
   training:
     background_image    : images/backgrounds/NCAR-Waves.png
 
-  collab:
-    enable          : true
-    heading         : Supported models
-    background_image: images/backgrounds/NCAR-Waves.png
-
   footer:
     contactInfo:
       title  : Contact Info

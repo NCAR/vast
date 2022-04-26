@@ -1,0 +1,14 @@
+enable  : true
+title   : SERVICES WE PROVIDE
+subtitle: How we help the geoscience community
+image   : images/team.jpg
+items   :
+  - icon : ion-ios-paper-outline
+    name : SOFTWARE SUPPORT
+    quote: >
+      We help with using our software
+
+  - icon : ion-ios-pint-outline
+    name : JUPYTER SUPPORT
+    quote: >
+      We help with using the JupyterHub at NCAR

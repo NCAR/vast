@@ -75,7 +75,7 @@ params:
 
   projects:
     enable              : true
-    title               : RECENT PROJECTS
+    title               : PROJECTS
     subtitle            : VAST Projects
     primary_button      : Publications
     primary_button_url  : /publications/

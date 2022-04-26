@@ -1,4 +1,4 @@
-#baseURL:         https://ncar.github.io/vast/
+baseURL:         https://ncar.github.io/vast/
 title:           "VAST | Visualization and Analysis Software Team"
 theme:           roxo-hugo
 enableGitInfo:   true

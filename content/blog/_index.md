@@ -6,6 +6,4 @@ purpose : "..."
 small_group: "..."
 second_title: "..."
 second_description: "..."
-aliases:
-    - pages/blog.html
 ---

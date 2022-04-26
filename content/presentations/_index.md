@@ -1,7 +1,5 @@
 ---
 title     : "Presentations"
-aliases   :
-   - /pages/presentations.html
 ---
 
 ----

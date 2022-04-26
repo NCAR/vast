@@ -1,7 +1,5 @@
 ---
 title       : "Publications"
-aliases     :
-   - /pages/publications.html
 ---
 
 This list gets updated as frequently as possible, ...

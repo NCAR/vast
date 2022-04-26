@@ -82,18 +82,17 @@ params:
     secondary_button    : Presentations
     secondary_button_url: /presentations/
 
+  research:
+    enable              : true
+    title               : RESEARCH
+    subtitle            : VAST Research
+    primary_button      : Publications
+    primary_button_url  : /publications/
+    secondary_button    : Presentations
+    secondary_button_url: /presentations/
+
   training:
     background_image    : /images/backgrounds/NCAR-Waves.png
-
-  call_to_action:
-    enable              : false
-    background_image    : /images/backgrounds/cta-background.jpg
-    heading             : "Tutorials"
-    tagline             : "Geoscientists are generational thinkers. We study deep into the Earth's past and make projections of its future. DART provides training materials to guide the next generation of scientists."
-    primary_button      : "Submit Query"
-    primary_button_url  : "contact"
-    secondary_button    : "Not Convinced"
-    secondary_button_url: "research"
 
   collab:
     enable          : true

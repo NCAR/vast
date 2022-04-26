@@ -1,0 +1,15 @@
+enable : true
+heading : "VAST Metrics"
+counter_item:
+  - title: "Downloads"
+    number: "???"
+
+  - title: "Publications"
+    number: "???"
+    url: "publications"
+
+  - title: "Packages"
+    number: "???"
+
+  - title: "SIParCS Interns"
+    number: "???"

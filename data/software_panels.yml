@@ -1,6 +1,6 @@
 enable  : true
 title   : "Benefits of VAST Software"
-subtitle: "Triptych panels"
+subtitle: "Software panels"
 items :
   - thumb : images/triptych/models.png
     name  : Description One

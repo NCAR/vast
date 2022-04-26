@@ -1,17 +1,17 @@
-{{ with .Site.Data.triptych }}
+{{ with .Site.Data.software_panels }}
   {{ if .enable }}
-  <section class="site-triptych">
+  <section class="site-panels">
     <div class="container">
       <div class="row">
         {{ range .items }}
         <div class="col-lg-4 col-md-6">
-          <div class="site-triptych-item ncar-blue">
-            <div class="site-triptych-item-header">
+          <div class="site-panels-item ncar-blue">
+            <div class="site-panels-item-header">
               <div class="thumb">
                 <img src="{{ .thumb | absURL }}" alt="user-thumb-one">
               </div>
             </div>
-            <p class="site-triptych-item-body">
+            <p class="site-panels-item-body">
               <div class="person">
                 <h5>{{ .name }}</h5>
               </div>

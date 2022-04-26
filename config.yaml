@@ -1,10 +1,8 @@
 #baseURL:         https://ncar.github.io/vast/
-languageCode:    en-us
 title:           "VAST | Visualization and Analysis Software Team"
 theme:           roxo-hugo
 enableGitInfo:   true
 summarylength:   25
-#googleAnalitycs:
 
 markup:
   goldmark:
@@ -15,51 +13,41 @@ markup:
 menu:
   # Navbar Menus
   nav:
-    - identifier: about
-      name:       About Us
-      url:        about
-      weight:     1
-    - parent:     about
-      name:       Mission
-      url:        about/mission
-      weight:     1
-    - parent:     about
-      name:       Team
-      url:        /about/team
-      weight:     2
+    - name      : About
+      url       : /about/
+      weight    : 1
     - identifier: what
-      name:       What we do
-      url:        /what-we-do/
-      weight:     2
-    - parent:     what
-      name:       Software
-      url:        /software/
-      weight:     1
-    - parent:     what
-      name:       Training
-      url:        /training/
-      weight:     2
-    - parent:     what
-      name:       Projects
-      url:        /projects/
-      weight:     3
-    - parent:     what
-      name:       Services
-      url:        /services/
-      weight:     4
-    - name:       Blog
-      url:        /blog/
-      weight:     3
-    - name:       Publications
-      url:        /publications/
-      weight:     4
-    - name:       Presentations
-      url:        /presentations/
-      weight:     5
+      name      : What we do
+      weight    : 2
+    - parent    : what
+      name      : Software
+      url       : /software/
+      weight    : 1
+    - parent    : what
+      name      : Training
+      url       : /training/
+      weight    : 2
+    - parent    : what
+      name      : Projects
+      url       : /projects/
+      weight    : 3
+    - parent    : what
+      name      : Services
+      url       : /services/
+      weight    : 4
+    - name      : Blog
+      url       : /blog/
+      weight    : 3
+    - name      : Publications
+      url       : /publications/
+      weight    : 4
+    - name      : Presentations
+      url       : /presentations/
+      weight    : 5
 
 # Site Params
 params:
-  logo: images/logos/ncar-vast-logo-navy.svg
+  logo: /images/logos/ncar-vast-logo-navy.svg
   dateFormat: "26 FEB 1994"
   description: "VAST is the Visualization and Analysis Software Team at the National Center for Atmospheric Research (NCAR)."
   author: "VAST"
@@ -76,7 +64,7 @@ params:
   # Banner Section
   banner:
     enable               : true
-    background_image     : images/backgrounds/NCAR-Waves.png
+    background_image     : /images/backgrounds/NCAR-Waves.png
     heading              : The Visualization and Analysis Software Team
     tagline              : tagline
     primary_button       : Software
@@ -94,11 +82,11 @@ params:
     secondary_button_url: /presentations/
 
   training:
-    background_image    : images/backgrounds/NCAR-Waves.png
+    background_image    : /images/backgrounds/NCAR-Waves.png
 
   call_to_action:
     enable              : false
-    background_image    : images/backgrounds/cta-background.jpg
+    background_image    : /images/backgrounds/cta-background.jpg
     heading             : "Tutorials"
     tagline             : "Geoscientists are generational thinkers. We study deep into the Earth's past and make projections of its future. DART provides training materials to guide the next generation of scientists."
     primary_button      : "Submit Query"
@@ -109,7 +97,7 @@ params:
   collab:
     enable          : true
     heading         : Supported models
-    background_image: images/backgrounds/NCAR-Waves.png
+    background_image: /images/backgrounds/NCAR-Waves.png
 
   footer:
     contactInfo:
@@ -117,39 +105,37 @@ params:
       address: 1850 Table Mesa Dr.<br>Boulder, CO 80305
       email  : vast@ucar.edu
 
-      sitemap:
-        title: Sitemap
-        link:
-          - name: About us
-            url : /about/
-          - name: What we do
-            url : /what-we-do/
-          - name: Blog
-            url : blog
-          - name: Publications
-            url : /publications/
-          - name: Presentations
-            url : /presentations/
+    sitemap:
+      title: Sitemap
+      link:
+        - name: About us
+          url : /about/
+        - name: Blog
+          url : /blog/
+        - name: Publications
+          url : /publications/
+        - name: Presentations
+          url : /presentations/
 
-      what-we-do:
-        title: What we do
-        link:
-          - name: Software
-            url : /software/
-          - name: Training
-            url : /training/
-          - name: Projects
-            url : /projects/
-          - name: Services"
-            url : /services/
+    whatwedo:
+      title: What we do
+      link:
+        - name: Software
+          url : /software/
+        - name: Training
+          url : /training/
+        - name: Projects
+          url : /projects/
+        - name: Services
+          url : /services/
 
-      social:
-        title: Social Media
-        link:
-          - name: Twitter
-          - url : "#"
+    social:
+      title: Social Media
+      link:
+        - name: Twitter
+        - url : "#"
 
-      service:
-        title       : ""
-        description : ""
+    service:
+      title       : ""
+      description : ""
 

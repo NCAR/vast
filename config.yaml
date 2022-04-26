@@ -59,7 +59,7 @@ menu:
 
 # Site Params
 params:
-  logo: "images/bam-crop.png"
+  logo: images/logos/ncar-vast-logo-navy.svg
   dateFormat: "26 FEB 1994"
   description: "VAST is the Visualization and Analysis Software Team at the National Center for Atmospheric Research (NCAR)."
   author: "VAST"
@@ -108,14 +108,14 @@ params:
 
   collab:
     enable          : true
-    heading         : "Supported models"
-    background_image: "images/backgrounds/NCAR-Waves.png"
+    heading         : Supported models
+    background_image: images/backgrounds/NCAR-Waves.png
 
   footer:
     contactInfo:
-      title  : "Contact Info"
-      address: "1850 Table Mesa Dr.<br>Boulder, CO 80305"
-      email  : "vast@ucar.edu"
+      title  : Contact Info
+      address: 1850 Table Mesa Dr.<br>Boulder, CO 80305
+      email  : vast@ucar.edu
 
       sitemap:
         title: Sitemap
@@ -134,14 +134,14 @@ params:
       what-we-do:
         title: What we do
         link:
-          - name: "Software"
-            url : "software"
-          - name: "Training"
-            url : "training"
-          - name: "Projects"
-            url : "projects"
-          - name: "Services"
-            url : "services"
+          - name: Software
+            url : /software/
+          - name: Training
+            url : /training/
+          - name: Projects
+            url : /projects/
+          - name: Services"
+            url : /services/
 
       social:
         title: Social Media

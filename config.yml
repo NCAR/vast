@@ -1,50 +1,26 @@
-baseURL:         https://ncar.github.io/vast/
-title:           "VAST | Visualization and Analysis Software Team"
-theme:           roxo-hugo
-enableGitInfo:   true
-summarylength:   25
+baseURL       : https://ncar.github.io/vast/
+languageCode  : en-us
+title         : "VAST | Visualization and Analysis Software and Technology"
+theme         : roxo-hugo
+enableGitInfo : true
+summarylength : 25
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-
-# Site Menus
 menu:
-  # Navbar Menus
   nav:
+    - name      : Home
+      url       : ""
+      weight    : 1
     - name      : About
-      url       : /about/
-      weight    : 1
-    - identifier: what
-      name      : What we do
+      url       : about
       weight    : 2
-    - parent    : what
-      name      : Software
-      url       : /software/
-      weight    : 1
-    - parent    : what
-      name      : Training
-      url       : /training/
-      weight    : 2
-    - parent    : what
-      name      : Projects
-      url       : /projects/
+    - name      : What We Do
       weight    : 3
-    - parent    : what
-      name      : Research
-      url       : /research/
-      weight    : 4
-    - parent    : what
-      name      : Services
-      url       : /services/
-      weight    : 5
     - name      : Blog
-      url       : /blog/
-      weight    : 3
-    - name      : Publications
-      url       : /publications/
+      url       : blog
       weight    : 4
+    - name      : Contact Us
+      url       : contact
+      weight    : 5
 
 # Site Params
 params:

@@ -2,18 +2,34 @@
 
 <section class="site-about-header">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-12">
-        <h2>{{ .Title }}</h2>
-        <br>
-        <p>
-          {{ .Params.mission }}
-        </p>
-        <br>
-        <p>
-          {{ .Params.description }}
-        </p>
-        <br>
+    <div class="row">
+      <div class="col-12">
+        <h1>
+          {{ .Params.heading }}
+        </h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="site-about-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="site-about-wrapper">
+          <div class="site-about-heading">
+          </div>
+          <div class="site-about-mission">
+            <p>
+              {{ .Params.mission }}
+            </p>
+          </div>
+          <div class="site-about-description">
+            <p>
+              {{ .Params.description }}
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

@@ -1,7 +1,21 @@
 .site-cta{
-  padding: 130px 0;
-  background-size: cover;
-  background-position: center center;
+  padding: 80px 0 80px;
+  background: #012169;
+
+  .container {
+    .row {
+      h2 {
+        color: #1A658F;
+      }
+      h4 {
+        color: #FFF;
+      }
+    }
+  }
+
+
+  /* background-size: cover;
+  background-position: center center; */
   @include desktop{
     padding: 100px 0;
   }

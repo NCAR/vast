@@ -2,7 +2,7 @@
   &-header{
     padding-top: 180px;
     background-color: $gray;
-    background-image: url('/images/banners/limb.jpg');
+    background-image: url('../images/banners/limb.jpg');
     background-size: cover;
     @include mobile{
       padding-top: 100px;
@@ -17,11 +17,11 @@
       padding-bottom: 0px;
       text-transform: uppercase;
       margin-bottom: 50px;
-    } 
-    h6{ 
+    }
+    h6{
      color: $primary-color;
      font-size: 20px;
-    }   
+    }
   }
   &-section{
     padding-top:0px;
@@ -30,12 +30,12 @@
     @include mobile{
       padding-top: 0px;
       text-align: center;
-    }   
+    }
   }
   &-content{
     background: $gray;
     width: 100%;
-    padding: 50px 20px 60px;    
+    padding: 50px 20px 60px;
     span{
       color: $secondary-color;
       font-weight: 600;
@@ -76,7 +76,7 @@
       letter-spacing: 1px;
       text-transform: none;
     }
-    a{  
+    a{
       color: $white;
       transition: all 0.3s $site-ease;
       display: block;
@@ -95,26 +95,26 @@
   &-buttons{
     margin: 0;
     padding: 0;
-    li{ 
+    li{
       display: inline-block;
       @include mobile{
         display: block;
-      }   
+      }
       &:not(:last-child){
         margin-right: 30px;
         @include mobile{
           margin-right: 0;
           margin-bottom: 20px;
-        }   
-      }   
+        }
+      }
       .btn{
         font-weight: 600;
         @include mobile{
           width: 90%;
           margin: 0 auto;
           display: block;
-        }   
-      }   
-    }   
-  }  
+        }
+      }
+    }
+  }
 }

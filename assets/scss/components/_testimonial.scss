@@ -1,16 +1,11 @@
 .site-testimonial{
   background: $gray;
-  margin-top: -200px;
-  margin-bottom: -100px;
-  padding: 100px 0;
+  padding: 50px 0;
   overflow: hidden;
-  @include mobile{
-    margin-top: -70px;
-  }
   &-item{
     background: $secondary-color;
     padding: 30px;
-    margin-bottom: 30px;
+    height: 100%;
     color: #C3D7EE;
     text-align: center;
     .person{

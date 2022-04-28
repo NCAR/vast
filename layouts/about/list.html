@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<section class="site-about-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="site-about-wrapper">
+          <div class="site-about-heading">
+            <h1>
+              {{ .Params.heading }}
+            </h1>
+          </div>
+          <div class="site-about-mission">
+            <p>
+              {{ .Params.mission }}
+            </p>
+          </div>
+          <div class="site-about-description">
+            <p>
+              {{ .Params.description }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "team.html" . }}
+
+{{ end }}

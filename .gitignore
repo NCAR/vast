@@ -2,9 +2,4 @@
 public
 resources/
 .hugo_build.lock
-
-content-old/
-data-old/
-layouts-old/
-themes/roxo-old/
-config-old.yml
+ARCHIVED/

@@ -28,47 +28,7 @@ params:
   dateFormat: "26 FEB 1994"
   description: "VAST is the Visualization and Analysis Software Team at the National Center for Atmospheric Research (NCAR)."
   author: "VAST"
-  # googleAnalitycsID: "Your ID"
-  # formspreeFormUrl : "https://formspree.io/myykjpje"
   email: "vast@ucar.edu"
-
-  # Navbar Action Button
-  navAction:
-    status : true
-    name   : "Get in touch"
-    url    : "contact"
-
-  # Banner Section
-  banner:
-    enable               : true
-    background_image     : images/backgrounds/NCAR-Waves.png
-    heading              : The Visualization and Analysis Software Team
-    tagline              : tagline
-    primary_button       : Software
-    primary_button_url   : /software/
-    secondary_button     : Contact Us
-    secondary_button_url : /contact/
-
-  projects:
-    enable              : true
-    title               : PROJECTS
-    subtitle            : VAST Projects
-    primary_button      : Publications
-    primary_button_url  : /publications/
-    secondary_button    : Presentations
-    secondary_button_url: /presentations/
-
-  research:
-    enable              : true
-    title               : RESEARCH
-    subtitle            : VAST Research
-    primary_button      : Publications
-    primary_button_url  : /publications/
-    secondary_button    : Presentations
-    secondary_button_url: /presentations/
-
-  training:
-    background_image    : images/backgrounds/NCAR-Waves.png
 
   footer:
     contactInfo:
@@ -97,14 +57,3 @@ params:
           url : /projects/
         - name: Services
           url : /services/
-
-    social:
-      title: Social Media
-      link:
-        - name: Twitter
-        - url : "#"
-
-    service:
-      title       : ""
-      description : ""
-

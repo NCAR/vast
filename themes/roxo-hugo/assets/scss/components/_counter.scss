@@ -1,4 +1,4 @@
-.site-metrics{
+.site-counter{
   padding: 85px 0;
   color: $highlight-color;
   background: $primary-color;
@@ -29,7 +29,7 @@
       margin-bottom: 0;
       font-weight: 700;
     }
-    a{
+    a{  
       color: $highlight-color;
       transition: all 0.3s $site-ease;
       display: block;

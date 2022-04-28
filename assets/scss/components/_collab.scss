@@ -1,0 +1,52 @@
+.site-collab{
+  padding: 80px 0 80px;
+  background: #012169;
+  h2 {
+    color: #1A658F;
+  }
+
+  th {
+    color: #A8C700;
+  }
+  td {
+    color: #FFF;
+  }
+
+  table {
+    table-layout: fixed;
+  }
+  @include mobile{
+    padding: 100px 0 100px;
+  }
+  &-title{
+    font-weight: 700;
+    @include tablet{
+      font-size: 40px;
+    }
+    span{
+      color: #1A658F;
+    }
+    @include mobile{
+      text-align: center;
+    }
+  }
+  &-list{
+    padding: 0;
+    margin: 10px 0 0 20px;
+    @include mobile{
+      text-align: center;
+      margin: 0;
+    }   
+    li{ 
+      list-style: none;
+      font-size: 30px;
+      font-weight: 400;
+      color: $text-color-dark;
+      text-align: center;
+      &:not(:last-child){
+        margin-bottom: 10px;
+      }   
+    }   
+  }
+
+}

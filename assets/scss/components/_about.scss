@@ -1,0 +1,64 @@
+.site-about{
+  &-header{
+    background: $gray;
+    background-image: url('/images/banners/mountain.jpg');
+    padding: 180px 0 30px;
+    @include mobile{
+      padding: 100px 0 20px;
+    }
+    .container{
+      margin-bottom: 50px;
+    }
+  }
+  &-wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &-heading{
+    background: $primary-color;
+    width: 40%;
+    padding: 70px 38px;
+    @include desktop{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    h1{
+      font-size: 36px;
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: 2px;
+      font-weight: 800;
+      color: $secondary-color;
+      @include mobile{
+        font-size: 32px;
+      }
+    }
+  }
+  &-description{
+    width: 60%;
+    padding-left: 50px;
+    @include desktop{
+      width: 100%;
+      padding: 0 38px;
+    }
+    p{
+      font-size: 25px;
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+  }
+  &-mission{
+    width: 60%;
+    padding-left: 50px;
+    @include desktop{
+      width: 100%;
+      padding: 0 38px;
+    }
+    p{
+      font-size: 25px;
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+  }
+}

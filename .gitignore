@@ -2,3 +2,8 @@
 public
 resources/
 .hugo_build.lock
+
+content-old/
+data-old/
+layouts-old/
+config-old.yml

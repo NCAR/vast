@@ -1,0 +1,8 @@
+enable  : true
+title   : VAST Staff
+members  :
+  - image       : https://avatars.githubusercontent.com/kmpaul
+    name        : KEVIN PAUL
+    designation : Software Engineer
+    ncarpage    : https://staff.ucar.edu/users/kpaul
+    github      : https://github.com/kmpaul

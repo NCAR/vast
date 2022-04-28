@@ -1,118 +1,51 @@
 .site-about{
-    &-header{
-      background: $gray;
-      background-image: url('../images/banners/mountain.jpg');
-      padding: 180px 0 30px;
+  &-header{
+    color: $white;
+    background: $gray;
+    background-image: url('../images/banners/limb.jpg');
+    padding: 180px 0 30px;
+    @include mobile{
+      padding: 100px 0 20px;
+    }
+    h1{
+      font-weight: 800;
+      letter-spacing: 1px;
+      color: $white;
       @include mobile{
-        padding: 100px 0 20px;
-      }
-      h1{
-        font-weight: 800;
-        letter-spacing: 5px;
-        margin-bottom: 20px;
-        color: $primary-color;
-        @include mobile{
-          font-size: 35px;
-        }
-      }
-      h2 {
-        font-size: 36px;
-        text-transform: uppercase;
-        text-align: center;
-        letter-spacing: 2px;
-        font-weight: 800;
-        color: $secondary-color;
-        @include mobile{
-          font-size: 32px;
-        }
-      }
-      h3{
-        color: $secondary-color;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        @include mobile{
-          font-size: 36px;
-        }
-      }
-      .container{
-        margin-bottom: 50px;
-      }
-      p{
-        line-height: 30px;
-        font-size: 18px;
-        margin-bottom: 0;
-        color: $black;
+        font-size: 35px;
       }
     }
+  }
+  &-content{
+    background: $gray;
+  }
   &-wrapper{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
   }
-  &-company{
-    background: $primary-color;
-    width: 40%;
-    padding: 70px 38px;
+  &-mission{
+    width: 100%;
+    padding: 50px;
     @include desktop{
-      width: 100%;
-      margin-bottom: 20px;
+      padding: 0 38px;
     }
-    h1{
-      color: $white;
-      font-weight: 400;
-      font-size: 25px;
-      line-height: 60px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
+    p{
+      font-size: 1.4rem;
+      font-weight: 300;
     }
   }
   &-description{
-    width: 60%;
-    padding-left: 50px;
+    width: 100%;
+    padding: 0 0 50px 0;
     @include desktop{
       width: 100%;
       padding: 0 38px;
     }
     p{
-      font-size: 25px;
-      font-weight: 300;
+      font-size: 1.3rem;
+      font-weight: 200;
       margin-bottom: 0;
-    }
-  }
-  &-retirements{
-    background: $gray;
-    background-image: url('../images/banners/mountain.jpg');
-    padding: 60px 0 30px;
-    @include mobile{
-      padding: 50px 0 20px;
-    }
-    h2 {
-      font-size: 36px;
-      text-transform: uppercase;
-      text-align: center;
-      letter-spacing: 2px;
-      font-weight: 800;
-      color: $secondary-color;
-      @include mobile{
-        font-size: 32px;
-      }
-    }
-    h3{
-      color: $secondary-color;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      @include mobile{
-        font-size: 36px;
-      }
-    }
-    .container{
-      margin-bottom: 50px;
-    }
-    p{
-      line-height: 30px;
-      font-size: 18px;
-      margin-bottom: 0;
-      color: $black;
     }
   }
 }

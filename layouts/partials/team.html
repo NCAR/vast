@@ -14,14 +14,14 @@
         <div class="col-lg-4 col-md-6">
           <div class="site-team-member">
             <div class="site-team-member-image">
-              <a href="{{ .ncarpage | absURL }}"><img src="{{ .image | absURL }}" alt="team-member"></a>
+              <a href="https://staff.ucar.edu/users/{{ .ncaruname }}"><img src="https://avatars.githubusercontent.com/{{ .githubuname }}" alt="team-member"></a>
             </div>
             <div class="site-team-member-content">
               <h3>{{ .name }}</h3>
               <p>{{ .designation }}</p>
               <ul class="site-team-member-social">
-                <li><a href="{{ .ncarpage | absURL }}"><span class="icon-symbol-ncar"></span></a></li>
-                <li><a href="{{ .github | absURL }}"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://staff.ucar.edu/users/{{ .ncaruname }}"><span class="icon-symbol-ncar"></span></a></li>
+                <li><a href="https://github.com/{{ .githubuname }}"><i class="fa fa-github"></i></a></li>
               </ul>
             </div>
           </div>

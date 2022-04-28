@@ -1,16 +1,5 @@
 .site-team{
-  padding: 80px 0;
-  .section-title {
-    h2 {
-      font-size: 32px;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      font-weight: 600;
-      @include mobile{
-        font-size: 32px;
-      }
-    }
-  }
+  padding: 100px 0;
   &-member{
     background: $gray;
     padding: 65px 30px 30px;

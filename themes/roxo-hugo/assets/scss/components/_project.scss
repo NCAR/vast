@@ -1,28 +1,6 @@
 .site-project{
-  &-single-header{
-    height: 320px;
-    background-color: $gray;
-    background-position-y: 40%;
-    background-size: cover;
-    margin-bottom: -125px;
-    @include mobile{
-      padding-top: 100px;
-      text-align: center;
-    }
-  }
   padding: 120px 0;
   overflow: hidden;
-
-  h2 {
-    letter-spacing: 2px;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 60px;
-    padding-bottom: 0px;
-    text-transform: uppercase;
-    color: $secondary-color;
-  }
-
   &-item{
     position: relative;
     margin-bottom: 30px;
@@ -45,11 +23,10 @@
       }
       span{
         font-family: $secondary-font;
-        color: darken($primary-color,10%);
+        color: $primary-color;
         display: block;
         margin-bottom: 10px;
       }
-
       h3{
         margin-bottom: 0;
         a{
@@ -120,27 +97,11 @@
     }
   }
   &-header{
-    padding-top: 180px;
-    background-color: $gray;
-    background-image: url('/images/banners/matterhorn.jpg');
-    @include mobile{
-      padding-top: 100px;
-      text-align: center;
+    padding: 170px 0 100px;
+    background: $gray;
+    @include tablet{
+      padding: 120px 0 80px;
     }
-    h1{
-      color: $white;
-      letter-spacing: 2px;
-      font-weight: 800;
-      font-size: 36px;
-      line-height: 60px;
-      padding-bottom: 0px;
-      text-transform: uppercase;
-      margin-bottom: 50px;
-    } 
-    h6{ 
-     color: $primary-color;
-     font-size: 20px;
-    }  
     &-content{
       h1{
         font-size: 55px;
@@ -180,17 +141,8 @@
       }
     }
   }
-  &-pubs{
-    padding: 0px 0 40px;
-    background: $white;
-    text-align: center;
-    @include tablet{
-      padding: 0px 0 40px;
-    }
- }
   &-pagination{
     margin-top: 40px;
-    margin-bottom: -50px;
     .pagination{
       justify-content: center;
       .page-item{
@@ -221,16 +173,9 @@
   }
   &-single{
     &-section{
-      padding: 175px 0 100px;
+      padding: 250px 0 100px;
       @include tablet{
-        padding: 150px 0;
-      }
-
-      .col-lg-4 {
-        p {
-          font-size: 14px;
-          margin: 14px 0 24px;
-        }
+        padding: 100px 0;
       }
     }
     h1{
@@ -241,16 +186,11 @@
     &-image{
       display: flex;
       flex-wrap: wrap;
-      flex-direction: column;
       margin-bottom: 30px;
       img{
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-        height: auto;
+        width: 48%;
         &:nth-child(2n){
-          justify-content: center;
+          margin-left: auto;
         }
         @include tablet{
           width: 100%;
@@ -261,11 +201,6 @@
       margin-bottom: 50px;
       p{
         margin-bottom: 30px;
-      }
-      blockquote{
-        p{  
-          color: $text-color-dark;
-        }   
       }
     }
     &-action{

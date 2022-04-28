@@ -1,47 +1,42 @@
 .site-testimonial{
   background: $gray;
-  margin-top: -200px;
-  margin-bottom: -100px;
   padding: 100px 0;
   overflow: hidden;
-  @include mobile{
-    margin-top: -70px;
-  }
   &-item{
-    background: $secondary-color;
+    background: $white;
     padding: 30px;
     margin-bottom: 30px;
-    color: #C3D7EE;
-    text-align: center;
-    .person{
-      display: block;
-      h5{
-        margin-bottom: 5px;
-        color: $white;
-        text-align: center;
-      }
-      p{
-        margin-bottom: 0;
-        color: $dark-gray;
-      }
+    transition: all 0.3s ease-in;
+    &.active{
+      box-shadow: 0px 30px 45px 0px rgba(0, 0, 0, 0.05);
+    }
+    &.inactive{
+      opacity: 0.4;
     }
     &-header{
       display: flex;
       align-items: center;
       margin-bottom: 20px;
       .thumb{
-        width: 300px;
+        width: 80px;
         img{
           width: 100%;
         }
-        margin: 0 auto;
-        display: block;
+        margin-right: 15px;
+      }
+      .person{
+        h5{
+          margin-bottom: 5px;
+        }
+        p{
+          margin-bottom: 0;
+          color: $dark-gray;
+        }
       }
     }
     &-body{
       margin-bottom: 0;
       font-weight: 300;
     }
-
   }
 }

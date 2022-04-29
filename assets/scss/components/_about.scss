@@ -1,7 +1,6 @@
 .site-about{
   &-header{
     color: $white;
-    background: $gray;
     background-image: url('../images/banners/limb.jpg');
     padding: 180px 0 30px;
     @include mobile{
@@ -16,7 +15,7 @@
       }
     }
   }
-  &-content{
+  &-content {
     background: $gray;
   }
   &-wrapper{
@@ -30,22 +29,20 @@
     @include desktop{
       padding: 0 38px;
     }
-    p{
+    p {
       font-size: 1.4rem;
       font-weight: 300;
+      margin: 0;
     }
   }
-  &-description{
+  &-additional {
     width: 100%;
-    padding: 0 0 50px 0;
-    @include desktop{
-      width: 100%;
-      padding: 0 38px;
-    }
-    p{
-      font-size: 1.3rem;
+    padding: 0;
+    margin-bottom: 50px;
+    p {
+      font-size: 1.2rem;
       font-weight: 200;
-      margin-bottom: 0;
+      margin: 0;
     }
   }
 }

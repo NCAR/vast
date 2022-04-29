@@ -24,10 +24,7 @@
         {{ range $index, $element := $menu }}
           {{ if eq (add $index 1) $len }}
           <li class="nav-item">
-            <a
-              class="nav-link btn btn-sm btn-primary btn-sm-rounded"
-              href="{{ .URL | absURL }}"
-            >
+            <a class="nav-link btn btn-sm btn-primary btn-sm-rounded" href="{{ .URL | absURL }}">
               <span class="btn-area">
                 <span data-text="{{ .Name }}">
                   {{ .Name }}
@@ -37,9 +34,18 @@
           </li>
           {{ else }}
           <li class="nav-item">
-            <a class="nav-link" href="{{ .URL | absURL }}"
-              >{{ .Name }}</a
-            >
+            {{ if .HasChildren }}
+            <div class="dropdown-container">
+              <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }}<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                {{ range .Children }}
+                  <li><a class="dropdown-item nav-link" a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+                {{ end }}
+              </ul>
+            </div>
+            {{ else }}
+            <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
+            {{ end  }}
           </li>
           {{ end }}
         {{ end }}

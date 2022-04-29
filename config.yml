@@ -7,20 +7,38 @@ summarylength : 25
 
 menu:
   nav:
-    - name      : Home
-      url       : ""
-      weight    : 1
     - name      : About
       url       : about
+      weight    : 1
+    - identifier: what
+      name      : What we do
       weight    : 2
-    - name      : What We Do
+    - parent    : what
+      name      : Software
+      url       : software
+      weight    : 1
+    - parent    : what
+      name      : Training
+      url       : training
+      weight    : 2
+    - parent    : what
+      name      : Projects
+      url       : projects
       weight    : 3
+    - parent    : what
+      name      : Research
+      url       : research
+      weight    : 4
+    - parent    : what
+      name      : Services
+      url       : services
+      weight    : 5
     - name      : Blog
       url       : blog
-      weight    : 4
+      weight    : 3
     - name      : Contact Us
       url       : contact
-      weight    : 5
+      weight    : 4
 
 # Site Params
 params:
@@ -40,20 +58,16 @@ params:
       title: Sitemap
       link:
         - name: About us
-          url : /about/
-        - name: Blog
-          url : /blog/
-        - name: Publications
-          url : /publications/
-
-    whatwedo:
-      title: What we do
-      link:
+          url : about
         - name: Software
-          url : /software/
+          url : software
         - name: Training
-          url : /training/
+          url : training
         - name: Projects
-          url : /projects/
+          url : projects
+        - name: Research
+          url : projects
         - name: Services
-          url : /services/
+          url : services
+        - name: Blog
+          url : blog

@@ -48,6 +48,11 @@ params:
   author: "VAST"
   email: "vast@ucar.edu"
 
+  projects:
+    enable: true
+    title: PROJECT HIGHLIGHTS
+    subtitle: Some of our most notable projects
+
   footer:
     contactInfo:
       title  : Contact Info

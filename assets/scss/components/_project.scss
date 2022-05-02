@@ -10,17 +10,21 @@
       text-align: center;
     }
   }
-  padding: 120px 0;
+  padding: 50px 0;
   overflow: hidden;
 
   h2 {
     letter-spacing: 2px;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 50px;
     line-height: 60px;
     padding-bottom: 0px;
     text-transform: uppercase;
     color: $secondary-color;
+  }
+
+  p {
+    font-size: 1.2rem;
   }
 
   &-item{

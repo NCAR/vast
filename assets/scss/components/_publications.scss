@@ -42,6 +42,11 @@
       font-weight: 600;
     }
   }
+  &-items{
+    li {
+      margin-bottom: 10px;
+    }
+  }
   &-wrapper{
     display: flex;
     align-items: center;

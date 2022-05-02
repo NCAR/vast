@@ -1,0 +1,21 @@
+enable : true
+title  : PUBLICATIONS & PRESENTATIONS
+items  :
+
+  - title: Some journal article title.
+    authors:
+      - Bellew, A.
+      - Darrow, C
+      - Groves, E. F.
+    journal: The Journal of Stuff
+    year: 2003
+    extra: "1(2):3-4"
+    url: https://example.com
+
+  - title: Some other journal article title.
+    authors:
+      - Darrow, C.
+      - Groves, E. F.
+    journal: The Journal of Things
+    year: 2008
+    url: https://example.com

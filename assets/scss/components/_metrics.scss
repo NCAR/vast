@@ -1,18 +1,24 @@
 .site-metrics {
-  background: $white;
+  background: $blue;
   padding: 50px 0;
   overflow: hidden;
   &-item{
-    background: $gray;
-    padding: 30px;
     height: 100%;
     text-align: center;
-    h3 {
+    &-number {
+      color: $white;
       margin-bottom: 5px;
       text-align: center;
+      font-size: 4rem;
     }
-    p {
+    &-title {
+      font-size: 1.2rem;
+      color: $highlight-color;
       margin-bottom: 0;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
     }
   }
 }

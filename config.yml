@@ -44,7 +44,7 @@ menu:
 params:
   logo: images/logos/ncar-vast-logo-navy.svg
   dateFormat: "26 FEB 1994"
-  description: "VAST is the Visualization and Analysis Software Team at the National Center for Atmospheric Research (NCAR)."
+  description: "VAST is the Visualization and Analysis Software and Technology section at the National Center for Atmospheric Research (NCAR)."
   author: "VAST"
   email: "vast@ucar.edu"
 

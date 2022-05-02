@@ -1,5 +1,5 @@
 enable : true
-heading : "VAST Metrics"
+heading : "METRICS"
 counter_item:
   - title: "Downloads"
     number: "???"

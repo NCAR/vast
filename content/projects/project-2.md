@@ -5,6 +5,7 @@ type: portfolio
 image: "images/projects/project-thumb-two.jpg"
 category: ["PROJECT"]
 project_images: ["images/projects/project-details-image-one.jpg", "images/projects/project-details-image-two.jpg"]
+draft: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ligula libero, ullamcorper vitae lacus et, luctus malesuada massa. Donec venenatis a ex sit amet ultrices. Praesent eget maximus tellus. Proin imperdiet in lectus sit amet convallis. Nam sollicitudin, diam at dapibus ornare, odio lorem feugiat lorem, in faucibus urna nisl hendrerit dolor. Quisque vulputate erat vulputate quam eleifend, quis placerat mauris fermentum. Pellentesque est purus, porta ut ullamcorper ut, venenatis eget dui. Phasellus faucibus sed dui ut congue. Donec gravida, nisl eget vulputate tincidunt, sapien nunc fringilla elit, id bibendum quam odio nec ex. In hac habitasse platea dictumst. Quisque laoreet, lectus hendrerit ultricies fringilla, purus libero pharetra eros, vel dapibus massa mi at est. Fusce quis dictum ante, quis laoreet neque. Donec suscipit dolor nec dui lobortis aliquam.

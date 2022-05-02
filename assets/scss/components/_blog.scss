@@ -14,7 +14,7 @@
     }
     &-header{
       background: $gray;
-      background-image: url('../images/banners/water.jpg');
+      background-image: url('../images/banners/matterhorn.jpg');
       padding: 180px 0 30px;
       @include mobile{
         padding: 100px 0 20px;
@@ -30,6 +30,7 @@
         margin-bottom: 50px;
       }
       p{
+        color: $gray;
         line-height: 28px;
         margin-bottom: 0;
       }

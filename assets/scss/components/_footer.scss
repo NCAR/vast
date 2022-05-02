@@ -1,6 +1,7 @@
 .site-footer{
   background: $secondary-color;
   padding: 40px 0;
+  font-size: 0.8rem;
 
   &-nsf{
     color: darken($white,40%);
@@ -9,6 +10,9 @@
     margin-bottom: 0px;
     @include mobile{
       text-align: center;
+    }
+    img {
+      max-width: 120px;
     }
   }
   &-widget{
@@ -20,7 +24,7 @@
     }
     &-title{
       color: $white;
-      margin-bottom: 30px;
+      margin-bottom: 1rem;
       @include desktop{
         margin-bottom: 20px;
       }
@@ -31,16 +35,16 @@
       a{
         color: $white;
       }
-     p{  
-     color: $white;
-    }   
+      p{
+        color: $white;
+      }
     }
     &-links{
       margin: 0;
       padding: 0;
       li{
         list-style: none;
-        a{
+        a {
           color: $white;
           transition: all 0.3s $site-ease;
           display: block;

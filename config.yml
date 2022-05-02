@@ -56,18 +56,21 @@ params:
 
     sitemap:
       title: Sitemap
-      link:
-        - name: About us
-          url : about
-        - name: Software
-          url : software
-        - name: Training
-          url : training
-        - name: Projects
-          url : projects
-        - name: Research
-          url : projects
-        - name: Services
-          url : services
-        - name: Blog
-          url : blog
+      column:
+        - link:
+          - name: About us
+            url : about
+          - name: Blog
+            url : blog
+        - link:
+          - name: Software
+            url : software
+          - name: Training
+            url : training
+          - name: Projects
+            url : projects
+          - name: Research
+            url : projects
+          - name: Services
+            url : services
+

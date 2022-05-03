@@ -230,6 +230,12 @@
   }
 
   &-single {
+    h1 {
+      font-size: 40px;
+      font-weight: 500;
+      margin-bottom: 40px;
+    }
+
     &-section {
       padding: 175px 0 100px;
       @include tablet {
@@ -243,11 +249,7 @@
         }
       }
     }
-    h1 {
-      font-size: 40px;
-      font-weight: 500;
-      margin-bottom: 40px;
-    }
+
     &-image {
       display: flex;
       flex-wrap: wrap;
@@ -280,7 +282,58 @@
       }
     }
 
-    &-action {
+    &-previous {
+      a {
+        position: relative;
+        font-size: 24px;
+        font-weight: 300;
+        color: $text-color-dark;
+        display: flex;
+        margin-right: auto;
+        justify-content: flex-start;
+        @include mobile {
+          transform: translateX(-10px);
+        }
+        .link-area {
+          display: inline-block;
+          overflow: hidden;
+          span {
+            position: relative;
+            display: block;
+            padding: 2px 0;
+            transition: transform .9s cubic-bezier(.19,1,.22,1);
+            transform-origin: left center;
+            &::after {
+              content: attr(data-text);
+              position: absolute;
+              top: 150%;
+              left: 0;
+              transform: skewY(30deg);
+              transform-origin: left center;
+              transition: transform .9s cubic-bezier(.19,1,.22,1);
+            }
+          }
+        }
+        &:hover {
+          text-decoration: none;
+          .link-area {
+            span {
+              transform: translateY(-150%) skewY(7deg);
+              &::after {
+                transform: skewY(-7deg);
+              }
+            }
+          }
+        }
+      }
+      img {
+        filter: invert(1);
+        transform: rotate(-90deg);
+        margin-right: 30px;
+      }
+    }
+
+    &-next {
       a {
         position: relative;
         font-size: 24px;

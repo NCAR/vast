@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand-lg site-navigation">
   <div class="container">
-    <a class="navbar-agency-brand" href="https://ncar.ucar.edu/who-we-are/funding">
+    <a class="navbar-brand navbar-agency-brand" href="https://ncar.ucar.edu/who-we-are/funding">
       <img src="{{ "images/logos/NSF_4-Color_bitmap_Logo.png" | absURL }}" alt="NCAR" />
     </a>
-    <a class="navbar-unit-brand" href="{{ .Site.BaseURL }}">
+    <a class="navbar-brand navbar-unit-brand" href="{{ .Site.BaseURL }}">
       <img src="{{ .Site.Params.Logo | absURL }}" alt="VAST" />
     </a>
     <button
@@ -11,6 +11,9 @@
       type="button"
       data-toggle="collapse"
       data-target="#sitenavbar"
+      aria-controls="sitenavbar"
+      aria-expanded="false"
+      aria-label="menu"
     >
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>

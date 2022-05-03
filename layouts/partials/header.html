@@ -23,9 +23,8 @@
     <div class="collapse navbar-collapse" id="sitenavbar">
       <ul class="navbar-nav ml-auto main-nav">
         {{$menu := (.Site.Menus.nav)}}
-        {{$len := (len $menu)}}
-        {{ range $index, $element := $menu }}
-          {{ if eq (add $index 1) $len }}
+        {{ range $menu }}
+          {{ if .Params.button }}
           <li class="nav-item">
             <a class="nav-link btn btn-sm btn-primary btn-sm-rounded" href="{{ .URL | absURL }}">
               <span class="btn-area">

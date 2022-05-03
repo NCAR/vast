@@ -35,9 +35,6 @@ menu:
     - name      : Publications
       url       : publications
       weight    : 4
-    - name      : Contact Us
-      url       : contact
-      weight    : 10
 
 # Site Params
 params:
@@ -66,6 +63,8 @@ params:
             url : about
           - name: News
             url : news
+          - name: Publications
+            url : publications
         - link:
           - name: Software
             url : software

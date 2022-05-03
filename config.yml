@@ -30,7 +30,7 @@ menu:
       weight    : 3
     - parent    : what
       name      : R&D
-      url       : rnd
+      url       : projects
       weight    : 4
     - name      : Publications
       url       : publications
@@ -64,17 +64,15 @@ params:
         - link:
           - name: About us
             url : about
-          - name: Blog
-            url : blog
+          - name: News
+            url : news
         - link:
           - name: Software
             url : software
-          - name: Training
-            url : training
-          - name: Projects
-            url : projects
-          - name: Research
-            url : projects
+          - name: Education
+            url : education
           - name: Services
             url : services
+          - name: R&D
+            url : projects
 

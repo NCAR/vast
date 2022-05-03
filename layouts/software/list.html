@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+<section class="site-software-header">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-8">
+        <div class="site-software-header-content">
+          <h1>
+            {{ .Title | safeHTML }}
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="site-software" id="software">
+  <div class="container">
+    <div class="row">
+      {{ range (.Paginator 4).Pages }}
+      <div class="col-lg-6 col-md-10 mx-auto">
+        <div class="site-software-item">
+          <div class="site-software-item-thumb">
+            <img src="{{ .Params.Image | absURL }}" alt="software-thumb">
+          </div>
+          <div class="site-software-item-content">
+            <h3>{{ .Title }}</h3>
+            <span>{{ .Params.tagline }}</span>
+            <a href="{{ .Permalink }}" class="read-more">Details</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+      <div class="col-12">
+        <div class="site-software-pagination">
+          {{ template "_internal/pagination.html" . }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,104 @@
+.site{
+  &-blog{
+    @extend .site-project;
+    padding-top: 80px;
+    background-color: $white;
+    @include mobile{
+      padding: 70px 0;
+    }
+    &.details{
+      padding: 100px 0 80px;
+      @include tablet{
+        padding: 100px 0 60px;
+      }
+    }
+    &-header{
+      background: $gray;
+      padding: 180px 0 30px;
+      @include mobile{
+        padding: 100px 0 20px;
+      }
+      h1{
+        color: $white;
+        letter-spacing: 2px;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 60px;
+        padding-bottom: 0px;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+      }
+      p{
+        color: $gray;
+        line-height: 28px;
+        margin-bottom: 0;
+      }
+    }
+    &-pagination{
+      @extend .site-project-pagination;
+    }
+    &-post{
+      @extend .site-project-item;
+      &-thumb{
+        @extend .site-project-item-thumb;
+      }
+      &-content{
+        @extend .site-project-item-content;
+        @include mobile{
+          padding: 15px 25px 40px;
+        }
+        span{
+          font-size: 14px;
+        }
+        h3{
+          margin-bottom: 15px;
+          @include mobile{
+            font-size: 20px;
+          }
+        }
+        a.read-more{
+          color: $primary-color;
+          letter-spacing: 2px;
+          @include mobile{
+            transform: translateY(22px);
+          }
+        }
+      }
+    }
+    &-details{
+      background-size: cover;
+      background-color: $white;
+      background-position: center center;
+      padding-right: 40px;
+      padding-left: 40px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      @include mobile{
+        padding: 15px 15px 15px 15px;
+      }
+      img{
+        max-width: 100%;
+        margin-bottom: 20px;
+      }
+      .blog-title{
+        font-size: 40px;
+      }
+      .feature-image{
+        margin: 20px 0 30px;
+      }
+      h2,h3,h4,h5,h6{
+        margin-bottom: 15px;
+      }
+      blockquote{
+        p{
+          color: $text-color-dark;
+          font-size: 18px;
+        }
+      }
+      cite{
+        margin-top: 10px;
+        display: block;
+      }
+    }
+  }
+}

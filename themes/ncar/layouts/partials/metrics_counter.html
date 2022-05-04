@@ -1,0 +1,28 @@
+{{ with .Site.Data.metrics }}
+  {{ if .enable }}
+  <section class="site-counter" id="counter">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="mb-4">
+            <h2>{{ .heading }}</h2>
+          </div>
+        </div>
+        {{ range .counter_item }}
+        <div class="col-lg-3 col-md-6">
+          <div class="site-counter-item">
+            {{ if isset . "url" }}
+              <span class="site-counter-item-title"><a href="{{ .url }}">{{ .title }}</a></span>
+              <h3 class="site-counter-item-number"><a href="{{ .url }}">{{ .number }}</a></h3>
+            {{ else }}
+              <span class="site-counter-item-title">{{ .title }}</span>
+              <h3 class="site-counter-item-number">{{ .number }}</h3>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

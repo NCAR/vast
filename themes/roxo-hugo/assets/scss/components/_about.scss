@@ -1,49 +1,12 @@
 .site-about{
-    &-header{
-      background: $gray;
-      background-image: url('/images/banners/mountain.jpg');
-      padding: 180px 0 30px;
-      @include mobile{
-        padding: 100px 0 20px;
-      }
-      h1{
-        font-weight: 800;
-        letter-spacing: 5px;
-        margin-bottom: 20px;
-        color: $primary-color;
-        @include mobile{
-          font-size: 35px;
-        }
-      }
-      h2 {
-        font-size: 36px;
-        text-transform: uppercase;
-        text-align: center;
-        letter-spacing: 2px;
-        font-weight: 800;
-        color: $secondary-color;
-        @include mobile{
-          font-size: 32px;
-        }
-      }
-      h3{ 
-        color: $secondary-color;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        @include mobile{
-          font-size: 36px;
-        }   
-      }   
-      .container{
-        margin-bottom: 50px;
-      }
-      p{
-        line-height: 30px;
-        font-size: 18px;
-        margin-bottom: 0;
-        color: $black;
-      }
+  &-header{
+    padding-top: 80px;
+    background-color: $gray;
+    @include mobile{
+      padding-top: 60px;
+      text-align: center;
     }
+  }
   &-wrapper{
     display: flex;
     align-items: center;
@@ -77,42 +40,6 @@
       font-size: 25px;
       font-weight: 300;
       margin-bottom: 0;
-    }
-  }
-  &-retirements{
-    background: $gray;
-    background-image: url('/images/banners/mountain.jpg');
-    padding: 60px 0 30px;
-    @include mobile{
-      padding: 50px 0 20px;
-    }
-    h2 {
-      font-size: 36px;
-      text-transform: uppercase;
-      text-align: center;
-      letter-spacing: 2px;
-      font-weight: 800;
-      color: $secondary-color;
-      @include mobile{
-        font-size: 32px;
-      }
-    }
-    h3{ 
-      color: $secondary-color;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      @include mobile{
-        font-size: 36px;
-      }   
-    }   
-    .container{
-      margin-bottom: 50px;
-    }
-    p{
-      line-height: 30px;
-      font-size: 18px;
-      margin-bottom: 0;
-      color: $black;
     }
   }
 }

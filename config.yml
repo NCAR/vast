@@ -1,98 +1,53 @@
-baseURL:         https://ncar.github.io/vast/
-title:           "VAST | Visualization and Analysis Software Team"
-theme:           roxo-hugo
-enableGitInfo:   true
-summarylength:   25
+baseURL       : https://ncar.github.io/vast/
+languageCode  : en-us
+title         : "VAST | Visualization and Analysis Software and Technology"
+theme         : ncar
+enableGitInfo : true
+summarylength : 25
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-
-# Site Menus
 menu:
-  # Navbar Menus
   nav:
     - name      : About
-      url       : /about/
+      url       : about
       weight    : 1
+    - name      : News
+      url       : news
+      weight    : 2
     - identifier: what
       name      : What we do
-      weight    : 2
+      weight    : 3
     - parent    : what
       name      : Software
-      url       : /software/
+      url       : software
       weight    : 1
     - parent    : what
-      name      : Training
-      url       : /training/
+      name      : Education
+      url       : education
       weight    : 2
     - parent    : what
-      name      : Projects
-      url       : /projects/
-      weight    : 3
-    - parent    : what
-      name      : Research
-      url       : /research/
-      weight    : 4
-    - parent    : what
       name      : Services
-      url       : /services/
-      weight    : 5
-    - name      : Blog
-      url       : /blog/
+      url       : services
       weight    : 3
+    - parent    : what
+      name      : R&D
+      url       : projects
+      weight    : 4
     - name      : Publications
-      url       : /publications/
+      url       : publications
       weight    : 4
 
 # Site Params
 params:
-  logo: images/logos/ncar-vast-logo-navy.svg
+  name: VAST
   dateFormat: "26 FEB 1994"
-  description: "VAST is the Visualization and Analysis Software Team at the National Center for Atmospheric Research (NCAR)."
+  description: "VAST is the Visualization and Analysis Software and Technology section at the National Center for Atmospheric Research (NCAR)."
   author: "VAST"
-  # googleAnalitycsID: "Your ID"
-  # formspreeFormUrl : "https://formspree.io/myykjpje"
   email: "vast@ucar.edu"
 
-  # Navbar Action Button
-  navAction:
-    status : true
-    name   : "Get in touch"
-    url    : "contact"
-
-  # Banner Section
-  banner:
-    enable               : true
-    background_image     : images/backgrounds/NCAR-Waves.png
-    heading              : The Visualization and Analysis Software Team
-    tagline              : tagline
-    primary_button       : Software
-    primary_button_url   : /software/
-    secondary_button     : Contact Us
-    secondary_button_url : /contact/
-
   projects:
-    enable              : true
-    title               : PROJECTS
-    subtitle            : VAST Projects
-    primary_button      : Publications
-    primary_button_url  : /publications/
-    secondary_button    : Presentations
-    secondary_button_url: /presentations/
-
-  research:
-    enable              : true
-    title               : RESEARCH
-    subtitle            : VAST Research
-    primary_button      : Publications
-    primary_button_url  : /publications/
-    secondary_button    : Presentations
-    secondary_button_url: /presentations/
-
-  training:
-    background_image    : images/backgrounds/NCAR-Waves.png
+    enable: true
+    title: RECENT PROJECTS
+    subtitle: Some of our most recent projects
 
   footer:
     contactInfo:
@@ -102,33 +57,21 @@ params:
 
     sitemap:
       title: Sitemap
-      link:
-        - name: About us
-          url : /about/
-        - name: Blog
-          url : /blog/
-        - name: Publications
-          url : /publications/
-
-    whatwedo:
-      title: What we do
-      link:
-        - name: Software
-          url : /software/
-        - name: Training
-          url : /training/
-        - name: Projects
-          url : /projects/
-        - name: Services
-          url : /services/
-
-    social:
-      title: Social Media
-      link:
-        - name: Twitter
-        - url : "#"
-
-    service:
-      title       : ""
-      description : ""
+      column:
+        - link:
+          - name: About us
+            url : about
+          - name: News
+            url : news
+          - name: Publications
+            url : publications
+        - link:
+          - name: Software
+            url : software
+          - name: Education
+            url : education
+          - name: Services
+            url : services
+          - name: R&D
+            url : projects
 

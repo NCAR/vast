@@ -1,0 +1,56 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      {{ with .Site.Params.footer.contactInfo }}
+      <div class="col-lg-3 col-md-4">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">{{ .title }}</h5>
+          <p class="site-footer-widget-description">
+            {{ .address | safeHTML }}
+          </p>
+          <p class="site-footer-widget-description">
+            <a href="mailto:{{ .email }}">{{ .email }}</a>
+          </p>
+        </div>
+      </div>
+      {{ end }}
+      {{ with .Site.Params.footer.sitemap }}
+      <div class="col-lg-3 col-md-4">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">{{ .title }}</h5>
+          <div class="row">
+            {{ $cols := (.column) }}
+            {{ $ncol := (len $cols) }}
+            {{ range .column }}
+            <div class="col-{{ div 12 $ncol }}">
+              <ul class="site-footer-widget-links">
+                {{ range .link }}
+                <li><a href="{{ .url | absURL }}">{{ .name }}</a></li>
+                {{ end }}
+              </ul>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+      <div class="col-lg-4 col-md-8">
+        <div class="site-footer-nsf">
+The National Center for Atmospheric Research is sponsored by the National Science Foundation. Any opinions, findings and conclusions or recommendations expressed in this material do not necessarily reflect the views of the National Science Foundation.
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4">
+        <div class="site-footer-logo"><a href="https://nsf.gov"><img src="{{ "logos/footer-logo-nsf.png" | absURL }}" alt="logo-footer"></a></div>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+{{ partial "ucar-footer" }}
+
+{{ $vendor := resources.Get "js/vendor.js" | minify }}
+<script src="{{ $vendor.Permalink }}"></script>
+{{ $script := resources.Get "js/script.js" | minify }}
+<script src="{{ $script.Permalink }}"></script>

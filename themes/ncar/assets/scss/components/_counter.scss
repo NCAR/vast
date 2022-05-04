@@ -1,0 +1,44 @@
+.site-counter {
+  padding: 85px 0;
+  color: $highlight-color;
+  background: $primary-color;
+  h2 {
+    color: rgb(0, 17, 62);
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: 0px;
+  }
+  .section-title {
+    margin-bottom: 10px;
+  }
+  @include mobile {
+    padding: 50px 0;
+  }
+  &-item {
+    @include desktop {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    &-title {
+      font-size: 20px;
+      font-weight: 300;
+    }
+    &-number {
+      color: $white;
+      font-size: 60px;
+      margin-bottom: 0;
+      font-weight: 700;
+    }
+    a {
+      color: $highlight-color;
+      transition: all 0.3s $site-ease;
+      display: block;
+      text-decoration: none;
+    }
+    h3 {
+      a {
+        color: $white;
+      }
+    }
+  }
+}

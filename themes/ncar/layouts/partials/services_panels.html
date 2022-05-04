@@ -1,0 +1,34 @@
+{{ with .Site.Data.services }}
+  {{ if .enable }}
+  <section class="site-panel">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="mb-4">
+            <h2>SERVICES</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        {{ range .items }}
+        <div class="col-lg-4 col-md-6">
+          <div class="site-panel-item ncar-blue">
+            <div class="site-panel-item-header">
+              <div class="thumb">
+                <img src="{{ .thumb | absURL }}" alt="user-thumb-one">
+              </div>
+            </div>
+            <p class="site-panel-item-body">
+              <div class="person">
+                <h5>{{ .name }}</h5>
+              </div>
+              {{ .quote }}
+            </p>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

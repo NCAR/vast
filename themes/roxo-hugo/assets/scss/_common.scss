@@ -6,10 +6,6 @@ body {
   background: $body-color;
 }
 
-a {
-  color: $blue;
-}
-
 .section-title{
   margin-bottom: 70px;
   @include desktop{

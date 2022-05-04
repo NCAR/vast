@@ -1,13 +1,5 @@
 ---
-title       : "Publications"
+title : "Publications"
+date  : 2022-04-27T00:00:00-06:00
 ---
 
-This list gets updated as frequently as possible, ...
-
----
-## 2021
----
-
-![](/images/pin4.gif) **Some One**, 2021
-   An Example Title About Something Interesting.
-   *Some Journal*, **123**, 1-10, [doi.org/XXXXXXXX](https://doi.org/XXXXXXXX)

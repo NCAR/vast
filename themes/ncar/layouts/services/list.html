@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<section class="site-services-header" style="background-image: url({{ .Params.image | absURL }});">
+  <div class="container" >
+    <div class="row justify-content-right">
+      <div class="col-lg-12 text-center">
+        <h1>{{ .Params.Title }}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="site-services-content">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        {{ .Params.Content  | safeHTML }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

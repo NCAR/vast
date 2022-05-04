@@ -1,34 +1,29 @@
 .site{
   &-blog{
     @extend .site-project;
-    padding-top: 80px;
-    background-color: $white;
     @include mobile{
       padding: 70px 0;
     }
     &.details{
-      padding: 100px 0 80px;
+      padding: 150px 0 80px;
       @include tablet{
         padding: 100px 0 60px;
       }
     }
     &-header{
-      background: $gray;
-      background-image: url('/images/banners/water.jpg');
-      padding: 180px 0 30px;
+      padding: 150px 0 0;
       @include mobile{
-        padding: 100px 0 20px;
+        padding: 100px 0 0;
       }
       h1{
-        color: $white;
-        letter-spacing: 2px;
-        font-weight: 800;
-        font-size: 36px;
-        line-height: 60px;
-        padding-bottom: 0px;
+        font-weight: 700;
         text-transform: uppercase;
-        margin-bottom: 50px;
-      } 
+        letter-spacing: 10px;
+        margin-bottom: 20px;
+        @include mobile{
+          font-size: 35px;
+        }
+      }
       p{
         line-height: 28px;
         margin-bottom: 0;
@@ -66,16 +61,6 @@
       }
     }
     &-details{
-      background-size: cover;
-      background-color: $white;
-      background-position: center center;
-      padding-right: 100px;
-      padding-left: 100px;
-      padding-top: 100px;
-      padding-bottom: 100px;
-      @include mobile{
-        padding: 15px 15px 15px 15px;
-      }
       img{
         max-width: 100%;
         margin-bottom: 20px;

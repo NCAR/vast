@@ -1,12 +1,8 @@
 .site-footer{
   background: $secondary-color;
-  padding: 40px 0;
-
-  &-nsf{
-    color: darken($white,40%);
-  }
+  padding: 100px 0;
   &-logo{
-    margin-bottom: 0px;
+    margin-bottom: 50px;
     @include mobile{
       text-align: center;
     }
@@ -31,9 +27,6 @@
       a{
         color: $white;
       }
-     p{  
-     color: $white;
-    }   
     }
     &-links{
       margin: 0;

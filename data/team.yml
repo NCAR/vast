@@ -1,14 +1,13 @@
 enable  : true
 title   : VAST Staff
 members  :
-  - image       : https://avatars.githubusercontent.com/kmpaul
-    name        : KEVIN PAUL
-    designation : Software Engineer
-    ncarpage    : https://staff.ucar.edu/users/kpaul
-    github      : https://github.com/kmpaul
 
-  - image       : https://avatars.githubusercontent.com/clyne
-    name        : John Clyne 
+  - name        : JOHN CLYNE
     designation : Senior Program Manager
-    ncarpage    : https://staff.ucar.edu/users/clyne
-    github      : https://github.com/clyne
+    ncaruname   : clyne
+    githubuname : clyne
+
+  - name        : KEVIN PAUL
+    designation : Software Engineer
+    ncaruname   : kpaul
+    githubuname : kmpaul

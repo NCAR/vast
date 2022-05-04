@@ -1,0 +1,47 @@
+.site-about {
+  &-header {
+    color: $white;
+    padding: 180px 0 30px;
+    @include mobile {
+      padding: 100px 0 20px;
+    }
+    h1 {
+      font-weight: 800;
+      letter-spacing: 1px;
+      color: $white;
+      @include mobile {
+        font-size: 35px;
+      }
+    }
+  }
+  &-content {
+    background: $gray;
+  }
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &-mission {
+    width: 100%;
+    padding: 50px;
+    @include desktop {
+      padding: 0 38px;
+    }
+    p {
+      font-size: 1.4rem;
+      font-weight: 300;
+      margin: 0;
+    }
+  }
+  &-additional {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 50px;
+    p {
+      font-size: 1.2rem;
+      font-weight: 200;
+      margin: 0;
+    }
+  }
+}

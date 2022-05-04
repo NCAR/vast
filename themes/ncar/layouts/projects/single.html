@@ -1,0 +1,49 @@
+{{ define "main" }}
+
+<section class="site-project-single-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="site-project-single">
+          <h1>
+            {{ .Title }}
+          </h1>
+          <div class="site-project-single-description">
+            {{ .Content }}
+          </div>
+          <div class="site-project-single-image">
+            {{ range .Params.project_images }}
+            <img src="{{ . | absURL }}" alt="project image">
+            {{ end }}
+          </div>
+          {{ if or .PrevInSection .NextInSection }}
+          <div class="site-project-single-action">
+            {{ if .PrevInSection }}
+            <div class="site-project-single-action-prev">
+              <a href="{{.PrevInSection.Permalink}}">
+                <img src="{{ "images/to-top.svg" | absURL }}" alt="previous">
+                <span class="link-area">
+                  <span data-text="Previous">Previous</span>
+                </span>
+              </a>
+            </div>
+            {{ end }}
+            {{ if .NextInSection }}
+            <div class="site-project-single-action-next">
+              <a href="{{.NextInSection.Permalink}}">
+                <span class="link-area">
+                  <span data-text="Next">Next</span>
+                </span>
+                <img src="{{ "images/to-top.svg" | absURL }}" alt="next">
+              </a>
+            </div>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

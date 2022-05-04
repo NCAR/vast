@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+<section class="site-about-header" style="background-image: url({{ .Params.image | absURL }});">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>
+          {{ .Title }}
+        </h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="site-about-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="site-about-wrapper">
+          <div class="site-about-mission">
+            <p>
+              {{ .Params.mission }}
+            </p>
+          </div>
+          <div class="site-about-additional">
+            <p>
+              {{ .Content }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "team.html" . }}
+
+{{ end }}

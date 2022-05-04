@@ -1,10 +1,17 @@
 <nav class="navbar navbar-expand-lg site-navigation">
   <div class="container">
     <a class="navbar-brand navbar-agency-brand" href="https://ncar.ucar.edu/who-we-are/funding">
-      <img src="{{ "images/logos/NSF_4-Color_bitmap_Logo.png" | absURL }}" alt="NCAR" />
+      <img src="{{ "logos/NSF_4-Color_bitmap_Logo.png" | absURL }}" alt="NCAR" />
     </a>
     <a class="navbar-brand navbar-unit-brand" href="{{ .Site.BaseURL }}">
-      <img src="{{ .Site.Params.Logo | absURL }}" alt="VAST" />
+      {{ if .Site.Params.Name }}
+      <!-- <span style="font-weight: 600">NCAR</span>
+      <span style="font-weight: 100">|</span> -->
+      <img src="{{ "logos/ncar-logo-navy.svg" | absURL }}" alt="LOGO" />
+      <span style="font-weight: 800">{{ .Site.Params.Name | safeHTML }}</span>
+      {{ else if .Site.Params.Logo }}
+      <img src="{{ .Site.Params.Logo | absURL }}" alt="LOGO" />
+      {{ end }}
     </a>
     <button
       class="navbar-toggler collapsed"

@@ -1,7 +1,7 @@
 ---
 title: "PROJECT ONE"
 date: 2022-04-28T00:00:01-06:00
-type: portfolio
+type: projects
 image: "images/projects/project-thumb-one.jpg"
 category: ["RESEARCH"]
 project_images: ["images/projects/project-details-image-one.jpg", "images/projects/project-details-image-two.jpg"]

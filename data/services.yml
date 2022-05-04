@@ -1,0 +1,15 @@
+enable  : true
+title   : SERVICES WE PROVIDE
+subtitle: How we help the geoscience community
+items   :
+  - thumb: images/services/models.png
+    name : SOFTWARE SUPPORT
+    quote: We help geoscientists with using VAST software.
+
+  - thumb: images/services/instruments.png
+    name : VISUALIZATION SUPPORT
+    quote: We help geoscientists visualize their data.
+
+  - thumb: images/services/platforms.png
+    name : SCIENTIFIC ENGAGEMENTS
+    quote: We engage with scientists on short-term development projects.

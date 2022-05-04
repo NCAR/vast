@@ -1,0 +1,8 @@
+{{ define "main" }}
+
+<section class="site-404-header mb-5" style="text-align: center;">
+  <h3>{{ .Title | safeHTML }}</h3>
+  <h3><a href="{{ .Site.BaseURL | absURL }}">Return Home</a></h3>
+</section>
+
+{{ end }}

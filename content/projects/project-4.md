@@ -1,7 +1,7 @@
 ---
 title: "PROJECT FOUR"
 date: 2022-04-28T00:00:04-06:00
-type: portfolio
+type: projects
 image: "images/projects/project-thumb-four.jpg"
 category: ["RESEARCH"]
 project_images: ["images/projects/project-details-image-one.jpg", "images/projects/project-details-image-two.jpg"]

@@ -1,7 +1,6 @@
 .site-about {
   &-header {
     color: $white;
-    background-image: url('../images/banners/limb.jpg');
     padding: 180px 0 30px;
     @include mobile {
       padding: 100px 0 20px;

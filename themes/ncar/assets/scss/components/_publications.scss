@@ -2,7 +2,6 @@
   &-header{
     padding-top: 180px;
     background-color: $gray;
-    background-image: url('../images/banners/aurora.jpg');
     background-size: cover;
     @include mobile{
       padding-top: 100px;

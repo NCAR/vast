@@ -1,7 +1,9 @@
 enable  : true
 title   : SERVICES WE PROVIDE
 subtitle: How we help the geoscience community
+image   : images/banners/peaks.jpg
 items   :
+
   - thumb: images/services/models.png
     name : SOFTWARE SUPPORT
     quote: We help geoscientists with using VAST software.

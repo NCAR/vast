@@ -5,7 +5,7 @@ type   : software
 tagline: "The Visualization and Analysis Platform for Ocean, Atmosphere, and Solar Researchers"
 docs   : "https://www.vapor.ucar.edu/"
 repo   : "https://github.com/NCAR/vapor"
-image  : "images/hero/aether.jpg"
+image  : "images/backgrounds/aether.jpg"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus suscipit euismod. Vivamus vitae felis ante. Vestibulum est neque, lobortis vitae metus ac, sollicitudin tincidunt ligula. Nam nec quam lacinia, varius nisl tempor, congue lectus. Etiam et magna et dolor lobortis vestibulum sed sit amet mi. Nam a orci purus. Donec et condimentum libero. Nullam ligula ligula, cursus eu dapibus vitae, tristique ac turpis.

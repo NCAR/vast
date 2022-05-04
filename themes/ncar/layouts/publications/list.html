@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ with .Site.Data.publications }}
 {{ if .enable }}
-<section class="site-publications-header">
+<section class="site-publications-header" style="background-image: url({{ .image | absURL }});">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">

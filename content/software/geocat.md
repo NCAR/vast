@@ -5,7 +5,7 @@ type   : software
 tagline: "The Geoscience Community Analysis Toolkit"
 docs   : "https://geocat.ucar.edu/"
 repo   : "https://github.com/NCAR/geocat"
-image  : "images/hero/lightning.jpg"
+image  : "images/backgrounds/lightning.jpg"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus suscipit euismod. Vivamus vitae felis ante. Vestibulum est neque, lobortis vitae metus ac, sollicitudin tincidunt ligula. Nam nec quam lacinia, varius nisl tempor, congue lectus. Etiam et magna et dolor lobortis vestibulum sed sit amet mi. Nam a orci purus. Donec et condimentum libero. Nullam ligula ligula, cursus eu dapibus vitae, tristique ac turpis.

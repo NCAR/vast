@@ -1,7 +1,6 @@
 .site-services {
   &-header {
     background: $gray;
-    background-image: url('../images/banners/peaks.jpg');
     padding-top: 180px;
     @include mobile {
       padding: 100px 0 20px;

@@ -1,5 +1,6 @@
 enable : true
 title  : PUBLICATIONS & PRESENTATIONS
+image  : images/banners/aurora.jpg
 items  :
 
   - title: Some journal article title.

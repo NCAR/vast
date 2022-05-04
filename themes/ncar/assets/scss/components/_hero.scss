@@ -1,4 +1,4 @@
-.site-hero{
+.site-hero {
   position: relative;
   height: 550px;
   margin-top: 50px;
@@ -9,23 +9,23 @@
   justify-content: center;
   background-color: $gray;
   padding-top: 100px;
-  @include desktop{
+  @include desktop {
     height: auto;
     padding: 200px 0;
   }
-  @include mobile{
+  @include mobile {
     padding: 150px 0;
   }
-  &-content{
-    h1{
+  &-content {
+    h1 {
       margin-bottom: 15px;
       text-align: center;
       color: $white;
-      @include desktop-lg{
+      @include desktop-lg {
         font-size: 50px;
         margin-bottom: 50px;
       }
-      @include mobile{
+      @include mobile {
         font-size: 40px;
         text-align: center;
       }
@@ -34,29 +34,29 @@
         text-decoration: none;
       }
     }
-    h3{
+    h3 {
       font-size: 30px;
       margin-bottom: 15px;
       text-align: center;
       color: $highlight-color;
-      @include mobile{
+      @include mobile {
       }
       a, a:hover {
         color: $highlight-color;
         text-decoration: none;
       }
     }
-    &-buttons{
+    &-buttons {
       margin: 20px auto 100px auto;
       padding: 0;
-      li{
+      li {
         margin: 0px auto;
         display: block;
-        @include mobile{
+        @include mobile {
           margin: 0px auto;
           display: block;
         }
-        .btn{
+        .btn {
           font-weight: 600;
           border: solid 5px $highlight-color;
           background: none;
@@ -64,7 +64,7 @@
           width: 50%;
           overflow: wrap;
           display: block;
-          @include mobile{
+          @include mobile {
             /*width: 90%;*/
             margin: 0 auto;
             display: block;
@@ -73,7 +73,7 @@
       }
     }
   }
-  &-scroll{
+  &-scroll {
     display: none;
     position: absolute;
     left: 50%; bottom: 100px;

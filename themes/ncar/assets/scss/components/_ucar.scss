@@ -1,24 +1,24 @@
-.ucar-footer{
+.ucar-footer {
   background:#332f21;
   padding: 15px 10px;
-  &-widget{
+  &-widget {
     color: $white;
-    @include desktop{
+    @include desktop {
       margin-bottom: 20px;
     }
       text-align: center;
   }
-  a{  
+  a {
     color: $white;
     transition: all 0.3s $site-ease;
     display: block;
-  }   
-  a:hover{
+  }
+  a:hover {
    color: #bfd600;
    text-decoration: none;
   }
 
-  h6{
+  h6 {
    font-weight: bold;
   }
 }

@@ -1,14 +1,14 @@
-.site-contact{
-  &-header{
+.site-contact {
+  &-header {
     padding-top: 180px;
     background-color: $gray;
     background-image: url('../images/banners/limb.jpg');
     background-size: cover;
-    @include mobile{
+    @include mobile {
       padding-top: 100px;
       text-align: center;
     }
-    h1{
+    h1 {
       color: $white;
       letter-spacing: 2px;
       font-weight: 800;
@@ -18,25 +18,25 @@
       text-transform: uppercase;
       margin-bottom: 50px;
     }
-    h6{
+    h6 {
      color: $primary-color;
      font-size: 20px;
     }
   }
-  &-section{
+  &-section {
     padding-top:0px;
     padding-bottom:80px;
     background-color: $gray;
-    @include mobile{
+    @include mobile {
       padding-top: 0px;
       text-align: center;
     }
   }
-  &-content{
+  &-content {
     background: $gray;
     width: 100%;
     padding: 50px 20px 60px;
-    span{
+    span {
       color: $secondary-color;
       font-weight: 600;
     }
@@ -45,7 +45,7 @@
       text-transform: uppercase;
       letter-spacing: 2px;
       font-weight: 800;
-      @include mobile{
+      @include mobile {
         font-size: 32px;
       }
     }
@@ -54,21 +54,21 @@
       font-size: 18px;
     }
   }
-  &-wrapper{
+  &-wrapper {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
   }
-  &-git{
+  &-git {
     background: $primary-color;
     border-radius: 25px;
     width: 40%;
     padding: 25px 10px;
-    @include desktop{
+    @include desktop {
       width: 100%;
       margin-bottom: 20px;
     }
-    h1{
+    h1 {
       color: $white;
       font-weight: 400;
       font-size: 35px;
@@ -76,40 +76,40 @@
       letter-spacing: 1px;
       text-transform: none;
     }
-    a{
+    a {
       color: $white;
       transition: all 0.3s $site-ease;
       display: block;
     }
   }
-  &-docs{
+  &-docs {
     @extend .site-software-git;
     background: $secondary-color;
-    h1{
+    h1 {
     font-size: 24px;
     }
   }
-  &-spacer{
+  &-spacer {
     width:80px;
   }
-  &-buttons{
+  &-buttons {
     margin: 0;
     padding: 0;
-    li{
+    li {
       display: inline-block;
-      @include mobile{
+      @include mobile {
         display: block;
       }
-      &:not(:last-child){
+      &:not(:last-child) {
         margin-right: 30px;
-        @include mobile{
+        @include mobile {
           margin-right: 0;
           margin-bottom: 20px;
         }
       }
-      .btn{
+      .btn {
         font-weight: 600;
-        @include mobile{
+        @include mobile {
           width: 90%;
           margin: 0 auto;
           display: block;

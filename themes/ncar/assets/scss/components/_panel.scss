@@ -1,39 +1,39 @@
-.site-testimonial{
+.site-panel {
   background: $gray;
   padding: 50px 0;
   overflow: hidden;
-  &-item{
+  &-item {
     background: $secondary-color;
     padding: 30px;
     height: 100%;
     color: #C3D7EE;
     text-align: center;
-    .person{
+    .person {
       display: block;
-      h5{
+      h5 {
         margin-bottom: 5px;
         color: $white;
         text-align: center;
       }
-      p{
+      p {
         margin-bottom: 0;
         color: $dark-gray;
       }
     }
-    &-header{
+    &-header {
       display: flex;
       align-items: center;
       margin-bottom: 20px;
-      .thumb{
+      .thumb {
         width: 300px;
-        img{
+        img {
           width: 100%;
         }
         margin: 0 auto;
         display: block;
       }
     }
-    &-body{
+    &-body {
       margin-bottom: 0;
       font-weight: 300;
     }

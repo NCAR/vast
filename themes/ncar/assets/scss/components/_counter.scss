@@ -1,4 +1,4 @@
-.site-counter{
+.site-counter {
   padding: 85px 0;
   color: $highlight-color;
   background: $primary-color;
@@ -8,28 +8,28 @@
     text-transform: none;
     letter-spacing: 0px;
   }
-  .section-title{
+  .section-title {
     margin-bottom: 10px;
   }
-  @include mobile{
+  @include mobile {
     padding: 50px 0;
   }
-  &-item{
-    @include desktop{
+  &-item {
+    @include desktop {
       margin-bottom: 30px;
       text-align: center;
     }
-    &-title{
+    &-title {
       font-size: 20px;
       font-weight: 300;
     }
-    &-number{
+    &-number {
       color: $white;
       font-size: 60px;
       margin-bottom: 0;
       font-weight: 700;
     }
-    a{  
+    a {
       color: $highlight-color;
       transition: all 0.3s $site-ease;
       display: block;

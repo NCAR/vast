@@ -1,16 +1,16 @@
-.site-about{
-  &-header{
+.site-about {
+  &-header {
     color: $white;
     background-image: url('../images/banners/limb.jpg');
     padding: 180px 0 30px;
-    @include mobile{
+    @include mobile {
       padding: 100px 0 20px;
     }
-    h1{
+    h1 {
       font-weight: 800;
       letter-spacing: 1px;
       color: $white;
-      @include mobile{
+      @include mobile {
         font-size: 35px;
       }
     }
@@ -18,15 +18,15 @@
   &-content {
     background: $gray;
   }
-  &-wrapper{
+  &-wrapper {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
   }
-  &-mission{
+  &-mission {
     width: 100%;
     padding: 50px;
-    @include desktop{
+    @include desktop {
       padding: 0 38px;
     }
     p {

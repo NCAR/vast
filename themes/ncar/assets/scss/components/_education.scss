@@ -2,6 +2,7 @@
   &-header {
     background: $gray;
     padding-top: 180px;
+    margin-bottom: 30px;
     @include mobile {
       padding: 100px 0 20px;
     }

@@ -4,7 +4,6 @@ date  : 2022-04-27T00:00:00-06:00
 image : images/banners/peaks.jpg
 ---
 
-
 The technology used for data analysis and visualization changes
 rapidly. Making the most effective use of new hardware, software
 ecosystems, services, and even programming languages requires

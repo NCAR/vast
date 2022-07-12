@@ -2,20 +2,40 @@ enable  : true
 title   : VAST Staff
 members  :
 
+  - name        : NIHANTH CHERUKURU
+    designation : Project Scientist
+    ncaruname   : ncheruku
+    githubuname : NihanthCW
+
   - name        : JOHN CLYNE
     designation : Senior Program Manager
     ncaruname   : clyne
     githubuname : clyne
+
+  - name        : STANISLAW 'Stas' JAROSZYNSKI
+    designation : Software Engineer
+    ncaruname   : stasj
+    githubuname : StasJ
+
+  - name        : JULIA KENT
+    designation : Software Engineer
+    ncaruname   : jkent
+    githubuname : jukent
+
+  - name        : SAMUEL LI
+    designation : Project Scientist
+    ncaruname   : shaomeng
+    githubuname : shaomeng
 
   - name        : KEVIN PAUL
     designation : Software Engineer
     ncaruname   : kpaul
     githubuname : kmpaul
 
-  - name        : NIHANTH CHERUKURU
-    designation : Project Scientist
-    ncaruname   : ncheruku
-    githubuname : NihanthCW
+  - name        : SCOTT PEARSE
+    designation : Software Engineer
+    ncaruname   : pearse
+    githubuname : sgpearse
 
   - name        : MATT REHME
     designation : Software Engineer
@@ -26,18 +46,3 @@ members  :
     designation : Scientific Data Visualization Designer
     ncaruname   : csinclair
     githubuname : collinsinclair
-  
-  - name        : SAMUEL LI
-    designation : Project Scientist
-    ncaruname   : shaomeng
-    githubuname : shaomeng
-
-  - name        : STANISLAW 'Stas' JAROSZYNSKI
-    designation : Software Engineer
-    ncaruname   : stasj
-    githubuname : StasJ
-
-  - name        : SCOTT PEARSE
-    designation : Software Engineer
-    ncaruname   : pearse
-    githubuname : sgpearse

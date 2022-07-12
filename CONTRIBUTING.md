@@ -146,16 +146,23 @@ available from the site navigation menu:
 - Projects (R&D)
 - Software
 
-#### Modifying the VAST about page
+#### Modifying the VAST About page
 
 Just modify the `Content` section (i.e., everything under the header) of the
 `content/about/_index.md` file.  The VAST mission statement (formatted differently
 on the about page) can be modified by changing the `mission` field in the header.
 
-#### Modifying the VAST education page
+At the bottom of the About page is the VAST team section, which can be modified by changing the `data/team.yml` file (see above).
+
+#### Modifying the VAST Education page
 
 Just modify the `Content` section (i.e., everything under the header) of the
 `content/education/_index.md` file.
+
+#### Modifying the VAST Services page
+
+Just modify the `Content` section (i.e., everything under the header) of the
+`content/services/_index.md` file.
 
 #### Adding a new blog
 

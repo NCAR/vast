@@ -13,3 +13,60 @@ items  :
     year: 2019
     extra: "10(9), 488"
     url: https://www.mdpi.com/2073-4433/10/9/488
+
+  - title: Optimization of DNS code and visualization of entrainment and mixing phenomena at cloud edges
+    authors:
+      - Bipin, K.
+      - Rehme, M.
+      - Orf, L.
+      - Suresh, N.
+      - Jaroszynski, S.
+      - Li, S.
+      - Pearce, S.
+      - Scheitlin, T.
+    journal: Parallel Computing
+    year: 2021
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0167819121000600.
+
+
+  - title: Using Augmented Reality (AR) to Create Immersive and Accessible Museums for People with Vision-Impairments
+    authors:
+      - Cherukuru, N.
+      - Rayvn, M.
+      - Lauer, AJ.
+      - Scheitlin, T.
+      - Bhagchandani, B.
+
+    journal: Museums and Web
+    year: 2021
+    url: https://mw21.museweb.net/paper/using-augmented-reality-ar-to-create-immersive-and-accessible-museums-for-people-with-vision-impairments/index.html
+
+  - title: Visual Comparator - An Interactive Tool for Dynamic Spatiotemporal Comparative Visualizations
+    authors:
+      - Cherukuru, N.
+      - Scheitlin, T.
+    journal: Bulletin of the American Meteorological Society
+    year: 2020
+    extra: E1861–E1869
+    url: https://journals.ametsoc.org/view/journals/bams/101/10/bamsD190266.xml
+
+  - title: Beyond Visuals - Examining the Experiences of Geoscience Professionals With Vision Disabilities in Accessing Data Visualizations
+    authors:
+      - Cherukuru, N.
+      - Rehme, M.
+      - Bailey, D.
+      - Fourment, T.
+      - Hathaway, B.
+      - Holland, M.
+    journal: IEEE Vis 2022
+    year: 2022
+    url: 
+
+  - title: Earth Science Data Visualization Through Augmented Coloring Books
+    authors:
+      - Cherukuru, N.
+      - Scheitlin, T.
+      - Rehme, M.
+    journal: AMS Annual Meeting 2018
+    year: 2018
+    url: 

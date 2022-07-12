@@ -41,6 +41,9 @@
       @extend .site-project-item;
       &-thumb{
         @extend .site-project-item-thumb;
+        img {
+          margin-bottom: 460px;
+        }
       }
       &-content{
         @extend .site-project-item-content;

@@ -13,11 +13,3 @@ items  :
     year: 2019
     extra: "10(9), 488"
     url: https://www.mdpi.com/2073-4433/10/9/488
-
-  - title: Some other journal article title.
-    authors:
-      - Darrow, C.
-      - Groves, E. F.
-    journal: The Journal of Things
-    year: 2008
-    url: https://example.com

@@ -3,16 +3,78 @@ title  : PUBLICATIONS & PRESENTATIONS
 image  : images/banners/aurora.jpg
 items  :
 
-  - title: Vapor, A visualization package tailored to analyze simulation data in earth system science
+  - title: The Geoscience Community Analysis Toolkit - An Open Development, Community Driven
+           Toolkit in the Scientific Python Ecosystem
     authors:
-      - Li, S.
-      - Jaroszynski, J.
-      - Orf, L.
+      - Eroglu, O.
+      - Zacharias, A.
+      - Sizemore, M.
+      - Kootz, A.
+      - Craker, H.
       - Clyne, J.
-    journal: Atmosphere
-    year: 2019
-    extra: "10(9), 488"
-    url: https://www.mdpi.com/2073-4433/10/9/488
+    journal: Proceedings of the 21st Python in Science Conference
+    year: 2022
+    extra: pp. 154 - 160
+    url: https://conference.scipy.org/proceedings/scipy2022/orhan_eroglu.html
+
+  - title: Beyond Visuals - Examining the Experiences of Geoscience Professionals With Vision Disabilities in Accessing Data Visualizations
+    authors:
+      - Cherukuru, N.
+      - Rehme, M.
+      - Bailey, D.
+      - Fourment, T.
+      - Hathaway, B.
+      - Holland, M.
+    journal: IEEE Vis 2022
+    year: 2022
+    url:
+
+  - title: Pivoting to Python - Lessons Learned in Recreating the NCAR Command Language in Python
+    authors:
+      - Sizemore, M.
+      - Eroglu, O.
+      - Zacharias, A.
+      - Kootz, A.
+    journal: AMS Annual Meeting 2022
+    year: 2022
+    url: https://ams.confex.com/ams/102ANNUAL/meetingapp.cgi/Paper/392637
+
+  - title: NCAR's GeoCAT Announcement of Computational Tools
+    authors:
+      - Craker, H.
+      - Kootz, A.
+      - Zacharias, A.
+      - Sizemore, M.
+      - Eroglu, O.
+    journal: AMS Annual Meeting 2022
+    year: 2022
+    url: https://ams.confex.com/ams/102ANNUAL/meetingapp.cgi/Paper/395377
+
+  - title: Project Raijin - Community Geoscience Analysis Tools for Unstructured Grids
+    authors:
+      - Clyne, J.
+      - Eroglu, O.
+      - Medeiros, B.
+      - Zarzycki, C. M.
+    journal: AGU Fall Meeting 2021
+    year: 2021
+    url: https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/901711
+
+  - title: Pangeo and Project Pythia - Helping Geoscientists Navigate the Scientific Python Ecosystem (Invited)
+    authors:
+      - Paul, K.
+      - Banihirwe, A.
+      - Camron, D.
+      - Clyne, J.
+      - Eroglu, O.
+      - Grover, M.
+      - Kent, J.
+      - May, R.
+      - Rose, B. E. J.
+      - Tyle, K.
+    journal: AGU Fall Meeting 2021
+    year: 2021
+    url: https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/831257
 
   - title: Optimization of DNS code and visualization of entrainment and mixing phenomena at cloud edges
     authors:
@@ -28,7 +90,6 @@ items  :
     year: 2021
     url: https://www.sciencedirect.com/science/article/abs/pii/S0167819121000600.
 
-
   - title: Using Augmented Reality (AR) to Create Immersive and Accessible Museums for People with Vision-Impairments
     authors:
       - Cherukuru, N.
@@ -41,6 +102,38 @@ items  :
     year: 2021
     url: https://mw21.museweb.net/paper/using-augmented-reality-ar-to-create-immersive-and-accessible-museums-for-people-with-vision-impairments/index.html
 
+  - title: Expanding and Strengthening the Transition from NCL to Python Visualizations
+    authors:
+      - Lincoln, E.
+      - Li, J.
+      - Zacharias, A.
+      - Sizemore, M.
+      - Eroglu, O.
+      - Kent, J.
+    journal: AGU Fall Meeting 2021
+    year: 2021
+    url: https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/973469
+
+  - title: Geoscience Community Analysis Toolkit (GeoCAT)
+    authors:
+      - Eroglu, O.
+      - Clyne, J.
+      - Kootz, A.
+      - Sizemore, M.
+      - Zacharias, A.
+    journal: AMS Annual Meeting 2021
+    year: 2021
+    url: https://ams.confex.com/ams/101ANNUAL/meetingapp.cgi/Paper/379186
+
+  - title: Rebuilding the NCL Visualization Gallery in Python
+    authors:
+      - Craker, H. R.
+      - Fiorino, C. A.
+      - Sizemore, M. V.
+    journal: AMS Annual Meeting 2021
+    year: 2021
+    url: https://ams.confex.com/ams/101ANNUAL/meetingapp.cgi/Paper/378236
+
   - title: Visual Comparator - An Interactive Tool for Dynamic Spatiotemporal Comparative Visualizations
     authors:
       - Cherukuru, N.
@@ -50,17 +143,23 @@ items  :
     extra: E1861–E1869
     url: https://journals.ametsoc.org/view/journals/bams/101/10/bamsD190266.xml
 
-  - title: Beyond Visuals - Examining the Experiences of Geoscience Professionals With Vision Disabilities in Accessing Data Visualizations
+  - title: GeoCAT - The NCL Pivot to Python
     authors:
-      - Cherukuru, N.
-      - Rehme, M.
-      - Bailey, D.
-      - Fourment, T.
-      - Hathaway, B.
-      - Holland, M.
-    journal: IEEE Vis 2022
-    year: 2022
-    url: 
+      - Clyne, J.
+    journal: AMS Annual Meeting 2020
+    year: 2020
+    url: https://ams.confex.com/ams/2020Annual/meetingapp.cgi/Paper/365970
+
+  - title: Vapor, A visualization package tailored to analyze simulation data in earth system science
+    authors:
+      - Li, S.
+      - Jaroszynski, J.
+      - Orf, L.
+      - Clyne, J.
+    journal: Atmosphere
+    year: 2019
+    extra: "10(9), 488"
+    url: https://www.mdpi.com/2073-4433/10/9/488
 
   - title: Earth Science Data Visualization Through Augmented Coloring Books
     authors:
@@ -69,4 +168,4 @@ items  :
       - Rehme, M.
     journal: AMS Annual Meeting 2018
     year: 2018
-    url: 
+    url:

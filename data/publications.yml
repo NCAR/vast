@@ -3,16 +3,17 @@ title  : PUBLICATIONS & PRESENTATIONS
 image  : images/banners/aurora.jpg
 items  :
 
-  - title: Vapor, A visualization package tailored to analyze simulation data in earth system science
+  - title: Beyond Visuals - Examining the Experiences of Geoscience Professionals With Vision Disabilities in Accessing Data Visualizations
     authors:
-      - Li, S.
-      - Jaroszynski, J.
-      - Orf, L.
-      - Clyne, J.
-    journal: Atmosphere
-    year: 2019
-    extra: "10(9), 488"
-    url: https://www.mdpi.com/2073-4433/10/9/488
+      - Cherukuru, N.
+      - Rehme, M.
+      - Bailey, D.
+      - Fourment, T.
+      - Hathaway, B.
+      - Holland, M.
+    journal: IEEE Vis 2022
+    year: 2022
+    url:
 
   - title: Optimization of DNS code and visualization of entrainment and mixing phenomena at cloud edges
     authors:
@@ -27,7 +28,6 @@ items  :
     journal: Parallel Computing
     year: 2021
     url: https://www.sciencedirect.com/science/article/abs/pii/S0167819121000600.
-
 
   - title: Using Augmented Reality (AR) to Create Immersive and Accessible Museums for People with Vision-Impairments
     authors:
@@ -50,17 +50,16 @@ items  :
     extra: E1861–E1869
     url: https://journals.ametsoc.org/view/journals/bams/101/10/bamsD190266.xml
 
-  - title: Beyond Visuals - Examining the Experiences of Geoscience Professionals With Vision Disabilities in Accessing Data Visualizations
+  - title: Vapor, A visualization package tailored to analyze simulation data in earth system science
     authors:
-      - Cherukuru, N.
-      - Rehme, M.
-      - Bailey, D.
-      - Fourment, T.
-      - Hathaway, B.
-      - Holland, M.
-    journal: IEEE Vis 2022
-    year: 2022
-    url: 
+      - Li, S.
+      - Jaroszynski, J.
+      - Orf, L.
+      - Clyne, J.
+    journal: Atmosphere
+    year: 2019
+    extra: "10(9), 488"
+    url: https://www.mdpi.com/2073-4433/10/9/488
 
   - title: Earth Science Data Visualization Through Augmented Coloring Books
     authors:

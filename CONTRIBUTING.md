@@ -18,8 +18,8 @@ test your build locally.
 To build the site on your machine:
 
 ````
-git clone https://github.com/NCAR/vast-web.git
-cd vast-web
+git clone https://github.com/NCAR/vast.git
+cd vast
 hugo serve
 ````
 

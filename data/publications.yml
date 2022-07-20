@@ -29,6 +29,27 @@ items  :
     year: 2022
     url:
 
+  - title: Pivoting to Python - Lessons Learned in Recreating the NCAR Command Language in Python
+    authors:
+      - Sizemore, M.
+      - Eroglu, O.
+      - Zacharias, A.
+      - Kootz, A.
+    journal: AMS Annual Meeting 2022
+    year: 2022
+    url: https://ams.confex.com/ams/102ANNUAL/meetingapp.cgi/Paper/392637
+
+  - title: NCAR's GeoCAT Announcement of Computational Tools
+    authors:
+      - Craker, H.
+      - Kootz, A.
+      - Zacharias, A.
+      - Sizemore, M.
+      - Eroglu, O.
+    journal: AMS Annual Meeting 2022
+    year: 2022
+    url: https://ams.confex.com/ams/102ANNUAL/meetingapp.cgi/Paper/395377
+
   - title: Optimization of DNS code and visualization of entrainment and mixing phenomena at cloud edges
     authors:
       - Bipin, K.
@@ -82,4 +103,4 @@ items  :
       - Rehme, M.
     journal: AMS Annual Meeting 2018
     year: 2018
-    url: 
+    url:

@@ -1,0 +1,32 @@
+{{ with .Site.Params.news }}
+  {{ if .enable }}
+  <section class="site-blog" id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="mb-4">
+            <h2>{{ .title }}</h2>
+            <p>{{ .subtitle }}</p>
+          </div>
+        </div>
+        {{ range first 2 (where $.Site.RegularPages.ByDate.Reverse "Type" "news") }}
+        <div class="col-lg-6 col-md-10 mx-auto">
+          <div class="site-blog-item">
+            <div class="site-blog-item-thumb">
+              <img src="{{ .Params.Image | absURL }}" alt="blog-thumb">
+            </div>
+            <div class="site-blog-item-content">
+              <h3>{{ .Title }}</h3>
+              <a href="{{ .Permalink }}" class="read-more">Read more</a>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+        <div class="col-12 text-center text-lg-left">
+          <a href="news" class="site-blog-cta">ALL POSTS</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

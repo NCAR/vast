@@ -9,7 +9,7 @@
             <p>{{ .subtitle }}</p>
           </div>
         </div>
-        {{ range first 2 (where $.Site.RegularPages.ByDate.Reverse "Type" "blog") }}
+        {{ range first 2 (where $.Site.RegularPages.ByDate.Reverse "Type" "news") }}
         <div class="col-lg-6 col-md-10 mx-auto">
           <div class="site-blog-item">
             <div class="site-blog-item-thumb">

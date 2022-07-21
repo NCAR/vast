@@ -1,0 +1,19 @@
+enable  : true
+title   : WHAT WE DO
+items   :
+
+  - name : SOFTWARE
+    quote: We write software that helps geoscientists.
+    url  : software
+
+  - name : EDUCATION
+    quote: We help geoscientists learn our software and the Python ecosystem.
+    url  : education
+
+  - name : SERVICES
+    quote: We help geoscientists with visualizing their data.
+    url  : services
+
+  - name : R&D
+    quote: We conduct research and development to improve our software and services.
+    url  : projects

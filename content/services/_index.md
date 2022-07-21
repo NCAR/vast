@@ -7,12 +7,11 @@ ViSR provides visualization services to researchers who need assistance with vis
 
 ViSR visualization staff have particular expertise in CISL-developed software such as VAPOR and GeoCAT but are open to assisting with other applications. They have helped science teams produce numerous visualizations for conferences, publications, and scientific journals as well as science and broadcast news programs.
 
-See the sites below for some examples:
+Visit the [CISL Visualization Gallery](https://visgallery.ucar.edu/) for examples.
 
-[CISL Visualization Gallery](https://visgallery.ucar.edu/)
+### Videos
 
 [![NCAR VisLab YouTube Channel](../images/services/youtube.png)](https://www.youtube.com/user/ucarvets/videos)
-
 
 
 

@@ -44,6 +44,11 @@ params:
   author: "VAST"
   email: "vast@ucar.edu"
 
+  news:
+    enable: true
+    title: RECENT NEWS
+    subtitle: Some of our most recent news
+
   projects:
     enable: true
     title: RECENT PROJECTS

@@ -69,20 +69,6 @@
           }
         }
       }
-      a.read-more {
-        position: absolute;
-        bottom: 40px;
-        display: block;
-        width: 100%;
-        color: $text-color;
-        opacity: 0;
-        transform: translateY(20px);
-        transition: all 0.3s $site-ease;
-        @include tablet {
-          transform: translateY(0);
-          opacity: 1;
-        }
-      }
     }
     &:hover {
       box-shadow:
@@ -90,13 +76,6 @@
       0px 30px 45px 0px rgba(0, 0, 0, 0.02),
       0px 30px 45px 0px rgba(0, 0, 0, 0.03),
       0px 30px 45px 0px rgba(0, 0, 0, 0.04);
-      .site-project-item-content {
-        a {
-          transform: translateY(0);
-          opacity: 1;
-        }
-        padding-bottom: 75px;
-      }
     }
   }
 

@@ -19,6 +19,7 @@
     <div class="row">
       {{ range (.Paginator 4).Pages }}
       <div class="col-lg-6 col-md-10 mx-auto">
+        <a href="{{ .Permalink }}" class="text-decoration-none">
         <div class="site-software-item">
           <div class="site-software-item-thumb">
             <img src="{{ .Params.Image | absURL }}" alt="software-thumb">
@@ -26,9 +27,9 @@
           <div class="site-software-item-content">
             <h3>{{ .Title }}</h3>
             <span>{{ .Params.tagline }}</span>
-            <a href="{{ .Permalink }}" class="read-more">Details</a>
           </div>
         </div>
+        </a>
       </div>
       {{ end }}
       <div class="col-12">

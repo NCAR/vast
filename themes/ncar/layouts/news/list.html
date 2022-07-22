@@ -19,17 +19,18 @@
       {{ range (.Paginator 4).Pages }}
       <div class="col-lg-6">
         <article class="site-blog-post">
+          <a href="{{ .Permalink }}" class="text-decoration-none">
           <div class="site-blog-post-thumb">
-            <a href="{{ .Permalink }}"><img src="{{ .Params.Image | absURL }}" alt="post-thumb"></a>
+            <img src="{{ .Params.Image | absURL }}" alt="post-thumb">
           </div>
           <div class="site-blog-post-content">
             <span>{{ .PublishDate.Format "January 2, 2006" }}</span>
-            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <h3>{{ .Title }}</h3>
             <p>
               {{ .Summary }} ...
             </p>
-            <a href="{{ .Permalink }}" class="read-more">read more</a>
           </div>
+          </a>
         </article>
       </div>
       {{ end }}

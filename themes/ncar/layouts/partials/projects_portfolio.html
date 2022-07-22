@@ -11,6 +11,7 @@
         </div>
         {{ range first 2 (where $.Site.RegularPages.ByDate.Reverse "Type" "projects") }}
         <div class="col-lg-6 col-md-10 mx-auto">
+          <a href="{{ .Permalink }}" class="text-decoration-none">
           <div class="site-project-item">
             <div class="site-project-item-thumb">
               <img src="{{ .Params.Image | absURL }}" alt="project-thumb">
@@ -18,9 +19,9 @@
             <div class="site-project-item-content">
               <span>{{ delimit .Params.category ", " }}</span>
               <h3>{{ .Title }}</h3>
-              <a href="{{ .Permalink }}" class="read-more">Project Details</a>
             </div>
           </div>
+          </a>
         </div>
         {{ end }}
         <div class="col-12 text-center text-lg-left">

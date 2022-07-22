@@ -76,6 +76,13 @@
       0px 30px 45px 0px rgba(0, 0, 0, 0.02),
       0px 30px 45px 0px rgba(0, 0, 0, 0.03),
       0px 30px 45px 0px rgba(0, 0, 0, 0.04);
+      .site-project-item-content {
+        a {
+          transform: translateY(0);
+          opacity: 1;
+        }
+        padding-bottom: 75px;
+      }
     }
   }
 

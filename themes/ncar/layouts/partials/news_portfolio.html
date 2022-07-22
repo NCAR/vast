@@ -13,12 +13,11 @@
         <div class="col-lg-6 col-md-10 mx-auto">
           <div class="site-project-item">
             <div class="site-project-item-thumb">
-              <img src="{{ .Params.Image | absURL }}" alt="blog-thumb">
+              <a href="{{ .Permalink }}"><img src="{{ .Params.Image | absURL }}" alt="blog-thumb"></a>
             </div>
             <div class="site-project-item-content">
               <span>{{ .Params.date | time.Format ":date_long" }} by {{ .Params.author }}</span>
-              <h3>{{ .Title }}</h3>
-              <a href="{{ .Permalink }}" class="read-more">Read more</a>
+                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
             </div>
           </div>
         </div>

@@ -11,6 +11,7 @@
         </div>
         {{ range first 2 (where $.Site.RegularPages.ByDate.Reverse "Type" "news") }}
         <div class="col-lg-6 col-md-10 mx-auto">
+          <a href="{{ .Permalink }}" class="text-decoration-none">
           <div class="site-project-item">
             <div class="site-project-item-thumb">
               <img src="{{ .Params.Image | absURL }}" alt="blog-thumb">
@@ -18,9 +19,9 @@
             <div class="site-project-item-content">
               <span>{{ .Params.date | time.Format ":date_long" }} by {{ .Params.author }}</span>
               <h3>{{ .Title }}</h3>
-              <a href="{{ .Permalink }}" class="read-more">Read more</a>
             </div>
           </div>
+          </a>
         </div>
         {{ end }}
         <div class="col-12 text-center text-lg-left">

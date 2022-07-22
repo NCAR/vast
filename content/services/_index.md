@@ -3,9 +3,9 @@ title : "Services"
 date  : 2022-04-27T00:00:00-06:00
 image : images/banners/cloudSimulation.png
 ---
-ViSR provides visualization services to researchers who need assistance with visualizing data to demonstrate the results of their scientific computing. This service is available to researchers who want help using specialized applications on data analysis and visualization resources that CISL manages.
+VAST provides visualization services to researchers who need assistance with visualizing data to demonstrate the results of their scientific computing. This service is available to researchers who want help using specialized applications on data analysis and visualization resources that CISL manages.
 
-ViSR visualization staff have particular expertise in CISL-developed software such as VAPOR and GeoCAT but are open to assisting with other applications. They have helped science teams produce numerous visualizations for conferences, publications, and scientific journals as well as science and broadcast news programs.
+VAST visualization staff have particular expertise in CISL-developed software such as VAPOR and GeoCAT but are open to assisting with other applications. They have helped science teams produce numerous visualizations for conferences, publications, and scientific journals as well as science and broadcast news programs.
 
 Visit the [CISL Visualization Gallery](https://visgallery.ucar.edu/) for examples.
 

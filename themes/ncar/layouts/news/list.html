@@ -19,11 +19,9 @@
       {{ range (.Paginator 4).Pages }}
       <div class="col-lg-6">
         <article class="site-blog-post">
-          {{ with .Params.image }}
           <div class="site-blog-post-thumb">
-            <img src="{{ . | absURL }}" alt="post-thumb">
+            <a href="{{ .Permalink }}"><img src="{{ .Params.Image | absURL }}" alt="post-thumb"></a>
           </div>
-          {{ end }}
           <div class="site-blog-post-content">
             <span>{{ .PublishDate.Format "January 2, 2006" }}</span>
             <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>

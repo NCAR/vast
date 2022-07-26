@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-author: "{{  }}"
+author: ""
 date: {{ .Date }}
 type: news
 image: "images/projects/project-thumb-four.jpg"

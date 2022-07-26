@@ -1,0 +1,30 @@
+---
+title: "UXarray ready for unstructured grids data analysis!"
+author: "Orhan Eroglu"
+date: 2022-07-26T09:03:23-06:00
+type: news
+image: images/blog/uxarray/uxarray.png
+feature_image: images/blog/uxarray/uxarray-feature.png
+layout: staticpage
+---
+
+[Project Raijin](https://vast.ucar.edu/projects/raijin/) realizes 
+the unstructured grids data recognition and analysis through our 
+recently created, open-source, Python-based package, 
+[UXarray](https://github.com/UXARRAY/uxarray). 
+
+We are thrilled to 
+announce that UXarray has made its official debut in June, 2022 via 
+[Conda](https://anaconda.org/conda-forge/uxarray) and 
+[PyPI](https://pypi.org/project/uxarray/) releases. So far, it has 
+had June and July versions, and is planned to be released monthly. 
+
+UXarray, with its current versions, makes it possible to read in 
+unstructured meshes in UGRID, SCRIP, and Exodus formats, as well as 
+to execute analysis operators such as calculating individual/total 
+face areas and integrating over all the faces of the mesh. It can 
+even help visualize unstructured meshes if combined with a Python 
+visualization tool, as can be seen in the images of this blog post 
+that are created through our SIParCS 2022 internship by Philip 
+Chmielowiec. 
+

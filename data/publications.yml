@@ -4,7 +4,7 @@ image  : images/banners/aurora.jpg
 items  :
 
   - title: New Test Publication
-      authors:
+    authors:
       - Kent, J.
     journal: Proceedings of the 21st Python in Science Conference
     year: 2022

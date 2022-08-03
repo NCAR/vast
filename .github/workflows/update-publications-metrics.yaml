@@ -44,9 +44,8 @@ jobs:
     - name: Update publications metrics
       shell: python
       run: |
-        from ruamel.yaml import YAML
+        import yaml
 
-        yaml = YAML()
         publications_file = 'data/publications.yml'
         metrics_file = 'data/metrics.yml'
           
@@ -57,6 +56,7 @@ jobs:
         with open('metrics_file', 'w') as f:
           metrics_dict = yaml.load(f)
           metrics_dict['counter_items'][1][number] = number
+          yaml.dump(metrics_dict, f)
             
 
     - name: Create pull request

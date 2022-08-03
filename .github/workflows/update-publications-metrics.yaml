@@ -51,11 +51,11 @@ jobs:
         metrics_file = 'data/metrics.yml'
           
         with open(publications_file, 'r') as f:
-          publications_dict = yaml.load(f)
+          publications_dict = yaml.load(f, Loader=yaml.FullLoader)
           number = len(publications_dict['items'])
 
         with open(metrics_file, 'w') as f:
-          metrics_dict = yaml.load(f)
+          metrics_dict = yaml.load(f, Loader=yaml.FullLoader)
           metrics_dict['counter_items'][1][number] = number
           yaml.dump(metrics_dict, f)
             

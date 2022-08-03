@@ -45,6 +45,12 @@ jobs:
       shell: python
       run: |
         import yaml
+        
+        import os
+
+        cwd = os.getcwd()  # Get the current working directory (cwd)
+        files = os.listdir(cwd)  # Get all the files in that directory
+        print("Files in %r: %s" % (cwd, files))
 
         publications_file = 'data/publications.yml'
         metrics_file = 'data/metrics.yml'

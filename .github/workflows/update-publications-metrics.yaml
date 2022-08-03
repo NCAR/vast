@@ -24,7 +24,7 @@ jobs:
         $diff = git diff --name-only HEAD^ HEAD
 
         # Check if a file under docs/ or with the .md extension has changed (added, modified, deleted)
-        $SourceDiff = $diff | Where-Object { $_ -match 'data/metrics.yml' }
+        $SourceDiff = $diff | Where-Object { $_ -match 'data/publications.yml' }
         $HasDiff = $SourceDiff.Length -gt 0
 
         # Set the output named "docs_changed"

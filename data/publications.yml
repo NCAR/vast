@@ -4,6 +4,11 @@ image  : images/banners/aurora.jpg
 items  :
 
   - title: test
+      authors:
+      - Kent, J.
+    journal: Proceedings of the 21st Python in Science Conference
+    year: 2022
+    url:
            
   - title: The Geoscience Community Analysis Toolkit - An Open Development, Community Driven
            Toolkit in the Scientific Python Ecosystem

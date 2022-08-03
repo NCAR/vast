@@ -32,45 +32,44 @@ jobs:
 
 
     # Run the job only with "docs_changed" equals "True"
-    conditional_job:
-      runs-on: 'ubuntu-20.04'
-      needs: [ conditional_job_check_files ]
-      if: needs.conditional_job_check_files.outputs.docs_changed == 'True'
-      steps:
-      - shell: pwsh
-        run: echo publish docs
+  conditional_job:
+    runs-on: 'ubuntu-20.04'
+    needs: [ conditional_job_check_files ]
+    if: needs.conditional_job_check_files.outputs.docs_changed == 'True'
+    steps:
+    - shell: pwsh
+      run: echo publish docs
   
   
-      - name: Update publications metrics
-        shell: python
-        run: |
-          from ruamel.yaml import YAML
+    - name: Update publications metrics
+      shell: python
+      run: |
+        from ruamel.yaml import YAML
 
-          yaml = YAML()
-          publications_file = 'data/publications.yml'
-          metrics_file = 'data/metrics.yml'
+        yaml = YAML()
+        publications_file = 'data/publications.yml'
+        metrics_file = 'data/metrics.yml'
           
-          with open('publications_file', 'r') as f:
-            publications_dict = yaml.load(f)
-            number = len(publications_dict['items'])
+        with open('publications_file', 'r') as f:
+          publications_dict = yaml.load(f)
+          number = len(publications_dict['items'])
 
-          with open('metrics_file', 'w') as f:
-            metrics_dict = yaml.load(f)
-            metrics_dict['counter_items'][1][number] = number
+        with open('metrics_file', 'w') as f:
+          metrics_dict = yaml.load(f)
+          metrics_dict['counter_items'][1][number] = number
             
 
-      - name: Create pull request
-        id: cpr
-        uses: peter-evans/create-pull-request@v4
-        with:
-          commit-message: 'Update publication metrics'
-          committer: GitHub <noreply@github.com>
-          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-          signoff: false
-          base: main
-          title: 'Update publications metrics'
-          body: |
-            Update publicaions metrics on landing page based on changes to `publications.yml`.
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: publication-metrics
+    - name: Create pull request
+      id: cpr
+      uses: peter-evans/create-pull-request@v4
+      with:
+        commit-message: 'Update publication metrics'
+        committer: GitHub <noreply@github.com>
+        signoff: false
+        base: main
+        title: 'Update publications metrics'
+        body: |
+          Update publicaions metrics on landing page based on changes to `publications.yml`.
+        token: ${{ secrets.GITHUB_TOKEN }}
+        branch: publication-metrics
  

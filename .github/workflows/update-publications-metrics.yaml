@@ -1,0 +1,76 @@
+name: Update Publications Metrics
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+      
+jobs:
+  conditional_job_check_files:
+    runs-on: 'ubuntu-20.04'
+    outputs:
+      docs_changed: ${{ steps.check_file_changed.outputs.docs_changed }}
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 2
+    - shell: pwsh
+      id: check_file_changed
+      run: |
+        # Diff HEAD with the previous commit
+        $diff = git diff --name-only HEAD^ HEAD
+
+        # Check if a file under docs/ or with the .md extension has changed (added, modified, deleted)
+        $SourceDiff = $diff | Where-Object { $_ -match 'data/metrics.yml' }
+        $HasDiff = $SourceDiff.Length -gt 0
+
+        # Set the output named "docs_changed"
+        Write-Host "::set-output name=docs_changed::$HasDiff"
+
+
+    # Run the job only with "docs_changed" equals "True"
+    conditional_job:
+      runs-on: 'ubuntu-20.04'
+      needs: [ conditional_job_check_files ]
+      if: needs.conditional_job_check_files.outputs.docs_changed == 'True'
+      steps:
+      - shell: pwsh
+        run: echo publish docs
+  
+  
+      - name: Update publications metrics
+        shell: python
+        run: |
+          from ruamel.yaml import YAML
+
+          yaml = YAML()
+          publications_file = 'data/publications.yml'
+          metrics_file = 'data/metrics.yml'
+          
+          with open('publications_file', 'r') as f:
+            publications_dict = yaml.load(f)
+            number = len(publications_dict['items'])
+
+          with open('metrics_file', 'w') as f:
+            metrics_dict = yaml.load(f)
+            metrics_dict['counter_items'][1][number] = number
+            
+
+      - name: Create pull request
+        id: cpr
+        uses: peter-evans/create-pull-request@v4
+        with:
+          commit-message: 'Update publication metrics'
+          committer: GitHub <noreply@github.com>
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          signoff: false
+          base: main
+          title: 'Update publications metrics'
+          body: |
+            Update publicaions metrics on landing page based on changes to `publications.yml`.
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: publication-metrics
+ 

@@ -61,7 +61,7 @@ jobs:
 
         with open(metrics_file, 'r+') as f:
           metrics_dict = yaml.load(f)
-          metrics_dict['counter_items'][1][number] = number
+          metrics_dict['counter_item'][1][number] = number
           yaml.dump(metrics_dict, f)
             
 

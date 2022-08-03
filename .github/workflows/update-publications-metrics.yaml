@@ -46,8 +46,8 @@ jobs:
       run: |
         import yaml
 
-        publications_file = 'data/publications.yml'
-        metrics_file = 'data/metrics.yml'
+        publications_file = '../../data/publications.yml'
+        metrics_file = '../../data/metrics.yml'
           
         with open('publications_file', 'r') as f:
           publications_dict = yaml.load(f)

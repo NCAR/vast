@@ -1,6 +1,6 @@
 <!doctype html><html lang=en-us><head>
 <meta charset=utf-8>
-<title>VAST Research & Development</title>
+<title>SPERR Compression</title>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=author content="VAST">
 <meta name=generator content="Hugo 0.91.2">
@@ -52,96 +52,49 @@
 </div>
 </nav>
 <main>
-<section class=site-project-header style=background-image:url(https://ncar.github.io/vast/images/banners/matterhorn.jpg)>
-<div class=container>
-<div class="row align-items-center">
-<div class=col-lg-8>
-<div class=site-project-header-content>
-<h1>
-VAST Research & Development
-          </h1>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class=site-project id=project>
+<section class=site-project-single-section>
 <div class=container>
 <div class=row>
-<div class="col-lg-6 col-md-10 mx-auto">
-<a href=https://ncar.github.io/vast/projects/raijin/ class=text-decoration-none>
-<div class=site-project-item>
-<div class=site-project-item-thumb>
-<img src=https://ncar.github.io/vast/images/projects/raijin-logo.png alt=project-thumb>
+<div class="col-lg-8 mx-auto">
+<div class=site-project-single>
+<h1>
+SPERR Compression
+</h1>
+<div class=site-project-single-description>
+<h5 id=term-2020---2023>Term: 2020 - 2023</h5>
+<h5 id=funding-source-nsf>Funding source: NSF</h5>
+<h5 id=website-httpsgithubcomncarsperrhttpsgithubcomncarsperr>Website: <a href=https://github.com/NCAR/SPERR>https://github.com/NCAR/SPERR</a></h5>
+<p>SPERR is a lossy compressor for scientific data (2D or 3D floating-point data,
+mostly produced by numerical simulations).
+SPERR produces excellent rate-distortion curves, meaning that it achieves the least amount of
+average error given a certain storage budget.</p>
+<p>Under the hood, SPERR uses wavelet transforms, <a href=https://ieeexplore.ieee.org/document/1347192>SPECK</a> coding,
+and a custom outlier coding algorithm in its compression pipeline.
+This combination gives SPERR flexibility to compress targetting different quality controls,
+namely 1) bit-per-pixel (BPP), 2) peak signal-to-noise ratio (PSNR), and 3) point-wise error (PWE).
+The name of SPERR stands for <strong>SP</strong>eck with <strong>ERR</strong>or bounding.</p>
 </div>
-<div class=site-project-item-content>
-<span>RESEARCH</span>
-<h3>Project Raijin</h3>
+<div class=site-project-single-image>
+<img src=https://ncar.github.io/vast/images/projects/SPERR_pipeline.png alt="project image">
 </div>
-</div>
+<div class=site-project-single-action>
+<div class=site-project-single-action-prev>
+<a href=https://ncar.github.io/vast/projects/vizaccess/>
+<img src=https://ncar.github.io/vast/images/to-top.svg alt=previous>
+<span class=link-area>
+<span data-text=Previous>Previous</span>
+</span>
 </a>
 </div>
-<div class="col-lg-6 col-md-10 mx-auto">
-<a href=https://ncar.github.io/vast/projects/ncar-sia11y/ class=text-decoration-none>
-<div class=site-project-item>
-<div class=site-project-item-thumb>
-<img src=https://ncar.github.io/vast/images/projects/ncar-sia11y.png alt=project-thumb>
-</div>
-<div class=site-project-item-content>
-<span>RESEARCH</span>
-<h3>NCAR-SIA11Y</h3>
-</div>
-</div>
+<div class=site-project-single-action-next>
+<a href=https://ncar.github.io/vast/projects/pythia/>
+<span class=link-area>
+<span data-text=Next>Next</span>
+</span>
+<img src=https://ncar.github.io/vast/images/to-top.svg alt=next>
 </a>
 </div>
-<div class="col-lg-6 col-md-10 mx-auto">
-<a href=https://ncar.github.io/vast/projects/pythia/ class=text-decoration-none>
-<div class=site-project-item>
-<div class=site-project-item-thumb>
-<img src=https://ncar.github.io/vast/images/projects/pythia-logo.png alt=project-thumb>
 </div>
-<div class=site-project-item-content>
-<span>RESEARCH</span>
-<h3>Project Pythia</h3>
-</div>
-</div>
-</a>
-</div>
-<div class="col-lg-6 col-md-10 mx-auto">
-<a href=https://ncar.github.io/vast/projects/sperr/ class=text-decoration-none>
-<div class=site-project-item>
-<div class=site-project-item-thumb>
-<img src=https://ncar.github.io/vast/images/projects/SPERR_logo.png alt=project-thumb>
-</div>
-<div class=site-project-item-content>
-<span>RESEARCH</span>
-<h3>SPERR Compression</h3>
-</div>
-</div>
-</a>
-</div>
-<div class=col-12>
-<div class=site-project-pagination>
-<ul class="pagination pagination-default">
-<li class="page-item disabled">
-<a aria-disabled=true aria-label=First class=page-link role=button tabindex=-1><span aria-hidden=true>&#171;&#171;</span></a>
-</li>
-<li class="page-item disabled">
-<a aria-disabled=true aria-label=Previous class=page-link role=button tabindex=-1><span aria-hidden=true>&#171;</span></a>
-</li>
-<li class="page-item active">
-<a aria-current=page aria-label="Page 1" class=page-link role=button>1</a>
-</li>
-<li class=page-item>
-<a href=/vast/projects/page/2/ aria-label="Page 2" class=page-link role=button>2</a>
-</li>
-<li class=page-item>
-<a href=/vast/projects/page/2/ aria-label=Next class=page-link role=button><span aria-hidden=true>&#187;</span></a>
-</li>
-<li class=page-item>
-<a href=/vast/projects/page/2/ aria-label=Last class=page-link role=button><span aria-hidden=true>&#187;&#187;</span></a>
-</li>
-</ul>
 </div>
 </div>
 </div>

@@ -70,5 +70,5 @@ jobs:
       with:
         file-path: 'data/metrics.yml'
         commit-msg: Update metrics
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.VAST_METRICS }}
  

@@ -65,17 +65,10 @@ jobs:
           yaml.dump(metrics_dict, f)
             
 
-    - name: Create pull request
-      id: cpr
-      uses: peter-evans/create-pull-request@v4
+    - name: Update metrics file
+      uses: test-room-7/action-update-file@v1
       with:
-        commit-message: 'Update publication metrics'
-        committer: GitHub <noreply@github.com>
-        signoff: false
-        base: main
-        title: 'Update publications metrics'
-        body: |
-          Update publicaions metrics on landing page based on changes to `publications.yml`.
-        token: ${{ secrets.GITHUB_TOKEN }}
-        branch: publication-metrics
+        file-path: 'data/metrics.yml'
+        commit-msg: Update metrics
+        github-token: ${{ secrets.GITHUB_TOKEN }}
  

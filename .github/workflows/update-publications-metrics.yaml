@@ -46,3 +46,4 @@ jobs:
           Update `metrics.yml` from updates to `publications.yml`
         token: ${{ secrets.VAST_METRICS }}
         branch: auto-metrics
+        base: ${{ github.head_ref }}

@@ -3,7 +3,7 @@ title  : PUBLICATIONS & PRESENTATIONS
 image  : images/banners/aurora.jpg
 items  :
 
-  - title: New Test Publication
+  - title: New Test Publication #1
     authors:
       - Kent, J.
     journal: Proceedings of the 21st Python in Science Conference

@@ -44,7 +44,7 @@ jobs:
       with:
         commit-message: 'Update metrics.yml'
         committer: GitHub <noreply@github.com>
-        author: jukent <jukent@users.noreply.github.com>
+        author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
         signoff: false
         base: main
         title: 'Update metrics.yml'

@@ -31,7 +31,7 @@ jobs:
         Write-Host "::set-output name=docs_changed::$HasDiff"
 
 
-    # Run the job only with "docs_changed" equals "True"
+  # Run the job only with "docs_changed" equals "True"
   conditional_job:
     runs-on: 'ubuntu-20.04'
     needs: [ conditional_job_check_files ]
@@ -63,13 +63,16 @@ jobs:
           metrics_dict = yaml.load(f)
           metrics_dict['counter_item'][1][number] = number
           yaml.dump(metrics_dict, f)
-            
 
-    - name: Update metrics file
-      uses: test-room-7/action-update-file@v1
+    - name: Create pull request
+      id: cpr
+      uses: peter-evans/create-pull-request@v3
       with:
-        file-path: 'data/metrics.yml'
-        commit-msg: Update metrics
-        github-token: ${{ secrets.VAST_METRICS }}
-        name: update metrics
- 
+        commit-message: 'Update publication metrics'
+        committer: GitHub <noreply@github.com>
+        author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+        signoff: false
+        branch: pub-metrics
+        title: 'Update publication metrics'
+        body: |
+          Update publication metrics based on changes to 'data/publications.yml'.

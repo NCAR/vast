@@ -5,9 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'data/**.yml'
-    paths-ignore:
-      - 'data/metrics.yml'
+      - 'data/publications.yml'
     
 jobs:
   update_metrics:

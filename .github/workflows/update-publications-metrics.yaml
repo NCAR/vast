@@ -65,15 +65,10 @@ jobs:
           yaml.dump(metrics_dict, f)
 
     - name: Create pull request
-      id: cpr
-      uses: peter-evans/create-pull-request@v3
+      uses: gr2m/create-or-update-pull-request-action@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.VAST_METRICS }}
       with:
-        commit-message: 'Update publication metrics'
-        committer: GitHub <noreply@github.com>
-        signoff: false
-        branch: pub-metrics
-        base: ${{ github.head_ref }}
-        token: ${{ secrets.VAST_METRICS }}
-        title: 'Update publication metrics'
-        body: |
-          Update publication metrics based on changes to 'data/publications.yml'.
+        commit-message: "update metrics.yml"
+        author: "Julia Kent <jkent@ucar.edu>"
+        update-pull-request-title-and-body: false

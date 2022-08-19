@@ -67,7 +67,7 @@ jobs:
     - name: Create pull request
       uses: gr2m/create-or-update-pull-request-action@v1
       env:
-        GITHUB_TOKEN: ${{ secrets.VAST_METRICS }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         commit-message: "update metrics.yml"
         author: "Julia Kent <jkent@ucar.edu>"

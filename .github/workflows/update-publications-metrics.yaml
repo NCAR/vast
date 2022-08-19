@@ -70,7 +70,6 @@ jobs:
       with:
         commit-message: 'Update publication metrics'
         committer: GitHub <noreply@github.com>
-        author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
         signoff: false
         branch: pub-metrics
         base: ${{ github.head_ref }}

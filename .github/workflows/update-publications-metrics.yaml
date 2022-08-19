@@ -37,8 +37,12 @@ jobs:
           metrics_dict = yaml.load(f)
           metrics_dict['counter_item'][1][number] = number
           yaml.dump(metrics_dict, f)
-           
+
     - name: Commit and push changes
-      uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-       commit_message: auto update metrics.yml 
+      run: |
+        git config --global user.name "jukent"
+        git config --global user.email "jkent@ucar.edu"
+
+        git add -A
+        git commit -m "update `metrics.yml` based on changes to `publications.yml`"
+        git push

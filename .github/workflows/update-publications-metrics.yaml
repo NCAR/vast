@@ -65,11 +65,6 @@ jobs:
           yaml.dump(metrics_dict, f)
            
     - name: Commit and push changes
-      run: |
-        git fetch
-        git config --global user.name "jukent"
-        git config --global user.email "jkent@ucar.edu"
-
-        git add -A
-        git commit -m "update `metrics.yml` based on changes to `publications.yml`"
-        git push
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+       commit_message: auto update metrics.yml 

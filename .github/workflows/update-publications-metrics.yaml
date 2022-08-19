@@ -38,9 +38,17 @@ jobs:
           metrics_dict['counter_item'][1][number] = number
           yaml.dump(metrics_dict, f)
 
-    - name: Commit and push changes
-      uses: stefanzweifel/git-auto-commit-action@v4
+    - name: Create pull request
+      id: cpr
+      uses: peter-evans/create-pull-request@v4
       with:
-          github_token: ${{ secrets.VAST_METRICS }}
-          branch: ${{ github.ref }}
-          commit_message: auto update metrics.yml
+        commit-message: 'Update metrics.yml'
+        committer: GitHub <noreply@github.com>
+        author: jukent <jukent@users.noreply.github.com>
+        signoff: false
+        base: main
+        title: 'Update metrics.yml'
+        body: |
+          Update `metrics.yml` from updates to `publications.yml`
+        token: ${{ secrets.VAST_METRICS }}
+        branch: auto-metrics

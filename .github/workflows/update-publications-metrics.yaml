@@ -48,6 +48,7 @@ jobs:
         
     - name: Checkout PR target branch
       run: |
+        git fetch
         git checkout ${{ github.event.pull_request.base.ref }}
           
     - name: Update publications metrics

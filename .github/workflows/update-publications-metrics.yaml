@@ -73,6 +73,7 @@ jobs:
         author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
         signoff: false
         branch: pub-metrics
+        base: ${{ github.head_ref }}
         title: 'Update publication metrics'
         body: |
           Update publication metrics based on changes to 'data/publications.yml'.

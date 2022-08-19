@@ -63,12 +63,12 @@ jobs:
           metrics_dict = yaml.load(f)
           metrics_dict['counter_item'][1][number] = number
           yaml.dump(metrics_dict, f)
+           
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "jukent"
+        git config --global user.email "jkent@ucar.edu"
 
-    - name: Create pull request
-      uses: gr2m/create-or-update-pull-request-action@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        commit-message: "update metrics.yml"
-        author: "Julia Kent <jkent@ucar.edu>"
-        update-pull-request-title-and-body: false
+        git add -A
+        git commit -m "update `metrics.yml` based on changes to `publications.yml`"
+        git push

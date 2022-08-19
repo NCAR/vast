@@ -45,11 +45,6 @@ jobs:
       run: |
         python -m pip install pip --upgrade
         python -m pip install ruamel.yaml pre-commit
-        
-    - name: Checkout PR target branch
-      run: |
-        git fetch
-        git checkout ${{ github.event.pull_request.base.ref }}
           
     - name: Update publications metrics
       shell: python
@@ -71,6 +66,7 @@ jobs:
            
     - name: Commit and push changes
       run: |
+        git fetch
         git config --global user.name "jukent"
         git config --global user.email "jkent@ucar.edu"
 

@@ -14,6 +14,7 @@ jobs:
     - uses: actions/checkout@v3
       with:
         ref: 'main'
+        token: ${{ secrets.VAST_METRICS }}
   
     - name: Install dependencies
       run: |
@@ -38,14 +39,11 @@ jobs:
           metrics_dict['counter_item'][1][number] = number
           yaml.dump(metrics_dict, f)
 
-    - name: Create pull request
-      id: cpr
-      uses: peter-evans/create-pull-request@v4
-      with:
-        commit-message: 'Update metrics.yml'
-        title: 'Update metrics.yml'
-        body: |
-          Update `metrics.yml` from updates to `publications.yml`
-        token: ${{ secrets.VAST_METRICS }}
-        branch: auto-metrics
-        base: ${{ github.head_ref }}
+    - name: Commit and push changes
+      run: |
+        git config --global user.name '${{ github.actor }}'
+        git config --global user.email '<${{ github.actor }}@users.noreply.github.com>'
+        git remote set-url origin https://x-access-token:${{ secrets.VAST_METRICS }}@github.com/NCAR/vast
+        git add data/metrics.yml
+        git commit -m "Update metrics.yml from changes to publications.yml"
+        git push -u origin HEAD

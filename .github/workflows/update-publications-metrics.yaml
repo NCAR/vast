@@ -12,8 +12,6 @@ jobs:
     runs-on: 'ubuntu-20.04'
     steps:
     - uses: actions/checkout@v2
-      with:
-        ref: main
   
     - name: Install dependencies
       run: |
@@ -43,10 +41,6 @@ jobs:
       uses: peter-evans/create-pull-request@v4
       with:
         commit-message: 'Update metrics.yml'
-        committer: GitHub <noreply@github.com>
-        author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-        signoff: false
-        base: main
         title: 'Update metrics.yml'
         body: |
           Update `metrics.yml` from updates to `publications.yml`

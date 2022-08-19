@@ -45,4 +45,4 @@ jobs:
 
         git add -A
         git commit -m "update `metrics.yml` based on changes to `publications.yml`"
-        git push
+        git push origin HEAD:main --force

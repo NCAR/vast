@@ -38,6 +38,8 @@ jobs:
     if: needs.conditional_job_check_files.outputs.docs_changed == 'True'
     steps:
     - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.head_ref }}
     - shell: pwsh
       run: echo publish docs
   

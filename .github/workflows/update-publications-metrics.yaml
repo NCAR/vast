@@ -1,7 +1,7 @@
 name: Update Publications Metrics
 
 on:
-  pull_request:
+  push:
     branches:
       - main
     paths:

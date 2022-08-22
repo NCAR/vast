@@ -31,11 +31,12 @@ jobs:
           
         with open(publications_file) as f:
           publications_dict = yaml.load(f)
-          number = len(publications_dict['items'])
+        number = len(publications_dict['items'])
 
         with open(metrics_file, 'r+') as f:
           metrics_dict = yaml.load(f)
-          metrics_dict['counter_item'][1]["number"] = number
+        metrics_dict['counter_item'][1]["number"] = number
+        with open(metrics_file, 'w') as f:
           yaml.dump(metrics_dict, f)
 
     - name: Commit and push changes

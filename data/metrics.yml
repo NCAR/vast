@@ -1,15 +1,15 @@
-enable : true
-heading : "METRICS"
+enable: true
+heading: METRICS
 counter_item:
-  - title: "Downloads"
-    number: "???"
+- title: Downloads
+  number: ???
 
-  - title: "Publications"
-    number: "???"
-    url: "publications"
+- title: Publications
+  number: 27
+  url: publications
 
-  - title: "Packages"
-    number: "???"
+- title: Packages
+  number: ???
 
-  - title: "SIParCS Interns"
-    number: "???"
+- title: SIParCS Interns
+  number: ???

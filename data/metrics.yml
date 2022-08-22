@@ -13,3 +13,19 @@ counter_item:
 
   - title: "SIParCS Interns"
     number: "???"
+enable: true
+heading: METRICS
+counter_item:
+- title: Downloads
+  number: ???
+
+- title: Publications
+  number: ???
+  url: publications
+
+  28: 28
+- title: Packages
+  number: ???
+
+- title: SIParCS Interns
+  number: ???

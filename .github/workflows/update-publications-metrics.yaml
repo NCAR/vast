@@ -1,6 +1,11 @@
 name: Update Publications Metrics
 
 on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'data/publications.yml'
   push:
     branches:
       - main

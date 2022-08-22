@@ -6,11 +6,6 @@ on:
       - main
     paths:
       - 'data/publications.yml'
-  push:
-    branches:
-      - main
-    paths:
-      - 'data/publications.yml'
     
 jobs:
   update_metrics:

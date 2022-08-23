@@ -1,0 +1,8 @@
+
+
+enable  : true
+title   : VAST Packages
+packages  :
+
+  - package-name       : 
+    package-repository : 

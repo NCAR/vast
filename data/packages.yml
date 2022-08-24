@@ -11,3 +11,7 @@ items  :
   - package       : "GeoCAT-comp"
     url : "https://github.com/NCAR/geocat-comp"
     team : GeoCAT
+
+  - package       : "GeoCAT-viz"
+    url : "https://github.com/NCAR/geocat-viz"
+    team : GeoCAT

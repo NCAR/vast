@@ -4,10 +4,10 @@ enable  : true
 title   : VAST Packages
 packages  :
 
-  - package-name       : "VAPOR"
-    repository-url : "https://github.com/NCAR/vapor"
+  - packagename       : "VAPOR"
+    repositoryurl : "https://github.com/NCAR/vapor"
     team : VAPOR
 
-  - package-name       : "GeoCAT-comp"
-    repository-url : "https://github.com/NCAR/geocat-comp"
+  - packagename       : "GeoCAT-comp"
+    repositoryurl : "https://github.com/NCAR/geocat-comp"
     team : GeoCAT

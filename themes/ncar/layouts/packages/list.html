@@ -1,7 +1,7 @@
 {{ define "main" }}
-{{ with .Site.Data.publications }}
+{{ with .Site.Data.packagess }}
 {{ if .enable }}
-<section class="site-publications-header" style="background-image: url({{ .image | absURL }});">
+<section class="site-packages-header" style="background-image: url({{ .image | absURL }});">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
@@ -13,11 +13,11 @@
   </div>
 </section>
 
-<section class="site-publications-content">
+<section class="site-packages-content">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <div class="site-publications-items">
+        <div class="site-packages-items">
           <ul>
             {{ if .url }}<a href="{{ .url }}">{{ end }}
             <li>{{ .title |  }}</em>" <b>{{ .team }}</b>{{ end }}.</li>

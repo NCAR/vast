@@ -19,9 +19,8 @@
       <div class="col-12">
         <div class="site-packages-items">
           <ul>
-            {{ if .url }}<a href="{{ .url }}">{{ end }}
-            <li>{{ .packagename |  }}</em>" <b>{{ .team }}</b>{{ end }}.</li>
-            {{ if .repositoryurl }}</a>{{ end }}
+            <li><b>{{ .packagename |  }}</b>" {{ .team }}{{ if .extra }}, {{ .extra }}{{ else }}{{ end }}.</li>
+            {{ if .repositoryurl }}</a>{{ end }}            
           {{ end }}
         </div>
       </div>

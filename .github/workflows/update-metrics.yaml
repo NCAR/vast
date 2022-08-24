@@ -39,7 +39,7 @@ jobs:
         
         with open(packages_file) as f:
           packagess_dict = yaml.load(f)
-        packages = len(packages_dict['packages'])
+        packages = len(packages_dict['items'])
         
         with open(siparcs_file) as f:
           siparcs_dict = yaml.load(f)

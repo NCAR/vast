@@ -1,11 +1,13 @@
-name: Update Packages Metrics
+name: Update Publications Metrics
 
 on:
   push:
     branches:
       - main
     paths:
+      - 'data/publications.yml'
       - 'data/packages.yml'
+      - 'data/siparcs.yml'
     
 jobs:
   update_metrics:
@@ -20,22 +22,34 @@ jobs:
         python -m pip install pip --upgrade
         python -m pip install ruamel.yaml pre-commit
           
-    - name: Update packages metrics
+    - name: Update publications metrics
       shell: python
       run: |
         from ruamel.yaml import YAML
         yaml = YAML()
 
-        packages_file = 'data/packagess.yml'
         metrics_file = 'data/metrics.yml'
+        publications_file = 'data/publications.yml'
+        packages_file = 'data/packagess.yml'
+        siparcs_file = 'data/siparcs.yml'
           
+        with open(publications_file) as f:
+          publications_dict = yaml.load(f)
+        publications = len(publications_dict['items'])
+        
         with open(packages_file) as f:
           packagess_dict = yaml.load(f)
-        number = len(packages_dict['packages'])
+        packages = len(packages_dict['items'])
+        
+        with open(siparcs_file) as f:
+          siparcs_dict = yaml.load(f)
+        interns = len(siparcs_dict['items'])
 
         with open(metrics_file, 'r+') as f:
           metrics_dict = yaml.load(f)
-        metrics_dict['counter_item'][2]["number"] = number
+        metrics_dict['counter_item'][1]["number"] = publications
+        metrics_dict['counter_item'][2]["number"] = packages
+        metrics_dict['counter_item'][3]["number"] = interns
         with open(metrics_file, 'w') as f:
           yaml.dump(metrics_dict, f)
 
@@ -45,5 +59,5 @@ jobs:
         git config --global user.email '<${{ github.actor }}@users.noreply.github.com>'
         git remote set-url origin https://x-access-token:${{ secrets.VAST_METRICS }}@github.com/NCAR/vast
         git add data/metrics.yml
-        git commit -m "Update metrics.yml from changes to packages.yml"
+        git commit -m "Update metrics.yml from changes to data"
         git push -u origin HEAD

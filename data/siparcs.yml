@@ -2,33 +2,33 @@ enable : true
 title  : SIParCS PROJECTS
 image  : images/banners/aurora.jpg
 items  :
-           
- - title: Using Augmented Reality to Engage People with Atmospheric Science News
-   student: Aashiq Shaikh
-   university: Arizona State University
-   mentors:
-    - Nihanth Cherukuru
-    - Matt Rehme 
-    - Tim Scheitlin
-   year: 2019
+       
+  - title: "Using Augmented Reality to Engage People with Atmospheric Science News"
+    student: Aashiq Shaikh
+    university: Arizona State University
+    mentors:
+     - Nihanth Cherukuru
+     - Matt Rehme 
+     - Tim Scheitlin
+    year: 2019
 
- - title: Python Reimplementation of Fortran Subroutines: Bilinear Interpolation
-   student: Alina Guha
-   university: Grinnell College
-   mentors:
-    - Alea Kootz
-    - Orhan Eroglu
-   year: 2022
-   
-  - title: Expanding GeoCAT's Visualization Capabilities
+  - title: "Python Reimplementation of Fortran Subroutines: Bilinear Interpolation"
+    student: Alina Guha
+    university: Grinnell College
+    mentors:
+     - Alea Kootz
+     - Orhan Eroglu
+    year: 2022
+
+  - title: "Expanding GeoCAT's Visualization Capabilities"
     student: Daphne Quint
     university: University of Colorado, Boulder
     mentors:
      - Anissa Zacharias
      - Michaela Sizemore
     year: 2022  
-   
-  - title: Demonstrating Cloud-Based Remote Sensing Data Workflows with Xarray
+
+  - title: "Demonstrating Cloud-Based Remote Sensing Data Workflows with Xarray"
     student: Emma Marshall
     university: University of Utah
     mentors:
@@ -37,8 +37,8 @@ items  :
      - Jessica Scheick
      - Kevin Paul
     year: 2022  
-   
-  - title: Exploring Performance of GeoCAT Data Analysis Routines on GPUs
+
+  - title: "Exploring Performance of GeoCAT Data Analysis Routines on GPUs"
     student: Haniye Kashgarani
     university: University of Wyoming
     mentors:
@@ -46,8 +46,8 @@ items  :
      - Supreeth Suresh
      - Anissa Zacharias
     year: 2022  
-   
-  - title: In-Situ Visualization for Model for Prediction Across Scales (MPAS)
+
+  - title: "In-Situ Visualization for Model for Prediction Across Scales (MPAS)"
     student: Henry O'Meara
     university: University of Wyoming
     mentors:
@@ -55,7 +55,7 @@ items  :
      - Matt Rehme
     year: 2019 
 
-  - title: Project Pythia Content Creation: An Intake Cookbook
+  - title: "Project Pythia Content Creation: An Intake Cookbook"
     student: James Morley
     university: Utah Valley University
     mentors:
@@ -64,8 +64,8 @@ items  :
      - Kevin Tyle
      - Drew Camron
     year: 2022
-   
-  - title: Python Visualization, Analysis, & Jupyter Notebook Development for Unstructured Grids
+
+  - title: "Python Visualization, Analysis, & Jupyter Notebook Development for Unstructured Grids"
     student: Philip Chmielowiec
     university: University of Illinois at Urbana-Champaign
     mentors:
@@ -74,8 +74,8 @@ items  :
      - Anissa Zacharias
      - Michaela Sizemore
     year: 2022
-   
-  - title: Developing an Image-Based Augmented Reality System for Meteo AR
+
+  - title: "Developing an Image-Based Augmented Reality System for Meteo AR"
     student: Shiqi Sheng
     university: University of Michigan
     mentors:
@@ -83,8 +83,8 @@ items  :
      - Tim Scheitlin
      - Matt Rehme
     year: 2020 
-    
-   - title: Expanding and strengthening the transition from NCL to Python visualizations
+
+  - title: "Expanding and strengthening the transition from NCL to Python visualizations"
     student: Erin Lincoln
     university: Brown University
     mentors:
@@ -94,7 +94,7 @@ items  :
      - Michaela Sizemore
     year: 2021
     
-  - title: Building the Python Equivalent of the NCL Visualization Gallery. 
+  - title: "Building the Python Equivalent of the NCL Visualization Gallery"
     student: Heather Craker
     university: Purdue University
     mentors:
@@ -102,16 +102,16 @@ items  :
      - Kevin Paul
      - John Clyne
     year: 2020
-    
-  - title: Climatology Calculation Support in the GeoCAT Ecosystem
+
+  - title: "Climatology Calculation Support in the GeoCAT Ecosystem"
     student: Heather Craker
     university: Purdue University
     mentors:
      - Alea Kootz
      - Orhan Eroglu
     year: 2021
-    
-  - title: Expanding and Strengthening the Transition from NCL to Python Visualizations
+
+  - title: "Expanding and Strengthening the Transition from NCL to Python Visualizations"
     student: Jiaqi Li
     university: Middlebury College
     mentors:
@@ -120,8 +120,8 @@ items  :
      - Michaela Sizemore
      - Anissa Zacharias
     year: 2021
-    
-  - title: Fake it till you make it - Zarr-like access of existing netCDF4 datasets
+
+  - title: "Fake it till you make it - Zarr-like access of existing netCDF4 datasets"
     student: Lucas Sterzinger
     university: University of California, Davis
     mentors:
@@ -129,4 +129,3 @@ items  :
      - Kevin Paul
      - Chelle Gentemann
     year:  2021
-    

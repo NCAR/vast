@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{ with .Site.Data.publications }}
+{{ if .enable }}
+<section class="site-publications-header" style="background-image: url({{ .image | absURL }});">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1>
+          {{ .title }}
+        </h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="site-publications-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="site-publications-items">
+          <ul>
+            {{ if .url }}<a href="{{ .url }}">{{ end }}
+            <li>{{ .title |  }}</em>" <b>{{ .team }}</b>{{ end }}.</li>
+            {{ if .repository-url }}</a>{{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}

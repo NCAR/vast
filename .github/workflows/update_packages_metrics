@@ -1,0 +1,49 @@
+name: Update Packages Metrics
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/packages.yml'
+    
+jobs:
+  update_metrics:
+    runs-on: 'ubuntu-20.04'
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        ref: 'main'
+  
+    - name: Install dependencies
+      run: |
+        python -m pip install pip --upgrade
+        python -m pip install ruamel.yaml pre-commit
+          
+    - name: Update packages metrics
+      shell: python
+      run: |
+        from ruamel.yaml import YAML
+        yaml = YAML()
+
+        packages_file = 'data/packagess.yml'
+        metrics_file = 'data/metrics.yml'
+          
+        with open(packages_file) as f:
+          packagess_dict = yaml.load(f)
+        number = len(packages_dict['packages'])
+
+        with open(metrics_file, 'r+') as f:
+          metrics_dict = yaml.load(f)
+        metrics_dict['counter_item'][2]["number"] = number
+        with open(metrics_file, 'w') as f:
+          yaml.dump(metrics_dict, f)
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name '${{ github.actor }}'
+        git config --global user.email '<${{ github.actor }}@users.noreply.github.com>'
+        git remote set-url origin https://x-access-token:${{ secrets.VAST_METRICS }}@github.com/NCAR/vast
+        git add data/metrics.yml
+        git commit -m "Update metrics.yml from changes to packages.yml"
+        git push -u origin HEAD

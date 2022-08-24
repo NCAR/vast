@@ -1,0 +1,13 @@
+
+
+enable  : true
+title   : VAST Packages
+packages  :
+
+  - package-name       : VAPOR
+    repository-url : https://github.com/NCAR/vapor
+    team : VAPOR
+
+  - package-name       : GeoCAT-comp
+    package-repository : https://github.com/NCAR/geocat-comp
+    team : GeoCAT

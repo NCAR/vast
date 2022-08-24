@@ -2,7 +2,7 @@ enable: true
 heading: METRICS
 counter_item:
 - title: Downloads
-  number: 2
+  number: 17135
 
 - title: Publications
   number: 27
@@ -10,6 +10,7 @@ counter_item:
 
 - title: Packages
   number: ???
+  url: packages
 
 - title: SIParCS Interns
   number: 14

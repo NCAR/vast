@@ -30,7 +30,7 @@ jobs:
 
         metrics_file = 'data/metrics.yml'
         publications_file = 'data/publications.yml'
-        packages_file = 'data/packagess.yml'
+        packages_file = 'data/packages.yml'
         siparcs_file = 'data/siparcs.yml'
           
         with open(publications_file) as f:
@@ -38,7 +38,7 @@ jobs:
         publications = len(publications_dict['items'])
         
         with open(packages_file) as f:
-          packagess_dict = yaml.load(f)
+          packages_dict = yaml.load(f)
         packages = len(packages_dict['items'])
         
         with open(siparcs_file) as f:

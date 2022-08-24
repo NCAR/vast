@@ -1,0 +1,112 @@
+.site-packages{
+  &-header{
+    padding-top: 180px;
+    background-color: $gray;
+    background-size: cover;
+    @include mobile{
+      padding-top: 100px;
+      text-align: center;
+    }
+    h1{
+      color: $white;
+      letter-spacing: 2px;
+      font-weight: 800;
+      font-size: 36px;
+      line-height: 60px;
+      padding-bottom: 0px;
+      text-transform: uppercase;
+      margin-bottom: 50px;
+    }
+    h6{
+     color: $primary-color;
+     font-size: 20px;
+    }
+  }
+  &-section{
+    padding-top: 0px;
+    padding-bottom: 80px;
+    background-color: $gray;
+    @include mobile{
+      padding-top: 0px;
+      text-align: center;
+    }
+  }
+  &-content{
+    background: $gray;
+    width: 100%;
+    padding: 50px 20px;
+
+    span{
+      color: $secondary-color;
+      font-weight: 600;
+    }
+  }
+  &-items{
+    li {
+      margin-bottom: 10px;
+    }
+  }
+  &-wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &-git{
+    background: $primary-color;
+    border-radius: 25px;
+    width: 40%;
+    padding: 25px 10px;
+    @include desktop{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    h1{
+      color: $white;
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 60px;
+      letter-spacing: 1px;
+      text-transform: none;
+    }
+    a{
+      color: $white;
+      transition: all 0.3s $site-ease;
+      display: block;
+    }
+  }
+  &-docs{
+    @extend .site-software-git;
+    background: $secondary-color;
+    h1{
+    font-size: 24px;
+    }
+  }
+  &-spacer{
+    width:80px;
+  }
+  &-buttons{
+    margin: 0;
+    padding: 0;
+    li{
+      display: inline-block;
+      @include mobile{
+        display: block;
+      }
+      &:not(:last-child){
+        margin-right: 30px;
+        @include mobile{
+          margin-right: 0;
+          margin-bottom: 20px;
+        }
+      }
+      .btn{
+        font-weight: 600;
+        @include mobile{
+          width: 90%;
+          margin: 0 auto;
+          display: block;
+        }
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@
 
 enable  : true
 title   : VAST Packages
-packages  :
+items  :
 
   - packagename       : "VAPOR"
     repositoryurl : "https://github.com/NCAR/vapor"

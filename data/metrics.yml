@@ -2,7 +2,7 @@ enable: true
 heading: METRICS
 counter_item:
 - title: Downloads
-  number: ???
+  number: 2
 
 - title: Publications
   number: 27

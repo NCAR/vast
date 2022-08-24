@@ -30,7 +30,8 @@
           <ul>
           {{   end }}
             {{ if .url }}<a href="{{ .url }}">{{ end }}
-            <li><b>{{ .student }}</b> {{ .university }} "<em>{{ .title }}</em>" {{ delimit .mentors ", " }}, ({{ .year }}).</li>
+            <li><b>{{ .student | }}</b> {{ .university |  }} "<em>{{ .title | }}</em>" <b>{{ delimit .mentors ", " }}</b>, ({{ .year }}){{ if .extra }}, {{ .extra }}{{ else }}{{ end }}.</li>
+            {{ if .url }}</a>{{ end }}
           {{ end }}
         </div>
       </div>

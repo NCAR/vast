@@ -18,7 +18,6 @@
     <div class="row">
       <div class="col-12">
         <div class="site-packages-items">
-          <ul>
           {{ if .url }}<a href="{{ .url }}">{{ end }}
             <li><b>{{ .package |  }}</b>" {{ .team }}{{ if .extra }}, {{ .extra }}{{ else }}{{ end }}.</li>
             {{ if .url }}</a>{{ end }}            

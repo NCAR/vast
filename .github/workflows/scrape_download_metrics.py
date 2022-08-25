@@ -27,7 +27,7 @@ c = conn.cursor()
 packages_file = 'data/packages.yml'
 with open(packages_file) as f:
   packages_dict = yaml.load(f, Loader=yaml.CLoader)
-packages = [i['package-name'] for i in packages_dict['packages']]
+packages = [i['package'] for i in packages_dict['items']]
 conda_channels = ['conda-forge', 'ncar']
 
 if args.packages:

@@ -1,0 +1,6 @@
+name: vast_conda_metrics
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - anaconda-client

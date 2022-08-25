@@ -129,3 +129,19 @@ items  :
      - Kevin Paul
      - Chelle Gentemann
     year:  2021
+
+  - title: "Using Neural Networks for Two-Dimensional Scientific Data Compression"
+    student: Lucas Hayne
+    university: University of Colorado, Boulder
+    mentors:
+     - John Clyne
+     - Samuel Li
+    year:  2020
+
+  - title: "Building the Python Equivalent of the NCL Visualization Gallery"
+    student: Claire Fiorino
+    university: San Diego State University
+    mentors:
+     - John Clyne
+     - Kevin Paul
+    year:  2020

@@ -1,0 +1,45 @@
+name: RUN_DOWNLOAD_METRICS_ON_DEMAND
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  metrics:
+    if: |
+      contains(github.event.head_commit.message, 'trigger_scrape_metrics')
+    name: py
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0}
+
+    steps:
+      - name: Cancel previous runs
+        uses: styfle/cancel-workflow-action@0.8.0
+        with:
+          access_token: ${{ github.token }}
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner.
+      - name: conda_setup
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: vast_conda_metrics
+          channel-priority: strict
+          mamba-version: '*'
+          python-version: 3.8
+          channels: conda-forge
+          environment-file: build_envs/environment.yml
+      - name: execute py script # run the run.py to get the latest data
+        run: |
+          python scrape_metrics.py
+#        env:
+#          key: ${{ secrets.VAST_METRICS }} # if run.py requires passwords..etc, set it as secrets
+      - name: git_config
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'noreply@github.com'
+      - name: push_conda_metrics_db
+        run: |
+          git commit --allow-empty -am "push_conda_metrics_db"
+          git push

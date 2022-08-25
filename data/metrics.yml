@@ -2,7 +2,7 @@ enable: true
 heading: METRICS
 counter_item:
 - title: Downloads
-  number: 17135
+  number: 1041592
 
 - title: Publications
   number: 27

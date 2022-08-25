@@ -6,6 +6,8 @@ items  :
   - title: "Using Augmented Reality to Engage People with Atmospheric Science News"
     student: Aashiq Shaikh
     university: Arizona State University
+    url: www.cisl.ucar.edu/siparcs-2019-shaikh
+    github: 
     mentors:
      - Nihanth Cherukuru
      - Matt Rehme 
@@ -15,6 +17,8 @@ items  :
   - title: "Python Reimplementation of Fortran Subroutines: Bilinear Interpolation"
     student: Alina Guha
     university: Grinnell College
+    url: www.cisl.ucar.edu/siparcs-2022-alina-guha
+    github: 
     mentors:
      - Alea Kootz
      - Orhan Eroglu
@@ -23,6 +27,8 @@ items  :
   - title: "Expanding GeoCAT's Visualization Capabilities"
     student: Daphne Quint
     university: University of Colorado, Boulder
+    url: www.cisl.ucar.edu/siparcs-2022-daphne-quint
+    github: "@doqhne"
     mentors:
      - Anissa Zacharias
      - Michaela Sizemore
@@ -31,6 +37,8 @@ items  :
   - title: "Demonstrating Cloud-Based Remote Sensing Data Workflows with Xarray"
     student: Emma Marshall
     university: University of Utah
+    url: www.cisl.ucar.edu/siparcs-2022-emma-marshall
+    github: "@e-marshall"
     mentors:
      - Deepak Cherian
      - Scott Henderson
@@ -41,6 +49,8 @@ items  :
   - title: "Exploring Performance of GeoCAT Data Analysis Routines on GPUs"
     student: Haniye Kashgarani
     university: University of Wyoming
+    url: www.cisl.ucar.edu/siparcs-2022-haniye-kashgarani
+    github: "@haniyeka"
     mentors:
      - Cena Miller
      - Supreeth Suresh
@@ -50,6 +60,8 @@ items  :
   - title: "In-Situ Visualization for Model for Prediction Across Scales (MPAS)"
     student: Henry O'Meara
     university: University of Wyoming
+    url: www.cisl.ucar.edu/siparcs-2019-omeara
+    github: "@henry-omeara"
     mentors:
      - Supreeth Suresh
      - Matt Rehme
@@ -58,6 +70,8 @@ items  :
   - title: "Project Pythia Content Creation: An Intake Cookbook"
     student: James Morley
     university: Utah Valley University
+    url: www.cisl.ucar.edu/siparcs-2022-james-morley
+    github: "@jnmorley"
     mentors:
      - Julia Kent
      - Brian Rose
@@ -68,6 +82,8 @@ items  :
   - title: "Python Visualization, Analysis, & Jupyter Notebook Development for Unstructured Grids"
     student: Philip Chmielowiec
     university: University of Illinois at Urbana-Champaign
+    url: www.cisl.ucar.edu/siparcs-2022-philip-chmielowiec
+    github: "@philipc2"
     mentors:
      - Orhan Eroglu
      - Alea Kootz
@@ -78,6 +94,8 @@ items  :
   - title: "Developing an Image-Based Augmented Reality System for Meteo AR"
     student: Shiqi Sheng
     university: University of Michigan
+    url: www.cisl.ucar.edu/siparcs-2020-sheng
+    github: "@shiqisheng2036"
     mentors:
      - Nihanth Cherukuru
      - Tim Scheitlin
@@ -87,6 +105,8 @@ items  :
   - title: "Expanding and strengthening the transition from NCL to Python visualizations"
     student: Erin Lincoln
     university: Brown University
+    url: www.cisl.ucar.edu/siparcs-2021-lincoln
+    github: "@erinlincoln"
     mentors:
      - Julia Kent
      - Orhan Eroglu
@@ -97,6 +117,8 @@ items  :
   - title: "Building the Python Equivalent of the NCL Visualization Gallery"
     student: Heather Craker
     university: Purdue University
+    url: www.cisl.ucar.edu/siparcs-2020-craker
+    github: "@hcraker"
     mentors:
      - Julia Kent
      - Kevin Paul
@@ -106,6 +128,8 @@ items  :
   - title: "Climatology Calculation Support in the GeoCAT Ecosystem"
     student: Heather Craker
     university: Purdue University
+    url: www.cisl.ucar.edu/siparcs-2021-craker
+    github: "@hcraker"
     mentors:
      - Alea Kootz
      - Orhan Eroglu
@@ -114,6 +138,8 @@ items  :
   - title: "Expanding and Strengthening the Transition from NCL to Python Visualizations"
     student: Jiaqi Li
     university: Middlebury College
+    url: www.cisl.ucar.edu/siparcs-2021-li
+    github: "@jiaqi-beep"
     mentors:
      - Julia Kent
      - Orhan Eroglu
@@ -124,6 +150,8 @@ items  :
   - title: "Fake it till you make it - Zarr-like access of existing netCDF4 datasets"
     student: Lucas Sterzinger
     university: University of California, Davis
+    url: www.cisl.ucar.edu/siparcs-2021-sterzinger
+    github: "@lsterzinger"
     mentors:
      - Julia Kent
      - Kevin Paul
@@ -133,6 +161,8 @@ items  :
   - title: "Using Neural Networks for Two-Dimensional Scientific Data Compression"
     student: Lucas Hayne
     university: University of Colorado, Boulder
+    url: www.cisl.ucar.edu/siparcs-2020-hayne
+    github: "@lhayne"
     mentors:
      - John Clyne
      - Samuel Li
@@ -141,6 +171,8 @@ items  :
   - title: "Building the Python Equivalent of the NCL Visualization Gallery"
     student: Claire Fiorino
     university: San Diego State University
+    url: www.cisl.ucar.edu/siparcs-2020-fiorino
+    github: "@clairefio"
     mentors:
      - John Clyne
      - Kevin Paul

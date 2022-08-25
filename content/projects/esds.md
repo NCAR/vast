@@ -2,9 +2,9 @@
 title: "Earth System Data Science"
 date: 2022-08-25T11:44:13-06:00
 type: projects
-image: "images/projects/pythia-logo.png"
+image: "images/projects/esds.png"
 category: ["RESEARCH"]
-project_images: ["images/projects/pretty-earth.png"]
+project_images: ["images/projects/esds.png"]
 ---
 
 ##### Term: 2020 - 2023

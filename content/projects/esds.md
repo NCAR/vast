@@ -8,7 +8,7 @@ project_images: ["images/projects/esds.png"]
 ---
 
 ##### Term: 2020 - 2023
-##### Website: [https://projectpythia.org](https://ncar.github.io/esds/)
+##### Website: [https://ncar.github.io/esds/](https://ncar.github.io/esds/)
 
 NCAR's Earth System Data Science (ESDS) initiative aims to build a community of technical support 
 for geoscientists by addressing common big data challenges. 

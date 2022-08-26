@@ -26,7 +26,8 @@ jobs:
           mamba-version: '*'
           python-version: 3.8
           channels: conda-forge
-          environment-file: build_envs/environment.yml
+      - shell: bash
+        run: conda install anaconda-client conda-forge
       - name: execute py script # run the run.py to get the latest data
         run: |
           python scrape_download_metrics.py

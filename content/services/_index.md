@@ -24,5 +24,3 @@ Visit the [CISL Visualization Gallery](https://visgallery.ucar.edu/) for example
 <!-- [<img src= ../images/services/youtube.png>](http://google.com.au/) -->
 
 <!-- ![Visualization of hurricane Odile](../images/services/odile.jpg) -->
-
-<!-- [<img src="../images/services/odile.jpg" alt="Visualization of hurricane Odile" style="width:48%">] -->

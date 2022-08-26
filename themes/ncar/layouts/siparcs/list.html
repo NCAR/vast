@@ -2,7 +2,7 @@
 {{ with .Site.Data.siparcs }}
 {{ if .enable }}
 <section class="site-siparcs-header" style="background-image: url({{ .image | absURL }});">
-  <div class="container">
+ <div class="container">
     <div class="row">
       <div class="col-12 text-center">
         <h1>
@@ -18,6 +18,12 @@
     <div class="row">
       <div class="col-12">
         <div class="site-siparcs-items">
+            <div >
+              <p>The Summer Internships in Parallel Computational Science (SIParCS) offers students an opportunity to work in CISL to gain significant hands-on experience in high-performance computing and related fields that use HPC for scientific discovery and modeling.</p> 
+              <p> <a href="https://www2.cisl.ucar.edu/outreach/internships">Learn more about the SIParCS internship.</a></p>
+              <p>Here is a summary of past VAST-sponsored SIParCS projects:</p>   
+            </div> 
+          
           {{ $year := "" }}
           {{ range $item := sort .items "year" "desc" }}
           {{   $is_new_year := ne $year $item.year }}
@@ -30,7 +36,7 @@
           <ul>
           {{   end }}
             {{ if .url }}<a href="{{ .url }}">{{ end }}
-            <li><b>{{ .student | }}</b> {{ .university |  }} "<em>{{ .title | }}</em>" <b>{{ delimit .mentors ", " }}</b>, ({{ .year }}){{ if .extra }}, {{ .extra }}{{ else }}{{ end }}.</li>
+            <li><b>{{ .student |  }}</b> <em>{{ .github |  }}</em> {{ .university |  }} "<em>{{ .title | }}</em>" <b>{{ delimit .mentors ", " }}</b>, ({{ .year }}){{ if .extra }}, {{ .extra }}{{ else }}{{ end }}.</li>
             {{ if .url }}</a>{{ end }}
           {{ end }}
         </div>

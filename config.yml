@@ -35,6 +35,9 @@ menu:
     - name      : Publications
       url       : publications
       weight    : 4
+    - name      : Internships
+      url       : siparcs
+      weight    : 4
 
 # Site Params
 params:
@@ -70,6 +73,8 @@ params:
             url : news
           - name: Publications
             url : publications
+          - name: Internships
+            url : siparcs
         - link:
           - name: Software
             url : software

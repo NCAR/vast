@@ -13,6 +13,8 @@ Visit the [CISL Visualization Gallery](https://visgallery.ucar.edu/) for example
 
 #### Additional links
 
+[ESDS Office Hours](https://sundog.ucar.edu/Interact/Pages/Content/Document.aspx?id=6160)
+
 [![NCAR VisLab YouTube Channel](../images/services/youtube.png)](https://www.youtube.com/user/ucarvets/videos)
 
 

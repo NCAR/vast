@@ -1,4 +1,4 @@
-baseURL       : https://ncar.github.io/vast/
+baseURL       : https://vast.ucar.edu/
 languageCode  : en-us
 title         : "VAST | Visualization and Analysis Software and Technology"
 theme         : ncar

@@ -27,7 +27,7 @@ jobs:
           python-version: 3.8
           channels: conda-forge
       - shell: bash
-        run: conda install anaconda-client conda-forge
+        run: conda install anaconda-client
       - name: execute py script # run the run.py to get the latest data
         run: |
           python scrape_download_metrics.py

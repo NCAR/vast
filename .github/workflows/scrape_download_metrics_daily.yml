@@ -27,7 +27,7 @@ jobs:
           python-version: 3.8
           channels: conda-forge
       - shell: bash
-        run: conda install anaconda-client binstar_client
+        run: conda install anaconda-client binstar-client
       - name: execute py script # run the run.py to get the latest data
         shell: python
         run: |

@@ -32,8 +32,8 @@ jobs:
         shell: python
         run: |
           import argparse
-          from anaconda_client.utils import get_server_api
-          import anaconda_client.errors
+          from anaconda_client.binstar_client.utils import get_server_api
+          from anaconda_client import binstar_client.errors 
 
           import os
           import sqlite3
@@ -73,7 +73,7 @@ jobs:
 
                   aserver_api = get_server_api(log_level=0)
                   try: package_obj = aserver_api.package(conda_channel, package)
-                  except anaconda_client.errors.NotFound: continue
+                  except binstar_client.errors.NotFound: continue
 
                   for version_str in package_obj['versions']:
                       version = aserver_api.release(conda_channel, package, version_str)

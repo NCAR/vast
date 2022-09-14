@@ -27,11 +27,15 @@ jobs:
           python-version: 3.8
           channels: conda-forge
       - shell: bash
+        run: conda install anaconda-client
+      - shell: bash
         run: pip install anaconda-client
       - name: execute py script # run the run.py to get the latest data
         shell: python
         run: |
           import argparse
+          import anaconda_client
+          import anaconda_client.binstar_client
           from anaconda_client.binstar_client.utils import get_server_api
           from anaconda_clientbinstar_client import errors 
 

@@ -21,6 +21,6 @@ right away online!
 
 The content can be viewed at its statically generated [documentation 
 page](https://geocat-tutorials.readthedocs.io/en/latest/) as well. 
-Readers of this documentation page can also access to the past tutorial 
+Readers of this documentation page can also access past tutorial 
 versions. 
 

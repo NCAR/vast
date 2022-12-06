@@ -19,7 +19,7 @@ or through [Binder
 environment](https://mybinder.org/v2/gh/NCAR/geocat-tutorials/main) 
 right away online! 
 
-The content can be viewed at its statically generated [documentation 
+The content can be viewed as a statically generated [documentation 
 page](https://geocat-tutorials.readthedocs.io/en/latest/) as well. 
 Readers of this documentation page can also access past tutorial 
 versions. 

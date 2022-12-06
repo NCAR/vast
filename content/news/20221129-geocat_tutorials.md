@@ -12,7 +12,7 @@ The [GeoCAT](https://geocat.ucar.edu/) team has launched "GeoCAT
 Tutorials" to provide its community with guided teaching as well as 
 self-taught content.
 
-The tutorial materials can be accessed via its [GitHub 
+The tutorial materials can be accessed via [GitHub 
 repository](https://github.com/NCAR/geocat-tutorials); by cloning and 
 setting up a local configuration as described in the repository home, 
 or through its [Binder 

@@ -14,7 +14,7 @@ NCAR/UCAR/UCP on November 10th and 11th. This event was a successful
 implementation of hybrid tutorials, discussion forums, and hackathons 
 in NCAR’s Mesa Lab Main Seminar Room and over Google Meet. 
 
-GeoCAt tutorials and a demonstration of VAPOR's new Python API 
+GeoCAT tutorials and a demonstration of VAPOR's new Python API 
 took place in the event as well.
 
 Please have a look at the [ESDS post](TODO: Add URL) that recaps the 

@@ -15,7 +15,7 @@ self-taught content.
 The tutorial materials can be accessed via [GitHub 
 repository](https://github.com/NCAR/geocat-tutorials); by cloning and 
 setting up a local configuration as described in the repository home, 
-or through its [Binder 
+or through [Binder 
 environment](https://mybinder.org/v2/gh/NCAR/geocat-tutorials/main) 
 right away online! 
 

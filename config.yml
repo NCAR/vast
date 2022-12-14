@@ -1,6 +1,6 @@
-baseURL       : https://vast.ucar.edu/
+baseURL       : https://miles.ucar.edu/
 languageCode  : en-us
-title         : "VAST | Visualization and Analysis Software and Technology"
+title         : "MILES | Machine Integration and Learning for Earth Systems"
 theme         : ncar
 enableGitInfo : true
 summarylength : 25
@@ -41,11 +41,11 @@ menu:
 
 # Site Params
 params:
-  name: VAST
+  name: MILES
   dateFormat: "26 FEB 1994"
-  description: "VAST is the Visualization and Analysis Software and Technology section at the National Center for Atmospheric Research (NCAR)."
-  author: "VAST"
-  email: "vast@ucar.edu"
+  description: "MILES is the Machine Integration and Learning for Earth Systems group at the National Center for Atmospheric Research (NCAR)."
+  author: "MILES"
+  email: "aiml@ucar.edu"
 
   news:
     enable: true

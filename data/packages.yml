@@ -1,41 +1,19 @@
 
 
 enable  : true
-title   : VAST Packages
+title   : MILES Packages
 items  :
 
-  - package       : "VAPOR"
-    url : "https://github.com/NCAR/vapor"
-    team : VAPOR
+  - package : "ECHO"
+    url : "https://github.com/NCAR/echo-opt"
+    team : "MILES"
 
-  - package       : "GeoCAT-comp"
-    url : "https://github.com/NCAR/geocat-comp"
-    team : GeoCAT
+  - package : "hagelslag"
+    url : "https://github.com/djgagne/hagelslag"
+    team : "MILES"
 
-  - package       : "GeoCAT-viz"
-    url : "https://github.com/NCAR/geocat-viz"
-    team : GeoCAT
 
-  - package       : "GeoCAT-f2py"
-    url : "https://github.com/NCAR/geocat-f2py"
-    team : GeoCAT
- 
-  - package       : "GeoCAT-datafiles"
-    url : "https://github.com/NCAR/geocat-datafiles"
-    team : GeoCAT
 
-  - package       : "PyNIO"
-    url : "https://github.com/NCAR/pynio"
-    team : GeoCAT
 
-  - package       : "PyNGL"
-    url : "https://github.com/NCAR/pyngl"
-    team : GeoCAT
 
-  - package       : "Uxarray"
-    url : "https://github.com/UXARRAY/uxarray"
-    team : GeoCAT
 
-  - package       : "wrf-python"
-    url : "https://github.com/NCAR/wrf-python"
-    team : GeoCAT

@@ -1,73 +1,24 @@
 enable  : true
-title   : VAST Staff
+title   : MILES Staff
 members  :
 
-  - name        : NIHANTH CHERUKURU
-    designation : Project Scientist
-    ncaruname   : ncheruku
-    githubuname : NihanthCW
+  - name        : David John Gagne II
+    designation : Machine Learning Scientist II (Lead)
+    ncaruname   : dgagne
+    githubuname : djgagne
 
-  - name        : JOHN CLYNE
-    designation : Senior Program Manager
-    ncaruname   : clyne
-    githubuname : clyne
+  - name        : John Schreck
+    designation : Machine Learning Scientist I
+    ncaruname   : schreck
+    githubuname : jsschreck
 
-  - name        : HEATHER CRAKER
-    designation : Software Engineer
-    ncaruname   : hcraker
-    githubuname : hCraker
+  - name        : Charlie Becker
+    designation : Associate Data Scientist II
+    ncaruname   : cbecker
+    githubuname : charlie-becker
 
-  - name        : ORHAN EROGLU
-    designation : Software Engineer
-    ncaruname   : oero
-    githubuname : erogluorhan
+  - name        : Gabrielle Gantos
+    designation : Associate Data Scientist II
+    ncaruname   : ggantos
+    githubuname : ggantos
 
-  - name        : STANISLAW 'Stas' JAROSZYNSKI
-    designation : Software Engineer
-    ncaruname   : stasj
-    githubuname : StasJ
-
-  - name        : JULIA KENT
-    designation : Software Engineer
-    ncaruname   : jkent
-    githubuname : jukent
-
-  - name        : ALEA KOOTZ
-    designation : Software Engineer
-    ncaruname   : akootz
-    githubuname : pilotchute
-
-  - name        : SAMUEL LI
-    designation : Project Scientist
-    ncaruname   : shaomeng
-    githubuname : shaomeng
-
-  - name        : SCOTT PEARSE
-    designation : Software Engineer
-    ncaruname   : pearse
-    githubuname : sgpearse
-
-  - name        : MATT REHME
-    designation : Software Engineer
-    ncaruname   : mrehme
-    githubuname : MattRehme
-
-  - name        : MARIO RODRIGUEZ
-    designation : Software Engineer
-    ncaruname   : mrodriguez
-    githubuname : marodrig
-
-  - name        : COLLIN SINCLAIR
-    designation : Scientific Data Visualization Designer
-    ncaruname   : csinclair
-    githubuname : collinsinclair
-
-  - name        : MICHAELA SIZEMORE
-    designation : Software Engineer
-    ncaruname   : misi1684
-    githubuname : michaelavs
-
-  - name        : ANISSA ZACHARIAS
-    designation : Software Engineer
-    ncaruname   : anissaz
-    githubuname : anissa111

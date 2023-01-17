@@ -53,6 +53,14 @@ items  :
     year: 2022
     url: https://ams.confex.com/ams/102ANNUAL/meetingapp.cgi/Paper/395377
 
+  - title: NCAR Earth System Data Science Initiative (ESDS) Educational Efforts
+    authors:
+      - Kent, J.
+    journal: AGU 2021
+    year: 2021
+    extra: New Orleans, LA
+    url: https://drive.google.com/file/d/1pidWOdzD9S95M-e1OvC04pY_tD5hURea/view?usp=share_link
+    
   - title: Project Raijin - Community Geoscience Analysis Tools for Unstructured Grids
     authors:
       - Clyne, J.

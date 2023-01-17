@@ -4,13 +4,21 @@ image  : images/banners/aurora.jpg
 items  :
 
 
+  - title: NCAR Earth System Data Science Community - Making the Python Scientific Ecosystem More Accessible to GeoScientists
+    authors:
+      - Kent, J.
+    journal: AMS Python 2023
+    year: 2023
+    extra: Denver, CO
+    url: https://drive.google.com/file/d/1CYRszpd-x72CXOEwb6yNfqy5XdoGbE6g/view?usp=share_link
+
   - title: Project Pythia - A Pangeo Community Tool for Open-Source Education
     authors:
       - Kent, J.
     journal: AGU 2022
     year: 2022
     extra: Chicago, IL
-    url: https://docs.google.com/presentation/d/19oWV7LULijtIYObrNW3ccoRLNFV9lYA0APuPlXAx_z8/edit?usp=sharing
+    url: https://drive.google.com/file/d/1DPdDo73HMDK3njy5w2oDAXiG14J4zjaz/view?usp=share_link
 
   - title: Beyond Visuals - Examining the Experiences of Geoscience Professionals With Vision Disabilities in Accessing Data Visualizations
     authors:

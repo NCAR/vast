@@ -1,4 +1,4 @@
-name: Update Publications Metrics
+name: Update Metrics
 
 on:
   push:
@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'data/publications.yml'
+      - 'data/presentations.yml'
       - 'data/packages.yml'
       - 'data/siparcs.yml'
     
@@ -30,12 +31,18 @@ jobs:
 
         metrics_file = 'data/metrics.yml'
         publications_file = 'data/publications.yml'
+        presentations file = 'data/presentations.yml'
         packages_file = 'data/packages.yml'
         siparcs_file = 'data/siparcs.yml'
           
         with open(publications_file) as f:
           publications_dict = yaml.load(f)
         publications = len(publications_dict['items'])
+
+        
+        with open(presentations_file) as f:
+          presentations_dict = yaml.load(f)
+        presentations = len(presentations_dict['items'])
         
         with open(packages_file) as f:
           packages_dict = yaml.load(f)
@@ -48,8 +55,9 @@ jobs:
         with open(metrics_file, 'r+') as f:
           metrics_dict = yaml.load(f)
         metrics_dict['counter_item'][1]["number"] = publications
-        metrics_dict['counter_item'][2]["number"] = packages
-        metrics_dict['counter_item'][3]["number"] = interns
+        metrics_dict['counter_item'][2]["number"] = presentations
+        metrics_dict['counter_item'][3]["number"] = packages
+        metrics_dict['counter_item'][4]["number"] = interns
         with open(metrics_file, 'w') as f:
           yaml.dump(metrics_dict, f)
 

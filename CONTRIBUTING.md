@@ -104,7 +104,7 @@ of this data file.
 
 #### Adding publications
 
-Edit `data/publications.yml` to add a new presentation or publication citation:
+Edit `data/publications.yml` to add a new publication citation:
 
 ````
   - title: Some journal article title.
@@ -120,6 +120,24 @@ Edit `data/publications.yml` to add a new presentation or publication citation:
 
 The `extra` field is optional and can contain journal volume information and page numbers.
 If the `url` field is specified, then the citation will hyperlink to the given URL.
+
+#### Adding presentations
+
+Edit `data/presentations.yml` to add a new presentation or publication citation:
+
+````
+  - title: Some presentation title.
+    authors:
+      - Last, F.
+    conference: The Most Prestigious Conference
+    year: 2023
+    extra: City, ST
+    url: https://example.com
+````
+
+The `extra` field is optional and can contain conference city, virtual nature, or any other information.
+
+Please sepcify the `url` field to be a link to a PDF file of the talk slides or poster uploaded to the [VAST Presentations Google Drive fodler](https://drive.google.com/drive/folders/146ZZgV5Pb0-scadJtrPEXfP_jhDYwKVL). Please use a naming convention akin to `Last_Topic_ConferenceYYYY` and be sure that the file's sharing settings allow anyone to view the file.
 
 #### Adding services
 

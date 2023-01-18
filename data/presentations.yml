@@ -7,7 +7,7 @@ items  :
   - title: NCAR Earth System Data Science Community - Making the Python Scientific Ecosystem More Accessible to GeoScientists
     authors:
       - Kent, J.
-    journal: AMS Python 2023
+    conference: AMS Python 2023
     year: 2023
     extra: Denver, CO
     url: https://drive.google.com/file/d/1CYRszpd-x72CXOEwb6yNfqy5XdoGbE6g/view?usp=share_link
@@ -15,7 +15,7 @@ items  :
   - title: Project Pythia - A Pangeo Community Tool for Open-Source Education
     authors:
       - Kent, J.
-    journal: AGU 2022
+    conference: AGU 2022
     year: 2022
     extra: Chicago, IL
     url: https://drive.google.com/file/d/1DPdDo73HMDK3njy5w2oDAXiG14J4zjaz/view?usp=share_link
@@ -28,7 +28,7 @@ items  :
       - Fourment, T.
       - Hathaway, B.
       - Holland, M.
-    journal: IEEE Vis 2022
+    conference: IEEE Vis 2022
     year: 2022
     url:
 
@@ -38,7 +38,7 @@ items  :
       - Eroglu, O.
       - Zacharias, A.
       - Kootz, A.
-    journal: AMS Annual Meeting 2022
+    conference: AMS Annual Meeting 2022
     year: 2022
     url: https://ams.confex.com/ams/102ANNUAL/meetingapp.cgi/Paper/392637
 
@@ -49,14 +49,14 @@ items  :
       - Zacharias, A.
       - Sizemore, M.
       - Eroglu, O.
-    journal: AMS Annual Meeting 2022
+    conference: AMS Annual Meeting 2022
     year: 2022
     url: https://ams.confex.com/ams/102ANNUAL/meetingapp.cgi/Paper/395377
 
   - title: NCAR Earth System Data Science Initiative (ESDS) Educational Efforts
     authors:
       - Kent, J.
-    journal: AGU 2021
+    conference: AGU 2021
     year: 2021
     extra: New Orleans, LA
     url: https://drive.google.com/file/d/1pidWOdzD9S95M-e1OvC04pY_tD5hURea/view?usp=share_link
@@ -67,7 +67,7 @@ items  :
       - Eroglu, O.
       - Medeiros, B.
       - Zarzycki, C. M.
-    journal: AGU Fall Meeting 2021
+    conference: AGU Fall Meeting 2021
     year: 2021
     url: https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/901711
 
@@ -83,7 +83,7 @@ items  :
       - May, R.
       - Rose, B. E. J.
       - Tyle, K.
-    journal: AGU Fall Meeting 2021
+    conference: AGU Fall Meeting 2021
     year: 2021
     url: https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/831257
 
@@ -95,7 +95,7 @@ items  :
       - Sizemore, M.
       - Eroglu, O.
       - Kent, J.
-    journal: AGU Fall Meeting 2021
+    conference: AGU Fall Meeting 2021
     year: 2021
     url: https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/973469
 
@@ -106,7 +106,7 @@ items  :
       - Kootz, A.
       - Sizemore, M.
       - Zacharias, A.
-    journal: AMS Annual Meeting 2021
+    conference: AMS Annual Meeting 2021
     year: 2021
     url: https://ams.confex.com/ams/101ANNUAL/meetingapp.cgi/Paper/379186
 
@@ -115,14 +115,14 @@ items  :
       - Craker, H. R.
       - Fiorino, C. A.
       - Sizemore, M. V.
-    journal: AMS Annual Meeting 2021
+    conference: AMS Annual Meeting 2021
     year: 2021
     url: https://ams.confex.com/ams/101ANNUAL/meetingapp.cgi/Paper/378236
 
   - title: GeoCAT - The NCL Pivot to Python
     authors:
       - Clyne, J.
-    journal: AMS Annual Meeting 2020
+    conference: AMS Annual Meeting 2020
     year: 2020
     url: https://ams.confex.com/ams/2020Annual/meetingapp.cgi/Paper/365970
 
@@ -131,7 +131,7 @@ items  :
       - Cherukuru, N.
       - Scheitlin, T.
       - Rehme, M.
-    journal: AMS Annual Meeting 2018
+    conference: AMS Annual Meeting 2018
     year: 2018
     url:
 
@@ -140,7 +140,7 @@ items  :
       - Hayne, L.
       - Clyne, J.
       - Li, S.
-    journal: The Second International Workshop on Big Data Reduction (IWBDR)
+    conference: The Second International Workshop on Big Data Reduction (IWBDR)
     year: 2021
     url: ../pdfs/IWBDR_sub.pdf
 
@@ -149,7 +149,7 @@ items  :
       - Lessley, B.
       - Li, S.
       - Childs, H.
-    journal: IS&T Conference on Visualization and Data Analysis (VDA)
+    conference: IS&T Conference on Visualization and Data Analysis (VDA)
     year: 2020
     extra: Burlingame, CA
     url: https://doi.org/10.2352/ISSN.2470-1173.2020.1.VDA-376
@@ -160,7 +160,7 @@ items  :
       - Li, S.
       - Larsen, M.
       - Childs, H.
-    journal: Eurographics Symposium on Parallel Graphics and Visualization (EGPGV)
+    conference: Eurographics Symposium on Parallel Graphics and Visualization (EGPGV)
     year: 2019
     extra: Porto, Portugal
     url: https://cdux.cs.uoregon.edu/pubs/MarsagliaEGPGV.pdf
@@ -175,7 +175,7 @@ items  :
       - Guo, H.
       - Chen, Z.
       - Cappello, F.
-    journal: IEEE International Conference on Big Data
+    conference: IEEE International Conference on Big Data
     year: 2018
     extra: Seattle, WA
     url: https://ieeexplore.ieee.org/document/8622520
@@ -185,7 +185,7 @@ items  :
       - Marsaglia, N.
       - Li, S.
       - Childs, H.
-    journal: ISC Workshop On In Situ Visualization, Introduction & Applications (WOIV)
+    conference: ISC Workshop On In Situ Visualization, Introduction & Applications (WOIV)
     year: 2018
     extra: Frankfurt, Germany
     url: https://cdux.cs.uoregon.edu/pubs/MarsagliaWOIV.pdf
@@ -197,7 +197,7 @@ items  :
       - Larsen, M.
       - Clyne, J.
       - Childs, H.
-    journal: In Situ Infrastructures for Enabling Extreme-scale Analysis and Visualization (ISAV)
+    conference: In Situ Infrastructures for Enabling Extreme-scale Analysis and Visualization (ISAV)
     year: 2017
     extra: Denver, CO
     url: https://cdux.cs.uoregon.edu/pubs/LiISAV.pdf
@@ -211,7 +211,7 @@ items  :
       - Mininni, P.
       - Clyne, J.
       - Childs, H.
-    journal: IEEE International Conference on Cluster Computing (CLUSTER)
+    conference: IEEE International Conference on Cluster Computing (CLUSTER)
     year: 2017
     extra: Honolulu, HI
     url: https://cdux.cs.uoregon.edu/pubs/LiCluster.pdf
@@ -224,7 +224,7 @@ items  :
       - Hammerling, D.
       - Li, S.
       - Clyne, J.
-    journal: The 1st International Workshop on Data Reduction for Big Scientific Data (DRBSD-1)
+    conference: The 1st International Workshop on Data Reduction for Big Scientific Data (DRBSD-1)
     year: 2017
     extra: Frankfurt, Germany
     url: https://cdux.cs.uoregon.edu/pubs/LiDRBSD.pdf
@@ -238,7 +238,7 @@ items  :
       - Sewell, C.
       - Clyne, J.
       - Childs, H.
-    journal: Eurographics Symposium on Parallel Graphics and Visualization (EGPGV)
+    conference: Eurographics Symposium on Parallel Graphics and Visualization (EGPGV)
     year: 2017
     extra: Barcelona, Spain
     url: https://cdux.cs.uoregon.edu/pubs/LiEGPGV.pdf
@@ -251,7 +251,7 @@ items  :
       - Potter, K.
       - Clyne, J.
       - Childs, H.
-    journal: IEEE Symposium on Large Data Visualization and Analysis (LDAV)
+    conference: IEEE Symposium on Large Data Visualization and Analysis (LDAV)
     year: 2015
     extra: Chicago, IL
     url: https://cdux.cs.uoregon.edu/pubs/LiLDAV.pdf

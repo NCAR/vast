@@ -11,7 +11,6 @@ layout: staticpage
 {{< youtube NbdYI-uWa1s >}}
 
 <br/><br/>
-<br/><br/>
 
 **NEVERWORLD2** is a set of four idealized ocean simulations designed to 
 study mesoscale eddies.  These simulations were performed with horizontal 

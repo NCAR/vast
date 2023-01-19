@@ -8,6 +8,10 @@ counter_item:
   number: 27
   url: publications
 
+- title: Presentations
+  number: 23
+  url: presentations
+
 - title: Packages
   number: 9
 

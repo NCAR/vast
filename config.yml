@@ -35,6 +35,9 @@ menu:
     - name      : Publications
       url       : publications
       weight    : 4
+    - name      : Presentations
+      url       : presentations
+      weight    : 4
     - name      : Internships
       url       : siparcs
       weight    : 4
@@ -73,6 +76,8 @@ params:
             url : news
           - name: Publications
             url : publications
+          - name: Presentations
+            url: presentations
           - name: Internships
             url : siparcs
         - link:

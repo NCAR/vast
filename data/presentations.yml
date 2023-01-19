@@ -20,6 +20,22 @@ items  :
     extra: Chicago, IL
     url: https://drive.google.com/file/d/1DPdDo73HMDK3njy5w2oDAXiG14J4zjaz/view?usp=share_link
 
+  - title: Update on Project Raijin -  Community geoscience analysis tools for unstructured grids
+    authors:
+      - Clyne, J.
+    conference: AGU 2022
+    year: 2022
+    extra: Chicago, IL
+    url: https://drive.google.com/file/d/1YshNBlvH0JOYqQHnljedcT-wmETopzhs/view?usp=share_link
+
+  - title: NCAR Pivot to Python
+    authors:
+      - Clyne, J.
+    conference: iCAS 2022
+    year: 2022
+    extra: Stresa, Italy
+    url: https://drive.google.com/file/d/1I1SPhU0Fp5wdyOd4_nwjbcEPTVioz6-a/view?usp=share_link
+
   - title: Beyond Visuals - Examining the Experiences of Geoscience Professionals With Vision Disabilities in Accessing Data Visualizations
     authors:
       - Cherukuru, N.

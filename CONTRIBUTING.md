@@ -137,7 +137,7 @@ Edit `data/presentations.yml` to add a new presentation or publication citation:
 
 The `extra` field is optional and can contain conference city, virtual nature, or any other information.
 
-Please specify the `url` field to be a link to a PDF file of the talk slides or poster uploaded to the [VAST Presentations Google Drive fodler](https://drive.google.com/drive/folders/146ZZgV5Pb0-scadJtrPEXfP_jhDYwKVL). Please use a naming convention akin to `Last_Topic_ConferenceYYYY` and be sure that the file's sharing settings allow anyone to view the file.
+Please specify the `url` field to be a link to a PDF file of the talk slides or poster uploaded to the [VAST Presentations Google Drive folder](https://drive.google.com/drive/folders/146ZZgV5Pb0-scadJtrPEXfP_jhDYwKVL). Please use a naming convention akin to `Last_Topic_ConferenceYYYY` and be sure that the file's sharing settings allow anyone to view the file.
 
 #### Adding services
 

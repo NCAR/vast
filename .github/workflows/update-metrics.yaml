@@ -31,7 +31,7 @@ jobs:
 
         metrics_file = 'data/metrics.yml'
         publications_file = 'data/publications.yml'
-        presentations file = 'data/presentations.yml'
+        presentations_file = 'data/presentations.yml'
         packages_file = 'data/packages.yml'
         siparcs_file = 'data/siparcs.yml'
           

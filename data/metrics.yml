@@ -5,11 +5,11 @@ counter_item:
   number: 1063943
 
 - title: Publications
-  number: 27
+  number: 8
   url: publications
 
 - title: Presentations
-  number: 23
+  number: 27
   url: presentations
 
 - title: Packages

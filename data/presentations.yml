@@ -4,6 +4,33 @@ image  : images/banners/aurora.jpg
 items  :
 
 
+  - title: Examining the Accessibility Barriers of Data Visualizations for Geoscience Professionals Who Are Blind/Vision-Impaired
+    authors:
+      - Cherukuru, N.
+      - Hathaway, B.
+      - Rehme, M.
+      - Bailey, D.
+      - Fourment, T.
+      - Holland, M.
+    conference: 2023 AMS Annual Meeting
+    year: 2023
+    extra: Denver, CO
+    url: https://drive.google.com/file/d/1V001BrSaTex-47X-huvdHQUeRPnt2vyl/view?usp=sharing
+
+  - title: VizAccess - Designing Scientific Visualizations That are Accessible to People Who are Blind/Vision-Impaired
+    authors:
+      - Hathaway, B.
+      - Cherukuru, N.
+      - Rehme, M.
+      - Bailey, D.
+      - Fourment, T.
+      - Holland, M.
+    conference: AGU 2022
+    year: 2022
+    extra: Chicago, IL
+    url: https://drive.google.com/file/d/1uUxu_K_aZgiiHf1JqpLek2AaBYc5sc8M/view?usp=sharing
+
+
   - title: NCAR Earth System Data Science Community - Making the Python Scientific Ecosystem More Accessible to GeoScientists
     authors:
       - Kent, J.
@@ -46,7 +73,8 @@ items  :
       - Holland, M.
     conference: IEEE Vis 2022
     year: 2022
-    url:
+    extra: Oklahoma City, OK
+    url: https://drive.google.com/file/d/1MBQyXLPWxeh-6bRD_JVWHR5rOLYqLrg6/view?usp=sharing
 
   - title: Pivoting to Python - Lessons Learned in Recreating the NCAR Command Language in Python
     authors:
@@ -149,7 +177,7 @@ items  :
       - Rehme, M.
     conference: AMS Annual Meeting 2018
     year: 2018
-    url:
+    url: https://opensky.ucar.edu/islandora/object/conference%3A3383
 
   - title: Using Neural Networks for Two Dimensional Scientific Data Compression
     authors:

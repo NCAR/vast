@@ -27,7 +27,7 @@ items  :
       - Holland, M.
     journal: IEEE Vis 2022
     year: 2022
-    url:
+    url: https://arxiv.org/pdf/2207.13220.pdf
 
   - title: Optimization of DNS code and visualization of entrainment and mixing phenomena at cloud edges
     authors:

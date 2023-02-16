@@ -1,0 +1,18 @@
+enable  : true
+title   : ALUMNI
+members  :
+
+  - name        : COLLIN SINCLAIR
+    designation : Scientific Data Visualization Designer
+    ncaruname   : csinclair
+    githubuname : collinsinclair
+
+  - name        : SHIQI SHENG
+    designation : SIPARCS Intern
+    ncaruname   : 
+    githubuname : shiqisheng2036
+
+  - name        : AASHIQ SHEIKH
+    designation : SIPARCS Intern
+    ncaruname   : 
+    githubuname : aashiqsworld

@@ -1,0 +1,43 @@
+{{ define "main" }}
+{{ with .Site.Data.publications }}
+{{ if .enable }}
+<section class="site-presentations-header" style="background-image: url({{ .image | absURL }});">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1>
+          {{ .title }}
+        </h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="site-presentations-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="site-presentations-items">
+          {{ $year := "" }}
+          {{ range $item := sort .items "year" "desc" }}
+          {{   $is_new_year := ne $year $item.year }}
+          {{   if $is_new_year }}
+          {{     if ne $year "" }}
+          </ul>
+          {{     end }}
+          {{     $year = $item.year }}
+          <span>{{ $year }}</span>
+          <ul>
+          {{   end }}
+            {{ if .url }}<a href="{{ .url }}">{{ end }}
+            <li>{{ delimit .authors ", " }} "<em>{{ .title |  }}</em>" <b>{{ .journal }}</b>, ({{ .year }}){{ if .extra }}, {{ .extra }}{{ else }}{{ end }}.</li>
+            {{ if .url }}</a>{{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}

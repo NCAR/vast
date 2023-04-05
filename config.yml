@@ -1,4 +1,4 @@
-baseURL       : https://miles.ucar.edu/
+baseURL       : https://ncar.github.io/miles/
 languageCode  : en-us
 title         : "MILES | Machine Integration and Learning for Earth Systems"
 theme         : ncar
@@ -35,9 +35,12 @@ menu:
     - name      : Publications
       url       : publications
       weight    : 4
+    - name      : Presentations
+      url       : presentations
+      weight    : 5
     - name      : Internships
       url       : siparcs
-      weight    : 4
+      weight    : 6
 
 # Site Params
 params:
@@ -73,6 +76,8 @@ params:
             url : news
           - name: Publications
             url : publications
+          - name: Presentations
+            url : presentations
           - name: Internships
             url : siparcs
         - link:

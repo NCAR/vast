@@ -4,8 +4,10 @@ date: 2022-04-27T00:00:00-06:00
 image: images/banners/limb.jpg
 ---
 
-NCAR’s Visualization and Analysis Software and Technology (VAST) section helps scientists, students, policy makers, and the public better understand enormous volumes of geoscientific data. Numerical simulations of complex natural phenomena, running on some of the world’s most powerful supercomputers, and a wide range of earth observing instruments all produce tremendous amounts of numerical data about the natural world. Helping explore, explain, understand, and gain insight into these complex troves of data is the mission of VAST.
+The mission of the Machine Integration and Learning for Earth Systems (MILES) group is to integrate machine learning throughout community Earth System Science (ESS) modeling and observation pipelines in order to refine our understanding of the Earth System, improve the prediction of weather and climate phenomena and their associated impacts, and enhance the capabilities of community observation, modeling and computing facilities. This mission will be accomplished through 
+* Researching and developing cutting-edge machine learning approaches for challenges that strategically expand NCAR’s and the broader ESS community’s ability to observe and model the Earth System.
+* Building and sustaining key partnerships with scientists and stakeholders throughout NCAR’s labs, the university community, government agencies, and private companies.
+* Developing robust machine learning infrastructure and community benchmark evaluations and datasets that can interface with critical ESS modeling and observation systems.
+* Educating and empowering a diverse group of ESS students, researchers, and stakeholders on how best to integrate machine learning into their domains through tutorials, workshops, internships, collaborations, and co-development. 
 
----
 
-VAST leads the development of open source software used by scientists, university students, and faculty to visualize and analyze their data; creates informative,  data-driven visualizations to help explain complicated science, to the public, policy makers, and even other scientists;  educates practicing and aspiring new scientists on the most effective use of emerging technologies; and conducts research into new ways to manage and extract meaning from geoscience data.

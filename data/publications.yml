@@ -5,21 +5,33 @@ items  :
 
   - title: Mimicking non-ideal instrument behavior for hologram processing using neural style translation
     authors:
-      - Schreck, J. S.
+      - <b>Schreck, J. S.</b>
       - Hayman, M.
-      - Gantos, G.
+      - <b>Gantos, G.</b>
       - Bansemer, A.
-      - Gagne, D. J.
+      - <b>Gagne, D. J.</b>
     journal: Optics Express
     year: 2023
     volume: -1
     pages: In Press
     url: https://arxiv.org/abs/2301.02757
 
+  - title: "Why we need to focus on developing ethical, responsible, and trustworthy artificial intelligence approaches for environmental science"
+    authors:
+      - A. McGovern
+      - I. Ebert-Uphoff
+      - <b>D. J. Gagne</b>
+      - A. Bostrom
+    journal: Environmental Data Science
+    year: 2022
+    volume: 1
+    pages: e6
+    url: https://doi.org/10.1017/eds.2022.5
+
   - title: The History and Practice of AI in the Environmental Sciences
     authors:
       - Haupt, S. E.
-      - Gagne, D. J.
+      - <b>Gagne, D. J.</b>
       - Hsieh, W.
       - Krasnopolsky, V.
       - Lakshmanan, V.
@@ -37,10 +49,10 @@ items  :
   - title: On the application of an observations-based machine learning parameterization of surface layer fluxes within an atmospheric large-eddy simulation model
     authors:
       - Mu&ntilde;oz-Esparza, D.
-      - Becker, C.
+      - <b>Becker, C.</b>
       - Sauer, J.
-      - Gagne, D. J.
-      - Schreck, J.
+      - <b>Gagne, D. J.</b>
+      - <b>Schreck, J.</b>
       - Kosovic, B.
     journal: JGR Atmospheres
     year: 2022
@@ -57,7 +69,7 @@ items  :
       - I. Ebert-Uphoff
       - R. He
       - J. Hickey
-      - D. J. Gagne
+      - <b>D. J. Gagne</b>
       - N. Snook
       - J. Q. Stewart
       - C. Thorncroft
@@ -71,16 +83,100 @@ items  :
 
   - title: Neural network processing of holographic images
     authors:
-      - Schreck, J. S.
-      - G. Gantos
+      - <b>Schreck, J. S.</b>
+      - <b>G. Gantos</b>
       - M. Hayman
       - A. Bansemer
-      - D. J. Gagne
+      - <b>D. J. Gagne</b>
     journal: Atmospheric Measurement Technologies
     year: 2022
     volume: 2022
     pages: 1--38
     url: https://doi.org/10.5194/amt-15-5793-2022
+
+  - title: Neural network emulation of the formation of organic aerosols based on the explicit GECKO-A chemistry model
+    authors:
+      - <b>Schreck, J. S.</b>
+      - <b>C. Becker</b>
+      - <b>D. J. Gagne</b>
+      - K. Lawrence
+      - S. Wang
+      - C. Mouchel-Vallon
+      - J. Choi
+      - A. Hodzic
+    journal: Journal of Advances in Modeling Earth Systems
+    year: 2022
+    pages: e2021MS002974
+    url: https://doi.org/10.1029/2021MS002974
+
+  - title: Machine Learning for Improving Surface Layer Flux Estimates
+    authors:
+      - T. McCandless
+      - <b>D. J. Gagne</b>
+      - B. Kosovic
+      - S. E. Haupt
+      - B. Yang
+      - <b>C. Becker</b>
+      - <b>J. Schreck</b>
+    journal: Boundary Layer Meteorology
+    volume: 185
+    year: 2022
+    pages: 199--228
+    url: https://doi.org/10.1007/s10546-022-00727-4
+
+  - title: "Challenges and benchmark datasets for machine learning in the atmospheric sciences: Definition, status and outlook"
+    authors:
+      - P. Dueben
+      - M. G. Schultz
+      - M. Chantry
+      - <b>D. J. Gagne</b>
+      - D. M. Hall
+      - A. McGovern
+    journal: Artificial Intelligence for the Earth Systems
+    year: 2022
+    volume: 1
+    pages: e210002
+    url: https://doi.org/10.1175/AIES-D-21-0002.1
+
+  - title: "A hybrid analog-ensemble, convolutional-neural-network method for post-processing precipitation forecasts"
+    authors:
+      - Y. Sha
+      - <b>D. J. Gagne</b>
+      - G. West
+      - R. Stull
+    journal: Monthly Weather Review
+    year: 2022
+    volume: 150
+    pages: 1495--1515
+    url: https://doi.org/10.1175/MWR-D-21-0154.1
+
+  - title: "Probabilistic Machine Learning Estimation of Ocean Mixed Layer Depth from Dense Satellite and Sparse In-Situ Observations"
+    authors:
+      - <b>D. Foster</b>
+      - <b>D. J. Gagne</b>
+      - D. Whitt
+    journal: Journal of Advances in Modeling Earth Systems
+    year: 2021
+    volume: 13
+    pages: e2021MS002474
+    url: https://doi.org/10.1029/2021MS002474
+
+  - title: Machine Learning the Warm Rain Process
+    authors:
+      - A. Gettelman
+      - <b>D. J. Gagne</b>
+      - C.-C. Chen
+      - M. Christensen
+      - Z. Lebo
+      - H. Morrison
+      - <b>G. Gantos</b>
+    journal: Journal of Advances in Modeling Earth Systems
+    year: 2021
+    volume: 13
+    pages: e2020MS002268
+    url: https://doi.org/10.1029/2020MS002268
+
+
 
 
 

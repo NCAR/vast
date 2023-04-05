@@ -5,12 +5,12 @@ counter_item:
   number: 1063943
 
 - title: Publications
-  number: 27
+  number: 5
   url: publications
 
 - title: Packages
   number: 2
 
 - title: SIParCS Interns
-  number: 16
+  number: 1
   url: siparcs

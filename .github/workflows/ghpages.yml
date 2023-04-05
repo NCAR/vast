@@ -12,21 +12,24 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     defaults:
       run:
         shell: bash -l {0}
-    if: github.repository == 'NCAR/miles'
     steps:
-
       - name: Checkout repository
         uses: actions/checkout@v3
-
+        with:
+          submodules: true
+          fetch-depth: 0
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.91.2'
+          hugo-version: '0.110.0'
           extended: true
-
       - name: Build
         run: hugo --minify
 

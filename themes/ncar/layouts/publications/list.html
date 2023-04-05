@@ -30,7 +30,7 @@
           <ul>
           {{   end }}
             {{ if .url }}<a href="{{ .url }}">{{ end }}
-            <li>{{ delimit .authors ", " }} "<em>{{ .title |  }}</em>" <b>{{ .journal }}</b>, ({{ .year }}){{ if .extra }}, {{ .extra }}{{ else }}{{ end }}.</li>
+            <li>{{ delimit .authors ", " }} {{ .year }}: {{ .title |  }}. <i>{{ .journal }}</i>, <b>{{ .volume }}</b>, {{ .pages }}, {{ .url }}.</li>
             {{ if .url }}</a>{{ end }}
           {{ end }}
         </div>

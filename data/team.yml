@@ -1,5 +1,5 @@
 enable  : true
-title   : MILES Staff
+title   : MILES Core
 members  :
 
   - name        : David John Gagne II
@@ -21,4 +21,9 @@ members  :
     designation : Associate Data Scientist II
     ncaruname   : ggantos
     githubuname : ggantos
+
+  - name        : Justin Willson
+    designation : Intern
+    ncaruname   : jwillson
+    githubuname : jwill-19
 

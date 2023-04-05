@@ -15,7 +15,7 @@ jobs:
     defaults:
       run:
         shell: bash -l {0}
-    if: github.repository == 'NCAR/vast'
+    if: github.repository == 'NCAR/miles'
     steps:
 
       - name: Checkout repository

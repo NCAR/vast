@@ -61,7 +61,7 @@ params:
     contactInfo:
       title  : Contact Info
       address: 1850 Table Mesa Dr.<br>Boulder, CO 80305
-      email  : aiml@ucar.edu
+      email  : miles@ucar.edu
 
     sitemap:
       title: Sitemap

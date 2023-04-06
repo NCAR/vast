@@ -3,8 +3,8 @@ title: "High resolution ocean eddies in MOM6"
 author: "Scott Pearse"
 date: 2023-01-05T09:03:23-06:00
 type: news
-image: images/blog/20230105-neverworld.png
-feature_image: images/blog/blankPixel.png
+image: images/news/20230105-neverworld.png
+feature_image: images/news/blankPixel.png
 layout: staticpage
 ---
 

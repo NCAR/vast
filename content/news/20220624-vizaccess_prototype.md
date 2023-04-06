@@ -3,8 +3,8 @@ title: "Tactile representations of arctic sea ice data"
 author: "Nihanth Cherukuru"
 date: 2022-06-24T10:58:23-06:00
 type: news
-image: images/blog-images/seaIceVideo.png
-feature_image: images/blog-images/seaIce.png
+image: images/news/seaIceVideo.png
+feature_image: images/news/seaIce.png
 layout: staticpage
 ---
 

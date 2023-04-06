@@ -3,8 +3,8 @@ title: "GeoCAT tutorials"
 author: "Orhan Eroglu"
 date: 2022-11-29T09:03:23-06:00
 type: news
-image: images/blog-images/20221129-geocat_tutorials.png
-feature_image: images/blog-images/20221129-geocat_tutorials-feature.png
+image: images/news/20221129-geocat_tutorials.png
+feature_image: images/news/20221129-geocat_tutorials-feature.png
 layout: staticpage
 ---
 

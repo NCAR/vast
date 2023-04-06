@@ -3,8 +3,8 @@ title: "Visualizing wildfire data using VAPOR"
 author: "Nihanth Cherukuru"
 date: 2022-09-30T10:58:23-06:00
 type: news
-image: images/blog-images/VaporFire.png
-feature_image: images/blog-images/VaporFire.png
+image: images/news/VaporFire.png
+feature_image: images/news/VaporFire.png
 layout: staticpage
 ---
 

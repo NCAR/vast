@@ -3,8 +3,8 @@ title: "Visualizations of the recent, devastating Marshall fire"
 author: "John Clyne"
 date: 2022-06-24T10:58:23-06:00
 type: news
-image: images/blog/marshall-fire-vis1.png
-feature_image: images/blog/marshall-fire-vis2.png
+image: images/blog-images/marshall-fire-vis1.png
+feature_image: images/blog-images/marshall-fire-vis2.png
 layout: staticpage
 ---
 

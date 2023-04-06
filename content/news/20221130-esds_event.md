@@ -3,8 +3,8 @@ title: "Hosted A (Re)Introduction to Earth System Data Science (ESDS) Across NCA
 author: "Orhan Eroglu"
 date: 2022-11-30T09:03:23-06:00
 type: news
-image: images/blog/20221130-esds_event.png
-feature_image: images/blog/20221130-esds_event-feature.jpg
+image: images/blog-images/20221130-esds_event.png
+feature_image: images/blog-images/20221130-esds_event-feature.jpg
 layout: staticpage
 ---
 

@@ -3,8 +3,8 @@ title: "Project Pythia Hackathon Introduces Cookbooks"
 author: "Julia Kent"
 date: 2022-08-01T10:51:44-06:00
 type: news
-image: images/blog/projectpythia-hackathon.jpg
-feature_image: images/blog/projectpythia-hackathon.jpg
+image: images/blog-images/projectpythia-hackathon.jpg
+feature_image: images/blog-images/projectpythia-hackathon.jpg
 layout: staticpage
 ---
 

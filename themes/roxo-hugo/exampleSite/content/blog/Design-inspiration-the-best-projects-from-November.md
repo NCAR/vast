@@ -1,8 +1,8 @@
 ---
 title: "Design Inspiration: The Best Projects From November"
 date: 2019-12-24T13:36:06+06:00
-image: images/blog/blog-post-02.jpg
-feature_image: images/blog/blog-details-image.jpg
+image: images/blog-images/blog-post-02.jpg
+feature_image: images/blog-images/blog-details-image.jpg
 author: Alexender Schoitiz
 ---
 ### Black Lines brand identity, by & Smith

@@ -11,7 +11,7 @@ items  :
     journal: 37th IEEE International Parallel & Distributed Processing Symposium (IPDPS)
     year: 2023
     extra: pp. 1007 - 1017
-    url: https://github.com/NCAR/vast/blob/main/static/pdfs/SPERR_Li.pdf.pdf
+    url: https://vast.ucar.edu/pdfs/SPERR_IPDPS.pdf
 
   - title: The Geoscience Community Analysis Toolkit - An Open Development, Community Driven
            Toolkit in the Scientific Python Ecosystem

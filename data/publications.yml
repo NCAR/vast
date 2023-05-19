@@ -3,6 +3,115 @@ title  : PUBLICATIONS
 image  : images/banners/aurora.jpg
 items  :
 
+  - title: Spatiotemporal Wavelet Compression for Visualization of Scientific Simulation Data
+    authors:
+      - Li, S.
+      - Sane, S.
+      - Orf, L.
+      - Mininni, P.
+      - Clyne, J.
+      - Childs, H.
+    journal: IEEE International Conference on Cluster Computing (CLUSTER)
+    year: 2017
+    extra: Honolulu, HI
+    url: https://cdux.cs.uoregon.edu/pubs/LiCluster.pdf
+
+
+  - title: Toward a Multi-method Approach, Lossy Data Compression for Climate Simulation Data
+    authors:
+      - Baker, A.
+      - Xu, H.
+      - Hammerling, D.
+      - Li, S.
+      - Clyne, J.
+    journal: The 1st International Workshop on Data Reduction for Big Scientific Data (DRBSD-1)
+    year: 2017
+    extra: Frankfurt, Germany
+    url: https://cdux.cs.uoregon.edu/pubs/LiDRBSD.pdf
+
+
+  - title: Achieving Portable Performance For Wavelet Compression Using Data Parallel Primitives
+    authors:
+      - Li, S.
+      - Marsaglia, N.
+      - Chen, V.
+      - Sewell, C.
+      - Clyne, J.
+      - Childs, H.
+    journal: Eurographics Symposium on Parallel Graphics and Visualization (EGPGV)
+    year: 2017
+    extra: Barcelona, Spain
+    url: https://cdux.cs.uoregon.edu/pubs/LiEGPGV.pdf
+
+
+  - title: Evaluating the Efficacy of Wavelet Configurations on Turbulent-Flow Data.
+    authors:
+      - Li, S.
+      - Gruchalla, K.
+      - Potter, K.
+      - Clyne, J.
+      - Childs, H.
+    journal: IEEE Symposium on Large Data Visualization and Analysis (LDAV)
+    year: 2015
+    extra: Chicago, IL
+    url: https://cdux.cs.uoregon.edu/pubs/LiLDAV.pdf
+  - title: Error-Controlled Lossy Compression Optimized for High Compression Ratios of Scientific Datasets
+    authors:
+      - Liang, X.
+      - Di, S.
+      - Tao, D.
+      - Li, S.
+      - Li, S.
+      - Guo, H.
+      - Chen, Z.
+      - Cappello, F.
+    journal: IEEE International Conference on Big Data
+    year: 2018
+    extra: Seattle, WA
+    url: https://ieeexplore.ieee.org/document/8622520
+
+  - title: Enabling Explorative Visualization With Full Temporal Resolution Via In Situ Calculation Of Temporal Intervals
+    authors:
+      - Marsaglia, N.
+      - Li, S.
+      - Childs, H.
+    journal: ISC Workshop On In Situ Visualization, Introduction & Applications (WOIV)
+    year: 2018
+    extra: Frankfurt, Germany
+    url: https://cdux.cs.uoregon.edu/pubs/MarsagliaWOIV.pdf
+
+  - title: Dynamic I/O Budget Reallocation For In Situ Wavelet Compression
+    authors:
+      - Marsaglia, N.
+      - Li, S.
+      - Larsen, M.
+      - Childs, H.
+    journal: Eurographics Symposium on Parallel Graphics and Visualization (EGPGV)
+    year: 2019
+    extra: Porto, Portugal
+    url: https://cdux.cs.uoregon.edu/pubs/MarsagliaEGPGV.pdf
+
+  - title: Performance Impacts of In Situ Wavelet Compression on Scientific Simulations
+    authors:
+      - Li, S.
+      - Larsen, M.
+      - Clyne, J.
+      - Childs, H.
+    journal: In Situ Infrastructures for Enabling Extreme-scale Analysis and Visualization (ISAV)
+    year: 2017
+    extra: Denver, CO
+    url: https://cdux.cs.uoregon.edu/pubs/LiISAV.pdf
+
+  - title: HashFight, A Platform-portable Hash Table for Multi-core and Many-core Architectures
+    authors:
+      - Lessley, B.
+      - Li, S.
+      - Childs, H.
+    journal: IS&T Conference on Visualization and Data Analysis (VDA)
+    year: 2020
+    extra: Burlingame, CA
+    url: https://doi.org/10.2352/ISSN.2470-1173.2020.1.VDA-376
+
   - title: Lossy Scientific Data Compression With SPERR
     authors:
       - Li, S.
@@ -12,6 +121,15 @@ items  :
     year: 2023
     extra: pp. 1007 - 1017
     url: https://vast.ucar.edu/pdfs/SPERR_IPDPS.pdf
+
+  - title: Using Neural Networks for Two Dimensional Scientific Data Compression
+    authors:
+      - Hayne, L.
+      - Clyne, J.
+      - Li, S.
+    journal: The Second International Workshop on Big Data Reduction (IWBDR)
+    year: 2021
+    url: ../pdfs/IWBDR_sub.pdf
 
   - title: The Geoscience Community Analysis Toolkit - An Open Development, Community Driven
            Toolkit in the Scientific Python Ecosystem

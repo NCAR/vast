@@ -3,6 +3,15 @@ title  : PRESENTATIONS
 image  : images/banners/aurora.jpg
 items  :
 
+  - title: Lossy Scientific Data Compression With SPERR
+    authors:
+      - Li, S.
+      - Lindstrom, P.
+      - Clyne, J.
+    conference: 37th IEEE International Parallel & Distributed Processing Symposium (IPDPS)
+    year: 2023
+    extra: St. Petersburg, FL
+    url: https://docs.google.com/presentation/d/144BQrZcpFcWi2px-xnQgQnaOnIyQHvuifA2zChgkYiE/edit?usp=sharing
 
   - title: Examining the Accessibility Barriers of Data Visualizations for Geoscience Professionals Who Are Blind/Vision-Impaired
     authors:

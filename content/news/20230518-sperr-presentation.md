@@ -8,7 +8,7 @@ feature_image: images/news/corona.png
 layout: staticpage
 ---
 
-VAST staff Samuel Li has presented his latest research on lossy data compression
+VAST project scientist Samuel Li  presented his latest research on lossy data compression
 at the *37th IEEE International Parallel & Distributed Processing Symposium*, or IPDPS,
 in St. Petersburg, Florida.
 In this presentation, Sam described high-level designs of **SPERR**, a wavelet-based

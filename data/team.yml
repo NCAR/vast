@@ -7,6 +7,11 @@ members  :
     ncaruname   : ncheruku
     githubuname : NihanthCW
 
+  - name        : PHILIP CHMIELOWIEC
+    designation : Software Engineer
+    ncaruname   : philipc
+    githubuname : philipc2
+
   - name        : JOHN CLYNE
     designation : Senior Program Manager
     ncaruname   : clyne
@@ -16,6 +21,11 @@ members  :
     designation : Software Engineer
     ncaruname   : oero
     githubuname : erogluorhan
+
+  - name        : KATELYN FITZGERALD
+    designation : Software Engineer
+    ncaruname   : katelynw
+    githubuname : kafitzgerald
 
   - name        : STANISLAW 'Stas' JAROSZYNSKI
     designation : Software Engineer
@@ -42,22 +52,12 @@ members  :
     ncaruname   : mrehme
     githubuname : MattRehme
 
-  - name        : TAMMY ZHANG
-    designation : Front-End Web Developer
-    ncaruname   : tazhang
-    githubuname : tammyzhang-1
-
   - name        : ANISSA ZACHARIAS
     designation : Software Engineer
     ncaruname   : anissaz
     githubuname : anissa111
 
-  - name        : KATELYN FITZGERALD
-    designation : Software Engineer
-    ncaruname   : katelynw
-    githubuname : kafitzgerald
-
-  - name        : PHILIP CHMIELOWIEC
-    designation : Software Engineer
-    ncaruname   : philipc
-    githubuname : philipc2
+  - name        : TAMMY ZHANG
+    designation : Front-End Web Developer
+    ncaruname   : tazhang
+    githubuname : tammyzhang-1

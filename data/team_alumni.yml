@@ -2,10 +2,20 @@ enable  : true
 title   : ALUMNI
 members  :
 
-  - name        : COLLIN SINCLAIR
-    designation : Scientific Data Visualization Designer
-    ncaruname   : csinclair
-    githubuname : collinsinclair
+  - name        : HEATHER CRAKER
+    designation : Software Engineer
+    ncaruname   : 
+    githubuname : hCraker
+
+  - name        : ALEA KOOTZ
+    designation : Software Engineer
+    ncaruname   : 
+    githubuname : pilotchute
+
+  - name        : MARIO RODRIGUEZ
+    designation : Software Engineer
+    ncaruname   : 
+    githubuname : marodrig
 
   - name        : SHIQI SHENG
     designation : SIPARCS Intern
@@ -16,3 +26,13 @@ members  :
     designation : SIPARCS Intern
     ncaruname   : 
     githubuname : aashiqsworld
+
+  - name        : COLLIN SINCLAIR
+    designation : Scientific Data Visualization Designer
+    ncaruname   : csinclair
+    githubuname : collinsinclair
+
+  - name        : MICHAELA SIZEMORE
+    designation : Software Engineer
+    ncaruname   :
+    githubuname : michaelavs

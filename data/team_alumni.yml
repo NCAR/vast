@@ -7,10 +7,30 @@ members  :
     ncaruname   : 
     githubuname : hCraker
 
+  - name        : ALINA GUHA
+    designation : SIParCS Intern
+    ncaruname   : 
+    githubuname : 
+
   - name        : ALEA KOOTZ
     designation : Software Engineer
     ncaruname   : 
     githubuname : pilotchute
+
+  - name        : JIAQI LI
+    designation : SIParCS Intern
+    ncaruname   : 
+    githubuname : Jiaqi-beep
+
+  - name        : ERIN LINCOLN
+    designation : SIParCS Intern
+    ncaruname   : 
+    githubuname : erinlincoln
+
+  - name        : DAPHNE QUINT
+    designation : SIParCS Intern
+    ncaruname   : 
+    githubuname : doqhne
 
   - name        : MARIO RODRIGUEZ
     designation : Software Engineer
@@ -18,18 +38,18 @@ members  :
     githubuname : marodrig
 
   - name        : SHIQI SHENG
-    designation : SIPARCS Intern
+    designation : SIParCS Intern
     ncaruname   : 
     githubuname : shiqisheng2036
 
   - name        : AASHIQ SHEIKH
-    designation : SIPARCS Intern
+    designation : SIParCS Intern
     ncaruname   : 
     githubuname : aashiqsworld
 
   - name        : COLLIN SINCLAIR
     designation : Scientific Data Visualization Designer
-    ncaruname   : csinclair
+    ncaruname   : 
     githubuname : collinsinclair
 
   - name        : MICHAELA SIZEMORE

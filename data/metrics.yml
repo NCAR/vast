@@ -5,13 +5,13 @@ counter_item:
   number: 1063943
 
 - title: Publications
-  number: 12
+  number: 20
   url: publications
 
 - title: Real Time Products
-  number: 3
+  number: 4
   url: realtimeproducts
 
 - title: SIParCS Interns
-  number: 4
+  number: 9
   url: collaboration

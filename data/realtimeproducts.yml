@@ -1,0 +1,19 @@
+enable  : true
+title   : MILES Real-Time Products
+items   :
+
+  - product : "Storm Mode Viewer"
+    url : "https://ncar.github.io/modeview/"
+    team : "MILES"
+
+  - product : "Tornado Viewer"
+    url : "https://ai2es.github.io/utorview/"
+    team : "MILES"
+
+  - product : "Fuel Moisture"
+    url : "https://ai2es.github.io/utorview/"
+    team : "MILES"
+
+  - product : "P-type"
+    url : "https://ai2es.github.io/utorview/"
+    team : "MILES"

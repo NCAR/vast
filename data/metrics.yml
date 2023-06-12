@@ -8,9 +8,10 @@ counter_item:
   number: 12
   url: publications
 
-- title: Packages
-  number: 2
+- title: Real Time Products
+  number: 3
+  url: realtimeproducts
 
 - title: SIParCS Interns
-  number: 1
-  url: siparcs
+  number: 4
+  url: collaboration

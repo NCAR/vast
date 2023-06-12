@@ -1,5 +1,5 @@
 ---
-title : "Services"
+title : "Current Projects"
 date  : 2022-04-27T00:00:00-06:00
 image : images/banners/cloudSimulation.png
 ---
@@ -15,14 +15,14 @@ Visit the [CISL Visualization Gallery](https://visgallery.ucar.edu/) for example
 
 [ESDS Office Hours](https://sundog.ucar.edu/Interact/Pages/Content/Document.aspx?id=6160)
 
-[![NCAR VisLab YouTube Channel](../images/services/youtube.png)](https://www.youtube.com/user/ucarvets/videos)
+[![NCAR VisLab YouTube Channel](../images/current_projects/youtube.png)](https://www.youtube.com/user/ucarvets/videos)
 
 
 
 
 
-<!-- [<img src= ../images/services/youtube.png>](http://google.com.au/) -->
+<!-- [<img src= ../images/current_projects/youtube.png>](http://google.com.au/) -->
 
-<!-- ![Visualization of hurricane Odile](../images/services/odile.jpg) -->
+<!-- ![Visualization of hurricane Odile](../images/current_projects/odile.jpg) -->
 
-<!-- [<img src="../images/services/odile.jpg" alt="Visualization of hurricane Odile" style="width:48%">] -->
+<!-- [<img src="../images/current_projects/odile.jpg" alt="Visualization of hurricane Odile" style="width:48%">] -->

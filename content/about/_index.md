@@ -10,4 +10,14 @@ The mission of the Machine Integration and Learning for Earth Systems (MILES) gr
 * Developing robust machine learning infrastructure and community benchmark evaluations and datasets that can interface with critical ESS modeling and observation systems.
 * Educating and empowering a diverse group of ESS students, researchers, and stakeholders on how best to integrate machine learning into their domains through tutorials, workshops, internships, collaborations, and co-development. 
 
+___
+CISL SPACEHOLDER
+___
 
+___
+Partners SPACEHOLDER
+
+AI2ES
+
+LEAP
+___

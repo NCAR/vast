@@ -1,6 +1,6 @@
 enable  : true
 title   : "OPINION FROM REAL PEOPLE"
-subtitle: "What clients says about our services."
+subtitle: "What clients says about our current_projects."
 testimonial_item :
   - thumb : "images/testimonial/user-thumb-one.jpg"
     name  : "Simonns Hodge"

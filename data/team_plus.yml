@@ -4,37 +4,40 @@ members  :
 
 
 
-  - name: Mariana Cains
-    designation: Postdoctoral Fellow (MMM)
-    ncaruname: cdwirz
-    githubuname: ai2es
+  - name        : Mariana Cains
+    designation : Postdoctoral Fellow II (MMM)
+    ncaruname   : mgcains
+    githubuname : ai2es
 
-  - name: William Chapman
-    designation: Project Scientist I (CGD)
-    ncaruname: wchapman
-    githubuname: WillyChap
+  - name        : William Chapman
+    designation : Project Scientist I (CGD)
+    ncaruname   : wchapman
+    githubuname : WillyChap
 
-  - name: Da Fan
-    designation: Visitor (Penn State)
-    githubuname: ncar
+  - name        : Da Fan
+    designation : Visitor (Penn State)
+    githubuname : ncar
 
-  - name: Kirsten Mayer
-    designation: Project Scientist I (CGD)
-    ncaruname: kjmayer
-    githubuname: kjmayer
+  - name        : Kirsten Mayer
+    designation : Project Scientist I (CGD)
+    ncaruname   : kjmayer
+    githubuname : kjmayer
 
-  - name: Thomas Martin
-    designation: AI/ML Software Engineer (Unidata)
-    ncaruname: tmartin
-    githubuname: ThomasMGeo
+  - name        : Thomas Martin
+    designation : AI/ML Software Engineer (Unidata)
+    ncaruname   : tmartin
+    githubuname : ThomasMGeo
 
-  - name: Jacob Radford
-    designation: Research Associate (CIRA)
-    githubuname: jacob-t-radford
+  - name        : Jacob Radford
+    designation : Research Associate (CIRA)
+    githubuname : jacob-t-radford
 
-  - name: Chris Wirz
-    designation: Postdoctoral Fellow (MMM)
-    ncaruname: cdwirz
-    githubuname: ai2es
+  - name        : Chris Wirz
+    designation : Risk Communication Postdoctoral Researcher (MMM)
+    ncaruname   : cdwirz
+    githubuname : ai2es
 
-
+  - name        : Julie Demuth
+    designation : Project Scientist III (MMM)
+    ncaruname   : jdemuth
+    githubuname : ai2es

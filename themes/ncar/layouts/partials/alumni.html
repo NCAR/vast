@@ -1,0 +1,34 @@
+{{ with .Site.Data.alumni }}
+  {{ if .enable }}
+  <section class="site-team">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>
+              {{ .title }}
+            </h2>
+          </div>
+        </div>
+        {{ range .members }}
+        <div class="col-lg-4 col-md-6">
+          <div class="site-team-member">
+            <div class="site-team-member-image">
+              <a href="https://staff.ucar.edu/users/{{ .ncaruname }}"><img src="https://avatars.githubusercontent.com/{{ .githubuname }}" alt="alumni-member"></a>
+            </div>
+            <div class="site-team-member-content">
+              <h3>{{ .name }}</h3>
+              <p>{{ .designation }}</p>
+              <ul class="site-team-member-social">
+                <li><a href="https://staff.ucar.edu/users/{{ .ncaruname }}"><span class="icon-symbol-ncar"></span></a></li>
+                <li><a href="https://github.com/{{ .githubuname }}"><i class="fa fa-github"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

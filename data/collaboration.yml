@@ -1,0 +1,91 @@
+enable : true
+title  : SIParCS PROJECTS
+image  : images/banners/aurora.jpg
+items  :
+       
+  - title: "Using Machine Learning Uncertainty Estimates to Aid Scientific Analysis"
+    student: Dhamma Kimpara
+    university: University of Colorado Boulder
+    github: "@dkimpara"
+    mentors:
+     - David John Gagne
+     - John Schreck
+     - Charlie Becker
+     - Gabrielle Gantos
+    year: 2023
+
+  - title: "Using Machine Learning Uncertainty Estimates to Aid Scientific Analysis"
+    student: Belen Saavedra
+    university: Berea College
+    github: "@bsaavedrabo"
+    mentors:
+     - David John Gagne
+     - John Schreck
+     - Charlie Becker
+     - Gabrielle Gantos
+    year: 2023
+
+  - title: “Investigating Holographic Images of Clouds with Machine Learning”
+    student: Hayden Outlaw
+    university: Tulane University of Louisiana
+    github: "@outlawhayden"
+    mentors:
+     - Matthew Hayman
+     - John Schreck
+     - Gabrielle Gantos
+    year: 2023
+
+  - title: “XAI and Active Learning for Predicting Winter Weather Precipitation Type”
+    student: Eliot Kim
+    university: University of Wisconsin-Madison
+    github: "@ejkim124"
+    mentors:
+      - David John Gagne
+      - John Schreck
+    year: 2022
+
+  - title: “Neural Network for Winter Weather Precipitation Type Prediction”
+    student: Justin Willson
+    university: Stony Brook University
+    github: "@jwill-19"
+    mentors:
+      - David John Gagne
+      - John Schreck
+    year: 2022
+
+  - title: “Explainable AI for Short-term Lightning Prediction”
+    student: Prahalath Anbu Bharathi
+    university: Tufts University
+    github: "@?????"
+    mentors:
+      - David John Gagne
+      - John Schreck
+    year: 2021
+
+  - title: “Machine Learning Data Commons Web Portal”
+    student: Omar Chaarawi
+    university: University of Colorado Boulder
+    github: "@omarchaarawi"
+    mentors:
+      - David John Gagne
+      - John Schreck
+    year: 2021
+
+  - title: “??????”
+    student: Keely Lawrence
+    university: University of Colorado Boulder
+    github: "@keelylawrence"
+    mentors:
+      - David John Gagne
+      - John Schreck
+    year: 2020-2022
+
+  - title: “??????”
+    student: Gunther Wallach
+    university: University of Colorado Boulder
+    github: "@guwa4340"
+    mentors:
+      - David John Gagne
+      - John Schreck
+    year: 2020-2021
+

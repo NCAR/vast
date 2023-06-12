@@ -1,7 +1,7 @@
 {{ define "main" }}
-{{ with .Site.Data.packages }}
+{{ with .Site.Data.realtimeproducts }}
 {{ if .enable }}
-<section class="site-packages-header" style="background-image: url({{ .image | absURL }});">
+<section class="site-realtimeproducts-header" style="background-image: url({{ .image | absURL }});">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
@@ -13,13 +13,13 @@
   </div>
 </section>
 
-<section class="site-packages-content">
+<section class="site-realtimeproducts-content">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <div class="site-packages-items">
+        <div class="site-realtimeproducts-items">
           {{ if .url }}<a href="{{ .url }}">{{ end }}
-            <li><b>{{ .package |  }}</b>" {{ .team }}{{ if .extra }}, {{ .extra }}{{ else }}{{ end }}.</li>
+            <li><b>{{ .product |  }}</b>" {{ .team }}{{ if .extra }}, {{ .extra }}{{ else }}{{ end }}.</li>
             {{ if .url }}</a>{{ end }}            
           {{ end }}
         </div>

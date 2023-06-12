@@ -17,20 +17,20 @@ menu:
       name      : What we do
       weight    : 3
     - parent    : what
-      name      : Software
-      url       : software
-      weight    : 1
-    - parent    : what
       name      : Education
       url       : education
+      weight    : 1
+    - parent    : what
+      name      : Current Projects
+      url       : current_projects
       weight    : 2
     - parent    : what
-      name      : Services
-      url       : services
+      name      : Datasets
+      url       : datasets
       weight    : 3
     - parent    : what
-      name      : R&D
-      url       : projects
+      name      : Software
+      url       : software
       weight    : 4
     - name      : Publications
       url       : publications
@@ -38,9 +38,12 @@ menu:
     - name      : Presentations
       url       : presentations
       weight    : 5
-    - name      : Internships
-      url       : siparcs
+    - name      : Collaboration
+      url       : collaboration
       weight    : 6
+    - name      : Real Time Products
+      url       : realtimeproducts
+      weight    : 7
 
 # Site Params
 params:
@@ -58,7 +61,7 @@ params:
   projects:
     enable: true
     title: RECENT PROJECTS
-    subtitle: Some of our most recent projects
+    subtitle: Some of our most recent datasets
 
   footer:
     contactInfo:
@@ -78,15 +81,16 @@ params:
             url : publications
           - name: Presentations
             url : presentations
-          - name: Internships
-            url : siparcs
+          - name: Collaboration
+            url : collaboration
+          - name: Real Time Products
+            url : realtimeproducts
         - link:
-          - name: Software
-            url : software
           - name: Education
             url : education
-          - name: Services
-            url : services
-          - name: R&D
-            url : projects
-
+          - name: Current Projects
+            url : current_projects
+          - name: Datasets
+            url : datasets
+          - name: Software
+            url : software

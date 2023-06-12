@@ -2,18 +2,18 @@ enable  : true
 title   : WHAT WE DO
 items   :
 
-  - name : SOFTWARE
-    quote: We develop open source, community software that helps geoscientists visualize and analysize their data.
-    url  : software
-
   - name : EDUCATION
-    quote: We help scientists  learn how to make the most effective use of software and services for geoscience data analysis.
+    quote: We host both undergraduate and graduate interns so that they can gain experience in data science and machine learning applied to challenges in atmospheric science.
     url  : education
 
-  - name : SERVICES
-    quote: We help the scientific community communicate their findings to the public and peers through advanced visualization.
-    url  : services
+  - name : CURRENT PROJECTS
+    quote: We conduct research aimed at improving our ability to apply rigorous, explainable, and quantifiable modeling to atmospheric science challenges.
+    url  : current_projects
 
-  - name : R&D
-    quote: We conduct research aimed at improving our ability to make sense of the most complex and demanding data.
-    url  : projects
+  - name : DATASETS
+    quote: We help the scientific community learn about and use available datasets responsibly.
+    url  : datasets
+
+  - name : SOFTWARE
+    quote: We develop open source, community software that helps ML and atmospheric scientists run and optimize machine learning models.
+    url  : software

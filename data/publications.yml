@@ -3,6 +3,44 @@ title  : PUBLICATIONS
 image  : images/banners/aurora.jpg
 items  :
 
+  - title: A review of machine learning for convective weather
+    authors:
+      - McGovern, A.
+      - Chase, R. J.
+      - Flora, M.
+      - <b>Gagne, D. J.</b>
+      - Lagerquist, R.
+      - Potvin, C.
+      - Snook, N.
+      - Loken, E.
+    journal: Artificial Intelligence for the Earth Systems
+    year: 2023a
+    volume: -1
+    pages: In Press
+    url: -1
+
+  - title: "Trustworthy artificial intelligence for environmental sciences: An innovative approach for summer school"
+    authors:
+      - McGovern, A.
+      - <b>Gagne, D. J.</b>
+      - Wirz, C. D.
+      - Ebert-Uphoff, I.
+      - Bostrom, A.
+      - Rao, Y.
+      - Schumacher, A.
+      - Chase, R.
+      - Flora, M.
+      - Mamalakis, A.
+      - McGraw, M.
+      - Lagerquist, R.
+      - Redmon, R.
+      - Peterson, T.
+    journal: Bull. Amer. Meteor. Soc
+    year: 2023b
+    volume: -1
+    pages: In Press
+    url: https://doi.org/10.1175/BAMS-D-22-0225.1
+
   - title: Mimicking non-ideal instrument behavior for hologram processing using neural style translation
     authors:
       - <b>Schreck, J. S.</b>
@@ -16,70 +54,63 @@ items  :
     pages: In Press
     url: https://arxiv.org/abs/2301.02757
 
-  - title: "Why we need to focus on developing ethical, responsible, and trustworthy artificial intelligence approaches for environmental science"
+  - title: Diagnosing storm mode with deep learning in convection-allowing models
     authors:
-      - A. McGovern
-      - I. Ebert-Uphoff
-      - <b>D. J. Gagne</b>
-      - A. Bostrom
-    journal: Environmental Data Science
-    year: 2022
-    volume: 1
-    pages: e6
-    url: https://doi.org/10.1017/eds.2022.5
+      - Sobash, R. A.
+      - <b>Gagne, D. J.</b>
+      - <b>Becker, C. L.</b>
+      - Ahijevych, D.
+      - <b>Gantos, G.</b>
+      - Schwartz, C. S.
+    journal: Mon. Wea. Rev.
+    year: 2023
+    volume: -1
+    pages: In Press
+    url: https://doi.org/10.1175/MWR-D-22-0342.1
 
-  - title: The History and Practice of AI in the Environmental Sciences
+  - title: Lessons learned in coupling atmospheric models across scales for onshore and offshore wind energy
     authors:
       - Haupt, S. E.
-      - <b>Gagne, D. J.</b>
-      - Hsieh, W.
-      - Krasnopolsky, V.
-      - Lakshmanan, V.
-      - McGovern, A.
-      - Marzban, C.
-      - Moninger, W.
-      - Tissot, P.
-      - Williams, J.
-    journal: Bulletin of the American Meteorological Society
-    year: 2022
-    volume: 103
-    pages: E1351--E1370
-    url: https://doi.org/10.1175/BAMS-D-20-0234.1
-
-  - title: On the application of an observations-based machine learning parameterization of surface layer fluxes within an atmospheric large-eddy simulation model
-    authors:
-      - Mu&ntilde;oz-Esparza, D.
-      - <b>Becker, C.</b>
-      - Sauer, J.
-      - <b>Gagne, D. J.</b>
-      - <b>Schreck, J.</b>
       - Kosovic, B.
-    journal: JGR Atmospheres
-    year: 2022
-    volume: 127
-    pages: e2021JD036214
-    url: https://doi.org/10.1029/2021JD036214
-
-  - title: NSF AI Institute for Research on Trustworthy AI in Weather, Climate, and Coastal Oceanography (AI2ES)
-    authors:
-      - A. McGovern
-      - A. Bostrom
-      - P. Davis
-      - J. L. Demuth
-      - I. Ebert-Uphoff
-      - R. He
-      - J. Hickey
+      - Berg, L. K.
+      - Kaul, C. M.
+      - Churchfield, M.
+      - Mirocha, J.
+      - Allaerts, D.
+      - Brummet, T.
+      - Davis, S.
+      - DeCastro, A.
+      - Dettling, S.
+      - Draxl, C.
       - <b>D. J. Gagne</b>
-      - N. Snook
-      - J. Q. Stewart
-      - C. Thorncroft
-      - P. Tissot
-      - J. Williams
-    journal: Bulletin of the American Meteorological Society
+      - Hawbecker, P.
+      - Jha, P.
+      - Juliano, T.
+      - Lassman, W.
+      - Quon, E.
+      - Rai, R.
+      - Robinson, M.
+      - Shaw, W.
+      - Thedin, R.
+    journal: Wind Energ. Sci. Discuss
     year: 2022
-    volume: 103
-    pages: E1658--E1668
-    url: https://doi.org/10.1175/BAMS-D-21-0020.1
+    volume: in review
+    pages: [preprint]
+    url: https://doi.org/10.5194/wes-2022-113
+
+  - title: "Challenges and benchmark datasets for machine learning in the atmospheric sciences: Definition, status and outlook"
+    authors:
+      - P. Dueben
+      - M. G. Schultz
+      - M. Chantry
+      - <b>D. J. Gagne</b>
+      - D. M. Hall
+      - A. McGovern
+    journal: Artificial Intelligence for the Earth Systems
+    year: 2022
+    volume: 1
+    pages: e210002
+    url: https://doi.org/10.1175/AIES-D-21-0002.1
 
   - title: Neural network processing of holographic images
     authors:
@@ -94,7 +125,7 @@ items  :
     pages: 1--38
     url: https://doi.org/10.5194/amt-15-5793-2022
 
-  - title: Neural network emulation of the formation of organic aerosols based on the explicit GECKO-A chemistry model
+  - title: Neural network emulation of the formation of organic aerosols based on the explicit gecko-a chemistry model
     authors:
       - <b>Schreck, J. S.</b>
       - <b>C. Becker</b>
@@ -124,21 +155,54 @@ items  :
     pages: 199--228
     url: https://doi.org/10.1007/s10546-022-00727-4
 
-  - title: "Challenges and benchmark datasets for machine learning in the atmospheric sciences: Definition, status and outlook"
+  - title: On the application of an observations-based machine learning parameterization of surface layer fluxes within an atmospheric large-eddy simulation model
     authors:
-      - P. Dueben
-      - M. G. Schultz
-      - M. Chantry
-      - <b>D. J. Gagne</b>
-      - D. M. Hall
+      - Mu&ntilde;oz-Esparza, D.
+      - <b>Becker, C.</b>
+      - Sauer, J.
+      - <b>Gagne, D. J.</b>
+      - <b>Schreck, J.</b>
+      - Kosovic, B.
+    journal: JGR Atmospheres
+    year: 2022
+    volume: 127
+    pages: e2021JD036214
+    url: https://doi.org/10.1029/2021JD036214
+
+  - title: Why we need to focus on developing ethical, responsible, and trustworthy artificial intelligence approaches for environmental science
+    authors:
       - A. McGovern
-    journal: Artificial Intelligence for the Earth Systems
+      - I. Ebert-Uphoff
+      - <b>D. J. Gagne</b>
+      - A. Bostrom
+    journal: Environmental Data Science
     year: 2022
     volume: 1
-    pages: e210002
-    url: https://doi.org/10.1175/AIES-D-21-0002.1
+    pages: e6
+    url: https://doi.org/10.1017/eds.2022.5
 
-  - title: "A hybrid analog-ensemble, convolutional-neural-network method for post-processing precipitation forecasts"
+  - title: NSF AI Institute for Research on Trustworthy AI in Weather, Climate, and Coastal Oceanography (AI2ES)
+    authors:
+      - A. McGovern
+      - A. Bostrom
+      - P. Davis
+      - J. L. Demuth
+      - I. Ebert-Uphoff
+      - R. He
+      - J. Hickey
+      - <b>D. J. Gagne</b>
+      - N. Snook
+      - J. Q. Stewart
+      - C. Thorncroft
+      - P. Tissot
+      - J. Williams
+    journal: Bulletin of the American Meteorological Society
+    year: 2022
+    volume: 103
+    pages: E1658--E1668
+    url: https://doi.org/10.1175/BAMS-D-21-0020.1
+
+  - title: A hybrid analog-ensemble, convolutional-neural-network method for post-processing precipitation forecasts
     authors:
       - Y. Sha
       - <b>D. J. Gagne</b>
@@ -150,31 +214,97 @@ items  :
     pages: 1495--1515
     url: https://doi.org/10.1175/MWR-D-21-0154.1
 
-  - title: "Probabilistic Machine Learning Estimation of Ocean Mixed Layer Depth from Dense Satellite and Sparse In-Situ Observations"
+  - title: The History and Practice of AI in the Environmental Sciences
     authors:
-      - <b>D. Foster</b>
-      - <b>D. J. Gagne</b>
-      - D. Whitt
+      - Haupt, S. E.
+      - <b>Gagne, D. J.</b>
+      - Hsieh, W.
+      - Krasnopolsky, V.
+      - Lakshmanan, V.
+      - McGovern, A.
+      - Marzban, C.
+      - Moninger, W.
+      - Tissot, P.
+      - Williams, J.
+    journal: Bulletin of the American Meteorological Society
+    year: 2022
+    volume: 103
+    pages: E1351--E1370
+    url: https://doi.org/10.1175/BAMS-D-20-0234.1
+
+  - title: Probabilistic Machine Learning Estimation of Ocean Mixed Layer Depth from Dense Satellite and Sparse In-Situ Observations
+    authors:
+      - Foster, D.
+      - <b>Gagne, D. J.</b>
+      - Whitt, D. B.
     journal: Journal of Advances in Modeling Earth Systems
     year: 2021
     volume: 13
     pages: e2021MS002474
     url: https://doi.org/10.1029/2021MS002474
 
+  - title: Deep learning classification of potentially severe convective storms in a changing climate
+    authors:
+      - Molina, M.
+      - <b>Gagne, D. J.</b>
+      - Prein, A.
+    journal: Earth and Space Science
+    year: 2021
+    volume: 8
+    pages: e2020EA001 490
+    url: https://doi.org/10.1029/2020EA001490
+
+  - title: Deep-learning-based precipitation observation quality control. Journal of Atmospheric and Oceanic Technology
+    authors:
+      - Sha, Y.
+      - <b>Gagne, D. J.</b>
+      - West, G.
+      - Stull, R.
+    journal: Earth and Space Science
+    year: 2021
+    volume: 38
+    pages: 1075–-1091
+    url: https://doi.org/10.1175/JTECH-D-20-0081.1
+
   - title: Machine Learning the Warm Rain Process
     authors:
-      - A. Gettelman
-      - <b>D. J. Gagne</b>
-      - C.-C. Chen
-      - M. Christensen
-      - Z. Lebo
-      - H. Morrison
-      - <b>G. Gantos</b>
+      - Gettelman, A.
+      - <b>Gagne, D. J.</b>
+      - Chen, C.-C.
+      - Christensen, M.
+      - Lebo, Z.
+      - Morrison, H.
+      - <b>Gantos, G.</b>
     journal: Journal of Advances in Modeling Earth Systems
     year: 2021
     volume: 13
-    pages: e2020MS002268
+    pages: e2020MS002 268
     url: https://doi.org/10.1029/2020MS002268
+
+  - title: "Deep-learning-based gridded downscaling of surface meteorological variables in complex terrain - part ii: daily precipitation"
+    authors:
+      - Sha, Y.
+      - <b>Gagne, D. J.</b>
+      - West, G.
+      - Stull, R.
+    journal: Journal of Applied Meteorology and Climatology
+    year: 2020a
+    volume: 59
+    pages: 2075–-2092
+    url: https://doi.org/10.1175/JAMC-D-20-0058.1
+
+  - title: Lessons learned in coupling atmospheric models across scales for onshore and offshore wind energy.
+    authors:
+      - A. McGovern
+      - I. Ebert-Uphoff
+      - <b>D. J. Gagne</b>
+      - A. Bostrom
+    journal: Environmental Data Science
+    year: 2022
+    volume: 1
+    pages: e6
+    url: https://doi.org/10.1017/eds.2022.5
+
 
 
 

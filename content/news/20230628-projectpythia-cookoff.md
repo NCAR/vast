@@ -16,7 +16,7 @@ hackathon.
 Pythia Cookbooks provide example end-to-end geoscientific workflows and are an important tool towards
 reproducible science efforts.
 
-Members of the Project Pythia team and larger Pangeo community gathered at NCAR's Mesa Lab in Boulder,
+36 members of the Project Pythia team and larger Pangeo community gathered at NCAR's Mesa Lab in Boulder,
 CO and remotely for a hybrid hacakthon June 20-23, 2023 to 
 expand content and improve infrastructure support for Cookbook development. 
 

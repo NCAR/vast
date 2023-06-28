@@ -13,7 +13,7 @@ Scientific Python Ecosystem educational content during a
 successful hackathon with the introduction of
 [Cookbooks](https://cookbooks.projectpythia.org/). 
 
-Members of the Project Pythia team gathered in Boudler, CO 
+Members of the Project Pythia team gathered in Boulder, CO 
 and remotely for a hybrid hacakthon in late June 2022 to 
 develop content and infrastructure for a new pillar of our 
 learning resources called "Cookbooks." Pythia Cookbooks provide 

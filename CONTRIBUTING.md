@@ -99,7 +99,7 @@ Edit `data/team.yml` to add a new team member
     githubuname : clyne
 ````
 
-Each team member card on the `about` page will be automatically generated based on the contents
+A new team member should be added in alphabetical order by last name. Each team member card on the `about` page will be automatically generated based on the contents
 of this data file.
 
 #### Adding publications

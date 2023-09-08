@@ -52,6 +52,11 @@ members  :
     ncaruname   : mrehme
     githubuname : MattRehme
 
+  - name        : CORA Y. SCHNECK
+    designation : Software Engineer
+    ncaruname   : cschneck
+    githubuname : cyschneck
+
   - name        : ANISSA ZACHARIAS
     designation : Software Engineer
     ncaruname   : anissaz
@@ -61,8 +66,3 @@ members  :
     designation : Front-End Web Developer
     ncaruname   : tazhang
     githubuname : tammyzhang-1
-
-  - name        : CORA Y. SCHNECK
-    designation : Software Engineer
-    ncaruname   : cschneck
-    githubuname : cyschneck

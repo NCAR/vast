@@ -3,6 +3,14 @@ title  : PRESENTATIONS
 image  : images/banners/aurora.jpg
 items  :
 
+  - title: Project Rajin and UXarray, community tools for the analysis of kilometer scale climate and weather model outputs
+    authors:
+      - Clyne, J.
+    conference: 20th ECMWF workshop on high performance computing in meteorology
+    year: 2023
+    extra: Balogna, Italy
+    url: https://docs.google.com/presentation/d/1QKySeckzeG9Q4SUe6-yXLRD23mC2-dulcxtXMknqPhA/edit?usp=sharing
+
   - title: Lossy Scientific Data Compression With SPERR
     authors:
       - Li, S.

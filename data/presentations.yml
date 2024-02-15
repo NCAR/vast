@@ -3,6 +3,14 @@ title  : PRESENTATIONS
 image  : images/banners/aurora.jpg
 items  :
 
+  - title: Scientific Data Compressor Hands-on - SPERR
+    authors:
+      - Li, S.
+    conference: FZ Workshop
+    year: 2024
+    extra: Sarasota, FL
+    url: https://vast.ucar.edu/pdfs/Li_FZ2024.pdf
+
   - title: Tutorial on Scientific Data Compression - SPERR
     authors:
       - Li, S.

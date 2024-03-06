@@ -1,6 +1,6 @@
 baseURL       : https://vast.ucar.edu/
 languageCode  : en-us
-title         : "VAST | Visualization and Analysis Software and Technology"
+title         : "VAST | Visualization & Analysis Systems Technologies"
 theme         : ncar
 enableGitInfo : true
 summarylength : 25
@@ -46,7 +46,7 @@ menu:
 params:
   name: VAST
   dateFormat: "26 FEB 1994"
-  description: "VAST is the Visualization and Analysis Software and Technology section at the National Center for Atmospheric Research (NCAR)."
+  description: "VAST is the Visualization & Analysis Systems Technologies section at the National Center for Atmospheric Research (NCAR)."
   author: "VAST"
   email: "vast@ucar.edu"
 

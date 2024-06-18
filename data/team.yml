@@ -26,6 +26,11 @@ members  :
     designation : Software Engineer
     ncaruname   : katelynw
     githubuname : kafitzgerald
+    
+  - name        : IAN FRANDA
+    designation : Dev-Ops Engineer, Student Assistant
+    ncaruname   : ifranda
+    githubuname : ifranda
 
   - name        : STANISLAW 'Stas' JAROSZYNSKI
     designation : Software Engineer
@@ -63,6 +68,6 @@ members  :
     githubuname : anissa111
 
   - name        : TAMMY ZHANG
-    designation : Front-End Web Developer
+    designation : Front-End Web Developer, Student Assistant
     ncaruname   : tazhang
     githubuname : tammyzhang-1

@@ -14,14 +14,159 @@ items  :
     conference: AMS Annual Meeting 2023
     year: 2023
 
-  - title: NCAR's GeoCAT Announcement of Computational Tools
+  - title: Machine Learning Data Challenges across the Pipeline
     authors:
-      - Craker, H.
-      - Kootz, A.
-      - Zacharias, A.
-      - Sizemore, M.
-      - Eroglu, O.
-    conference: AMS Annual Meeting 2022
-    year: 2022
-    url: https://ams.confex.com/ams/102ANNUAL/meetingapp.cgi/Paper/395377
+      - <b>D. J. Gagne.</b>
+    conference: "Innovations in Open Science (IOS) Planning Workshop: Community Expectations for a Geoscience Data Commons"
+    year: 2024
 
+  - title: Machine Learning Uncertainty Quantification and Numerical Weather Prediction
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference: "St. Andrews Vortex Dynamics Research Group Seminar Series"
+    year: 2024
+
+  - title: From Machine Learning Parameterization to Full Model Emulation
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference: "Cambridge ICCS Seminar Series"
+    year: 2024
+
+  - title: Machine Learning Uncertainty Quantification and Numerical Weather Prediction
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference: ECMWF AIFS Group Seminar
+    year: 2024
+
+  - title: AI Numerical Weather Prediction and Uncertainty Quantification at NSF NCAR
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference: Met Office Seminar Series
+    year: 2024
+
+  - title: Machine-Learning in climate modelling at NCAR
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference: Oxford AOPP Seminar Series
+    year: 2024
+
+  - title: How We are Building Trustworthy AI for Weather and Climate in AI2ES
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference: Climate Informatics 2024
+    year: 2024
+
+  - title: Lessons Learned from Building Real-Time Machine Learning Testbeds for AI2ES
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference: 14th Conference on Transition of Research to Operations
+    year: 2024
+
+  - title: "Machine Integration and Learning for Earth Systems (MILES): Bridging Key Gaps in Machine Learning for Earth System Science"
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference: 23rd Conference on Artificial Intelligence for Environmental Science
+    year: 2024
+
+  - title: Machine Learning Uncertainty Quantification for Predicting Hazards and Impacts from Convection-Allowing LAMs
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference: 45th European Working Group on Limited-Area Modelling (EWGLAM) Meeting
+    year: 2023
+
+  - title: Combining Uncertainty Quantification and XAI to Understand the Sensitivities of Deep Learning Winter Precipitation Type Predictions
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference: DoD Cloud Post-Processing and Verification Workshop
+    year: 2023
+
+  - title: How NCAR/UCAR Teams Have Used Artificial Intelligence to Advance Earth System Science
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference: NCAR/UCAR Day of Science and Discovery
+    year: 2023
+
+  - title: Understanding the Context of Machine Learning Uncertainty Quantification
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference: National Institute for Meteorological Studies Seminar
+    year: 2023
+
+  - title: Bringing Meteorological AI to the People
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference: WMO Nowcasting and Mesoscale Research Working Group
+    year: 2023
+
+  - title: AI/ML Data Challenges in the Earth Sciences
+    authors:
+      - <b>C. Becker.</b>
+    conference: Unidata Users Workshop - 2023
+    year: 2023
+
+  - title: Machine Learning Uncertainty Quantification for Assessing Weather Impacts
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference: World Meteorological Congress
+    year: 2023
+
+  - title: Machine Learning for Real-time Prediction of Freezing Precipitation
+    authors:
+      - <b>C. Becker.</b>
+    conference: WINTRE-MIX Workshop
+    year: 2023
+
+  - title: "Harnessing the Potential of Satellite Imagery: Machine Learning for Hazardous Weather Prediction"
+    authors:
+      - <b>J. Schreck.</b>
+    conference: UCAR Remote Sensing Initiative Workshop 2023
+    year: 2023
+
+  - title: Semi-supervised and Transfer Learning - Applications of a Hybrid Approach for Prediction of Convective Storm Mode
+    authors:
+      - <b>C. Becker.</b>
+    conference:
+    year: 2023
+
+  - title:
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference:
+    year: 2023
+
+  - title:
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference:
+    year: 2023
+
+  - title:
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference:
+    year: 2023
+
+  - title:
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference:
+    year: 2023
+
+  - title:
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference:
+    year: 2023
+
+
+  - title:
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference:
+    year: 2023
+
+  - title:
+    authors:
+      - <b>D. J. Gagne.</b>
+    conference:
+    year: 2023

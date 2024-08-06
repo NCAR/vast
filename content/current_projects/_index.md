@@ -5,6 +5,3 @@ image : images/banners/cloudSimulation.png
 ---
 
 
-
-
-

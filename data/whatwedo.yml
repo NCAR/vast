@@ -3,11 +3,11 @@ title   : WHAT WE DO
 items   :
 
   - name : EDUCATION
-    quote: We host both undergraduate and graduate interns so that they can gain experience in data science and machine learning applied to challenges in atmospheric science.
+    quote: We host both undergraduate and graduate interns so that they can gain experience in machine learning applied to challenges in Earth system science.
     url  : education
 
   - name : CURRENT PROJECTS
-    quote: We conduct research aimed at improving our ability to apply rigorous, explainable, and quantifiable modeling to atmospheric science challenges.
+    quote: We conduct research aimed at improving our ability to apply rigorous, explainable, and quantifiable modeling to Earth system  science challenges.
     url  : current_projects
 
   - name : DATASETS

@@ -2,18 +2,15 @@ enable  : true
 title   : WHAT WE DO
 items   :
 
-  - name : EDUCATION
-    quote: We host both undergraduate and graduate interns so that they can gain experience in machine learning applied to challenges in Earth system science.
-    url  : education
 
-  - name : PROJECTS
+  - name : RESEARCH
     quote: We conduct research aimed at improving our ability to apply rigorous, explainable, and quantifiable modeling to Earth system  science challenges.
     url  : projects
-
-  - name : DATASETS
-    quote: We help the scientific community learn about and use available datasets responsibly.
-    url  : datasets
 
   - name : SOFTWARE
     quote: We develop open source, community software that helps ML and atmospheric scientists run and optimize machine learning models.
     url  : software
+  
+  - name : EDUCATION
+    quote: We host both undergraduate and graduate interns so that they can gain experience in machine learning applied to challenges in Earth system science.
+    url  : education

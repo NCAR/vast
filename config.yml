@@ -21,12 +21,9 @@ menu:
       url       : education
       weight    : 1
     - parent    : what
-      name      : Projects
+      name      : Research
       url       : projects
       weight    : 2
-    - parent    : what
-      name      : Datasets
-      url       : datasets
       weight    : 3
     - parent    : what
       name      : Software
@@ -85,7 +82,5 @@ params:
             url : education
           - name: Projects
             url : projects
-          - name: Datasets
-            url : datasets
           - name: Software
             url : software

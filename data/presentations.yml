@@ -5,395 +5,395 @@ items  :
            
   - title: Uncertainty Quantification Decomposition through the Lens of Explainable AI
     authors:
-      - <b>Becker, C.</b>
-      - <b>J. Schreck.</b>
-      - <b>D. J. Gagne.</b>
+      - Becker, C.
+      - J. Schreck.
+      - D. J. Gagne.
       - M. Molina
-      - <b>G. Gantos</b>
+      - G. Gantos
       - Y. Sha
     conference: AMS Annual Meeting 2023
     year: 2023
 
   - title: Machine Learning Data Challenges across the Pipeline
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: "Innovations in Open Science (IOS) Planning Workshop: Community Expectations for a Geoscience Data Commons"
     year: 2024
 
   - title: Machine Learning Uncertainty Quantification and Numerical Weather Prediction
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: "St. Andrews Vortex Dynamics Research Group Seminar Series"
     year: 2024
 
   - title: From Machine Learning Parameterization to Full Model Emulation
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: "Cambridge ICCS Seminar Series"
     year: 2024
 
   - title: Machine Learning Uncertainty Quantification and Numerical Weather Prediction
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: ECMWF AIFS Group Seminar
     year: 2024
 
   - title: AI Numerical Weather Prediction and Uncertainty Quantification at NSF NCAR
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: Met Office Seminar Series
     year: 2024
 
   - title: Machine-Learning in climate modelling at NCAR
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: Oxford AOPP Seminar Series
     year: 2024
 
   - title: How We are Building Trustworthy AI for Weather and Climate in AI2ES
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: Climate Informatics 2024
     year: 2024
 
   - title: Lessons Learned from Building Real-Time Machine Learning Testbeds for AI2ES
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: 14th Conference on Transition of Research to Operations
     year: 2024
 
   - title: "Machine Integration and Learning for Earth Systems (MILES): Bridging Key Gaps in Machine Learning for Earth System Science"
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: 23rd Conference on Artificial Intelligence for Environmental Science
     year: 2024
 
   - title: Machine Learning Uncertainty Quantification for Predicting Hazards and Impacts from Convection-Allowing LAMs
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: 45th European Working Group on Limited-Area Modelling (EWGLAM) Meeting
     year: 2023
 
   - title: Combining Uncertainty Quantification and XAI to Understand the Sensitivities of Deep Learning Winter Precipitation Type Predictions
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: DoD Cloud Post-Processing and Verification Workshop
     year: 2023
 
   - title: How NCAR/UCAR Teams Have Used Artificial Intelligence to Advance Earth System Science
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: NCAR/UCAR Day of Science and Discovery
     year: 2023
 
   - title: Understanding the Context of Machine Learning Uncertainty Quantification
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: National Institute for Meteorological Studies Seminar
     year: 2023
 
   - title: Bringing Meteorological AI to the People
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: WMO Nowcasting and Mesoscale Research Working Group
     year: 2023
 
   - title: AI/ML Data Challenges in the Earth Sciences
     authors:
-      - <b>C. Becker.</b>
+      - C. Becker.
     conference: Unidata Users Workshop - 2023
     year: 2023
 
   - title: Machine Learning Uncertainty Quantification for Assessing Weather Impacts
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: World Meteorological Congress
     year: 2023
 
   - title: Machine Learning for Real-time Prediction of Freezing Precipitation
     authors:
-      - <b>C. Becker.</b>
+      - C. Becker.
     conference: WINTRE-MIX Workshop
     year: 2023
 
   - title: "Harnessing the Potential of Satellite Imagery: Machine Learning for Hazardous Weather Prediction"
     authors:
-      - <b>J. Schreck.</b>
+      - J. Schreck.
     conference: UCAR Remote Sensing Initiative Workshop 2023
     year: 2023
 
   - title: Semi-supervised and Transfer Learning - Applications of a Hybrid Approach for Prediction of Convective Storm Mode
     authors:
-      - <b>C. Becker.</b>
+      - C. Becker.
     conference: NOAA ML Working Group Meeting
     year: 2023
 
   - title: Mimicking non-ideal instrument behavior for hologram processing using neural style translation
     authors:
-      - <b>G. Gantos.</b>
+      - G. Gantos.
     conference: NCAR - CSU Planning Meetup
     year: 2023
 
   - title: Machine learning opportunities and challenges from the ncar analytics and integrative machine learning group
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: 22nd Conference on Artificial Intelligence for Environmental Science
     year: 2023
 
   - title: "Machine Learning Analysis of Convective Mode in Convection-Allowing Models: Updated Models and Real-Time Multi-Model Intercomparison"
     authors:
-      - <b>C. Becker.</b>
+      - C. Becker.
     conference: AMS Annual Meeting
     year: 2023
 
   - title: Visualization and Trustworthiness of Machine Learning for Tornadic Storm Prediction
     authors:
-      - <b>G. Gantos.</b>
+      - G. Gantos.
     conference: AMS Annual Meeting
     year: 2023
 
   - title: Uncertainty Quantification Decomposition through the lens of XAI
     authors:
-      - <b>C. Becker.</b>
+      - C. Becker.
     conference: AMS Annual Meeting
     year: 2023
 
   - title: "Crisis: Convergent risk intelligence for severe impacts to society"
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: 22nd Conference on Artificial Intelligence for Environmental Science
     year: 2023
 
   - title: Using Machine Learning to Monitor the Fuel Moisture Content over CONUS and Alaska based on VIIRS
     authors:
-      - <b>J. Schreck.</b>
+      - J. Schreck.
     conference: AMS Annual Meeting
     year: 2023
 
   - title: Mimicking non-ideal instrument behavior for hologram processing using neural style translation
     authors:
-      - <b>J. Schreck.</b>
+      - J. Schreck.
     conference: AMS Annual Meeting
     year: 2023
 
   - title: Towards trustworthy artificial intelligence for high impact weather prediction
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: University of North Dakota Department of Atmospheric Sciences Seminar Series
     year: 2022
 
   - title: Explainable uncertainty in machine learning weather prediction
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: ECMWF-ESA Workshop on Machine Learning for Earth System Observation and Prediction
     year: 2022
 
   - title: The challenges of developing trustworthy ai systems for high impact weather prediction
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: 1st KMA-NOAA Workshop on AI for Weather and Climate
     year: 2022
 
   - title: Evaluating the Uncertainty of Tornadic Population Exposure with Machine Learning
     authors:
-      - <b>C. Becker.</b>
+      - C. Becker.
     conference: NCAR CISL WIP Talk
     year: 2022
 
   - title: An intercomparison of real-time machine learning hail guidance
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: North American Workshop on Hail and Hailstorms
     year: 2022
 
   - title: Machine Learning Techniques for Improving Prediction of Winter Weather Precipitation Types
     authors:
-      - <b>C. Becker.</b>
+      - C. Becker.
     conference: New York State Mesonet Symposium
     year: 2022
 
   - title: Machine Learning Techniques for Improving Prediction of Winter Precipitation Types
     authors:
-      - <b>C. Becker.</b>
+      - C. Becker.
     conference: University at Albany NY State Mesonet Symposium
     year: 2022
 
   - title: Neural Network Processing of Holographic Images
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: Joint CISL/EOL seminar
     year: 2022
 
   - title: Machine Learning Analysis of Severe Storm Mode in Convection-Allowing Models
     authors:
-      - <b>C. Becker.</b>
+      - C. Becker.
     conference: American Meteorological Society Annual Meeting 2022
     year: 2022
 
   - title: Accelerating Mechanistic Simulation of Organic Chemistry in Weather and Climate Models with Machine Learning
     authors:
-      - <b>J. Schreck.</b>
+      - J. Schreck.
     conference: American Meteorological Society Annual Meeting 2022
     year: 2022
 
   - title: Machine Learning Challenges and Opportunities on NCAR HPC
     authors:
-      - <b>J. Schreck.</b>
+      - J. Schreck.
     conference: CISL GPU TIGER meeting
     year: 2021
 
   - title: Machine Learning and Hyperparameter Optimization on the GPUs at NCAR
     authors:
-      - <b>J. Schreck.</b>
+      - J. Schreck.
     conference: CISL Work In Progress (WIP) discussion
     year: 2021
 
   - title: Pathways to Trustworthy AI in Weather and Climate
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: 2nd Conference on the relation between AI, social Sciences, and Humanities
     year: 2021
 
   - title: Accelerating Mechanistic Simulation of Organic Chemistry in Weather and Climate Models with Machine Learning
     authors:
-      - <b>J. Schreck.</b>
+      - J. Schreck.
     conference: NCAR AIAG Roundtable Discussion
     year: 2021
 
   - title: Evaluation of Two ML Approaches for the Objective Identification of Convective Storm Mode Using Convection-allowing Model Output
     authors:
-      - <b>C. Becker.</b>
+      - C. Becker.
     conference: NOAA Workshop on Leveraging AI in Environmental Sciences
     year: 2021
 
   - title: 4D Post-Processing of Holographic Images
     authors:
-      - <b>G. Gantos.</b>
+      - G. Gantos.
     conference: NOAA Workshop on Leveraging AI in Environmental Sciences
     year: 2021
 
   - title: Accelerating Mechanistic Simulation of Organic Chemistry in Weather and Climate Models with Machine Learning
     authors:
-      - <b>J. Schreck.</b>
+      - J. Schreck.
     conference: "NOAA 21: Leveraging AI in Environmental Sciences"
     year: 2021
 
   - title: "The NCAR Analytics and Integrative Machine Learning Group: Research Overview"
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: 3rd NOAA Workshop on Leveraging AI in Environmental Sciences
     year: 2021
 
   - title: Machine Learning Roles in Earth System Modeling
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: Georgia Tech EAS Seminar Series
     year: 2021
 
   - title: Machine Learning Emulation across the Earth System
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: Carnegie Mellon University STAMPS Webinars
     year: 2021
 
   - title: Improving HOLODEC post-processing via Deep Learning
     authors:
-      - <b>G. Gantos.</b>
+      - G. Gantos.
     conference: American Meteorological Society Annual Meeting
     year: 2021
 
   - title: Optimization of Neural Emulators in Earth Science Applications
     authors:
-      - <b>J. Schreck.</b>
+      - J. Schreck.
     conference: American Meteorological Society 2020 conference
     year: 2021
 
   - title: A machine learning odyssey through the earth system
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: AMS 20th Conference on Artificial Intelligence for Environmental Science
     year: 2021
 
   - title: Emulator Benchmarking with an Open GECKO-A Dataset
     authors:
-      - <b>C. Becker.</b>
+      - C. Becker.
     conference: American Meteorological Society Annual Meeting 2021
     year: 2021
 
   - title: Earth system science machine learning challenge problems
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: AGU Fall Meeting
     year: 2020
 
   - title: Accelerating and explaining earth system process models with machine learning
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: ECMWF-ESA Workshop on Machine Learning for Earth System Observation and Prediction
     year: 2020
 
   - title: "The AI for Earth System Science Hackathon: Challenge Problems and Lessons Learned"
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: 2nd NOAA Workshop on Leveraging AI in Environmental Science
     year: 2020
 
   - title: Seeing the Atmosphere through Machine Learning
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: NCAR Explorer Series
     year: 2020
 
   - title: Interpretable deep learning for analysis of extreme weather risk
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: Reinsurance Association of America Cat Risk Management Conference
     year: 2020
 
   - title: "Machine Learning Parameterization of the Surface Layer: Integration with WRF"
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: AMS Annual Meeting
     year: 2020
 
   - title: Probabilistic Rapid Intensification Prediction with Convolutional Neural Networks and HWRF
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: AMS Annual Meeting
     year: 2020
 
   - title: Emulation of Bin Microphysical Processes with Machine Learning
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference: AMS Annual Meeting
     year: 2020
 
   - title:
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference:
     year: 2020
 
   - title:
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference:
     year: 2020
 
   - title:
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference:
     year: 2020
 
   - title:
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference:
     year: 2020
 
   - title:
     authors:
-      - <b>D. J. Gagne.</b>
+      - D. J. Gagne.
     conference:
     year: 2020

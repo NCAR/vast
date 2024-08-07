@@ -5,7 +5,7 @@ type   : software
 tagline: "Storm Tracking and Verification"
 docs   : "https://hagelslag.readthedocs.io/en/latest/"
 repo   : "https://github.com/djgagne/hagelslag"
-image  : "images/backgrounds/geocat-curly.png"
+image  : "images/projects/hagelslag_info.png"
 ---
 
 Hagelslag is a Python package for tracking storms in numerical model output, 

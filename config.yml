@@ -21,8 +21,8 @@ menu:
       url       : education
       weight    : 1
     - parent    : what
-      name      : Current Projects
-      url       : current_projects
+      name      : Projects
+      url       : projects
       weight    : 2
     - parent    : what
       name      : Datasets
@@ -41,9 +41,6 @@ menu:
     - name      : Collaboration
       url       : collaboration
       weight    : 6
-    - name      : Real Time Products
-      url       : realtimeproducts
-      weight    : 7
 
 # Site Params
 params:
@@ -51,23 +48,23 @@ params:
   dateFormat: "26 FEB 1994"
   description: "MILES is the Machine Integration and Learning for Earth Systems group at the National Center for Atmospheric Research (NCAR)."
   author: "MILES"
-  email: "aiml@ucar.edu"
+  email: "miles@ucar.edu"
 
   news:
-    enable: true
+    enable: false
     title: RECENT NEWS
     subtitle: Some of our most recent news
 
   projects:
     enable: true
     title: RECENT PROJECTS
-    subtitle: Some of our most recent datasets
+    subtitle: Some of our most recent research projects
 
   footer:
     contactInfo:
       title  : Contact Info
       address: 1850 Table Mesa Dr.<br>Boulder, CO 80305
-      email  : miles@ucar.edu
+      email  : milescore@ucar.edu
 
     sitemap:
       title: Sitemap
@@ -83,13 +80,11 @@ params:
             url : presentations
           - name: Collaboration
             url : collaboration
-          - name: Real Time Products
-            url : realtimeproducts
         - link:
           - name: Education
             url : education
-          - name: Current Projects
-            url : current_projects
+          - name: Projects
+            url : projects
           - name: Datasets
             url : datasets
           - name: Software

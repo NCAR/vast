@@ -2,27 +2,70 @@ enable : true
 title  : PUBLICATIONS
 image  : images/banners/aurora.jpg
 items  :
+  - title: Physically Explainable Deep Learning for Convective Initiation Nowcasting Using GOES-16 Satellite Observations
+    authors:
+      - Da Fan
+      - Steven J. Greybush
+      - Eugene E. Clothiaux
+      - David John Gagne II
+    journal: Artificial Intelligence for the Earth Systems
+    year: 2024
+    volume: -1
+    pages: In Press
+    url:  https://doi.org/10.1175/AIES-D-23-0098.1
+  - title: "Evidential Deep Learning: Enhancing Predictive Uncertainty Estimation for Earth System Science Applications"
+    authors:
+      - John Schreck
+      - David John Gagne
+      - Charlie Becker
+      - William Chapman
+      - Kimberly Elmore
+      - Da Fan
+      - Gabrielle Gantos
+      - Eliot Kim
+      - Dhamma Kimpara
+      - Thomas Martin
+      - Maria J. Molina
+      - Vanessa M. Pryzbylo
+      - Jacob Radford
+      - Belen Saavedra
+      - Justin Willson
+      - Christopher Wirz
+    journal: Artificial Intelligence for the Earth Systems
+    year: 2024
+    pages: Under Review
+    url: https://arxiv.org/abs/2309.13207
+  - title: A Machine Learning-Based Approach to Quantify ENSO Sources of Predictability
+    authors:
+      - Colfescu, Ioana
+      - Christensen, Hannah
+      - Gagne, David John
+    journal: Geophysical Research Letters
+    year: 2024
+    volume: 51
+    pages: e2023GL105194
+    url: https://doi.org/10.1029/2023GL105194
 
   - title: A review of machine learning for convective weather
     authors:
       - McGovern, A.
       - R. J. Chase
       - M. Flora
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
       - R. Lagerquist
       - C. Potvin
       - N. Snook
       - E. Loken
     journal: Artificial Intelligence for the Earth Systems
-    year: 2023a
-    volume: -1
-    pages: In Press
-    url: -1
+    year: 2023
+    volume: 2
+    pages: e220077
+    url: https://doi.org/10.1175/AIES-D-22-0077.1
 
   - title: "Trustworthy artificial intelligence for environmental sciences: An innovative approach for summer school"
     authors:
       - McGovern, A.
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
       - C. D. Wirz
       - I. Ebert-Uphoff
       - A. Bostrom
@@ -36,36 +79,36 @@ items  :
       - R. Redmon
       - T. Peterson
     journal: Bull. Amer. Meteor. Soc
-    year: 2023b
-    volume: -1
-    pages: In Press
+    year: 2023
+    volume: 104
+    pages: E1222–E1231
     url: https://doi.org/10.1175/BAMS-D-22-0225.1
 
   - title: Mimicking non-ideal instrument behavior for hologram processing using neural style translation
     authors:
-      - <b>Schreck, J. S.</b>
+      - Schreck, J. S.
       - M. Hayman
-      - <b>G. Gantos</b>
+      - G. Gantos
       - A. Bansemer
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
     journal: Optics Express
     year: 2023
-    volume: -1
-    pages: In Press
-    url: https://arxiv.org/abs/2301.02757
+    volume: 31
+    pages: 20049-20067
+    url: https://doi.org/10.1364/OE.486741
 
   - title: Diagnosing storm mode with deep learning in convection-allowing models
     authors:
       - Sobash, R. A.
-      - <b>D. J. Gagne</b>
-      - <b>C. L. Becker</b>
+      - D. J. Gagne
+      - C. L. Becker
       - D. Ahijevych
-      - <b>G. Gantos</b>
+      - G. Gantos
       - C. S. Schwartz
     journal: Mon. Wea. Rev.
     year: 2023
-    volume: -1
-    pages: In Press
+    volume: 151
+    pages: 2009–2027
     url: https://doi.org/10.1175/MWR-D-22-0342.1
 
   - title: Lessons learned in coupling atmospheric models across scales for onshore and offshore wind energy
@@ -82,7 +125,7 @@ items  :
       - A. DeCastro
       - S. Dettling
       - C. Draxl
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
       - P. Hawbecker
       - P. Jha
       - T. Juliano
@@ -93,17 +136,17 @@ items  :
       - W. Shaw
       - R. Thedin
     journal: Wind Energ. Sci. Discuss
-    year: 2022
-    volume: in review
-    pages: [preprint]
-    url: https://doi.org/10.5194/wes-2022-113
+    year: 2023
+    volume: 8
+    pages: 1251–1275
+    url: https://doi.org/10.5194/wes-8-1251-2023
 
   - title: "Challenges and benchmark datasets for machine learning in the atmospheric sciences: Definition, status and outlook"
     authors:
       - Dueben, P.
       - M. G. Schultz
       - M. Chantry
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
       - D. M. Hall
       - A. McGovern
     journal: Artificial Intelligence for the Earth Systems
@@ -114,11 +157,11 @@ items  :
 
   - title: Neural network processing of holographic images
     authors:
-      - <b>Schreck, J. S.</b>
-      - <b>G. Gantos</b>
+      - Schreck, J. S.
+      - G. Gantos
       - M. Hayman
       - A. Bansemer
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
     journal: Atmospheric Measurement Technologies
     year: 2022
     volume: 2022
@@ -127,9 +170,9 @@ items  :
 
   - title: Neural network emulation of the formation of organic aerosols based on the explicit gecko-a chemistry model
     authors:
-      - <b>Schreck, J. S.</b>
-      - <b>C. Becker</b>
-      - <b>D. J. Gagne</b>
+      - Schreck, J. S.
+      - C. Becker
+      - D. J. Gagne
       - K. Lawrence
       - S. Wang
       - C. Mouchel-Vallon
@@ -143,12 +186,12 @@ items  :
   - title: Machine Learning for Improving Surface Layer Flux Estimates
     authors:
       - T. McCandless
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
       - B. Kosovic
       - S. E. Haupt
       - B. Yang
-      - <b>C. Becker</b>
-      - <b>J. Schreck</b>
+      - C. Becker
+      - J. Schreck
     journal: Boundary Layer Meteorology
     volume: 185
     year: 2022
@@ -158,10 +201,10 @@ items  :
   - title: On the application of an observations-based machine learning parameterization of surface layer fluxes within an atmospheric large-eddy simulation model
     authors:
       - Mu&ntilde;oz-Esparza, D.
-      - <b>C. Becker</b>
+      - C. Becker
       - J. Sauer
-      - <b>D. J. Gagne</b>
-      - <b>J. Schreck</b>
+      - D. J. Gagne
+      - J. Schreck
       - B. Kosovic
     journal: JGR Atmospheres
     year: 2022
@@ -173,7 +216,7 @@ items  :
     authors:
       - McGovern, A.
       - I. Ebert-Uphoff
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
       - A. Bostrom
     journal: Environmental Data Science
     year: 2022
@@ -190,7 +233,7 @@ items  :
       - I. Ebert-Uphoff
       - R. He
       - J. Hickey
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
       - N. Snook
       - J. Q. Stewart
       - C. Thorncroft
@@ -205,7 +248,7 @@ items  :
   - title: A hybrid analog-ensemble, convolutional-neural-network method for post-processing precipitation forecasts
     authors:
       - Y. Sha
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
       - G. West
       - R. Stull
     journal: Monthly Weather Review
@@ -217,7 +260,7 @@ items  :
   - title: The History and Practice of AI in the Environmental Sciences
     authors:
       - Haupt, S. E.
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
       - W. Hsieh
       - V. Krasnopolsky
       - V. Lakshmanan
@@ -235,7 +278,7 @@ items  :
   - title: Probabilistic Machine Learning Estimation of Ocean Mixed Layer Depth from Dense Satellite and Sparse In-Situ Observations
     authors:
       - Foster, D.
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
       - D. B. Whitt
     journal: Journal of Advances in Modeling Earth Systems
     year: 2021
@@ -246,7 +289,7 @@ items  :
   - title: Deep learning classification of potentially severe convective storms in a changing climate
     authors:
       - Molina, M.
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
       - A. Prein
     journal: Earth and Space Science
     year: 2021
@@ -257,7 +300,7 @@ items  :
   - title: Deep-learning-based precipitation observation quality control. Journal of Atmospheric and Oceanic Technology
     authors:
       - Sha, Y.
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
       - G. West
       - R. Stull
     journal: Earth and Space Science
@@ -269,12 +312,12 @@ items  :
   - title: Machine Learning the Warm Rain Process
     authors:
       - Gettelman, A.
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
       - C.-C. Chen
       - M. Christensen
       - Z. Lebo
       - H. Morrison
-      - <b>G. Gantos</b>
+      - G. Gantos
     journal: Journal of Advances in Modeling Earth Systems
     year: 2021
     volume: 13
@@ -284,11 +327,11 @@ items  :
   - title: "Deep-learning-based gridded downscaling of surface meteorological variables in complex terrain. part i: daily maximum and minimum 2-m temperature"
     authors:
       - Sha, Y.
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
       - G. West
       - R. Stull
     journal: Journal of Applied Meteorology and Climatology
-    year: 2020b
+    year: 2020
     volume: 59
     pages: 2057–-2073
     url: https://doi.org/10.1175/JAMC-D-20-0057.1
@@ -296,23 +339,23 @@ items  :
   - title: "Deep-learning-based gridded downscaling of surface meteorological variables in complex terrain - part ii: daily precipitation"
     authors:
       - Sha, Y.
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
       - G. West
       - R. Stull
     journal: Journal of Applied Meteorology and Climatology
-    year: 2020a
+    year: 2020
     volume: 59
     pages: 2075–-2092
     url: https://doi.org/10.1175/JAMC-D-20-0058.1
 
   - title: "Machine learning for stochastic parameterization: Generative adversarial networks in the lorenz ’96 model"
     authors:
-      - <b>Gagne, D. J.</b>
+      - Gagne, D. J.
       - H. Christensen
       - A. Subramanian
       - A. Monahan
     journal: Journal of Advances in Modeling Earth Systems
-    year: 2020a
+    year: 2020
     volume: 12
     pages: 2075–-2092
     url: https://doi.org/10.1029/2019MS001896
@@ -322,7 +365,7 @@ items  :
       - Lagerquist, R.
       - A. McGovern
       - C. Homeyer
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
       - T. Smith
     journal: Mon. Wea. Rev.
     year: 2020
@@ -334,11 +377,11 @@ items  :
     authors:
       - Burke, A.
       - N. Snook
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
       - S. McCorkle
       - A. McGovern
     journal: Wea. Forecasting
-    year: 2020b
+    year: 2020
     volume: 35
     pages: 149–-168
     url: https://doi.org/10.1175/WAF-D-19-0105.1
@@ -347,7 +390,7 @@ items  :
     authors:
       - McGovern, A.
       - R. Lagerquist
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
       - G. E. Jergensen
       - K. Elmore
       - C. Homeyer
@@ -362,7 +405,7 @@ items  :
     authors:
       - Lagerquist, R.
       - A. McGovern
-      - <b>D. J. Gagne</b>
+      - D. J. Gagne
     journal: Wea. Forecasting
     year: 2019
     volume: 34

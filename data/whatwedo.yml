@@ -6,9 +6,9 @@ items   :
     quote: We host both undergraduate and graduate interns so that they can gain experience in machine learning applied to challenges in Earth system science.
     url  : education
 
-  - name : CURRENT PROJECTS
+  - name : PROJECTS
     quote: We conduct research aimed at improving our ability to apply rigorous, explainable, and quantifiable modeling to Earth system  science challenges.
-    url  : current_projects
+    url  : projects
 
   - name : DATASETS
     quote: We help the scientific community learn about and use available datasets responsibly.

@@ -47,9 +47,9 @@ jobs:
 
         with open(metrics_file, 'r+') as f:
           metrics_dict = yaml.load(f)
-        metrics_dict['counter_item'][1]["number"] = publications
-        metrics_dict['counter_item'][2]["number"] = realtimeproducts
-        metrics_dict['counter_item'][3]["number"] = interns
+        metrics_dict['counter_item'][0]["number"] = publications
+        metrics_dict['counter_item'][1]["number"] = realtimeproducts
+        metrics_dict['counter_item'][2]["number"] = interns
         with open(metrics_file, 'w') as f:
           yaml.dump(metrics_dict, f)
 
@@ -57,7 +57,7 @@ jobs:
       run: |
         git config --global user.name '${{ github.actor }}'
         git config --global user.email '<${{ github.actor }}@users.noreply.github.com>'
-        git remote set-url origin https://x-access-token:${{ secrets.VAST_METRICS }}@github.com/NCAR/miles
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/NCAR/miles
         git add data/metrics.yml
         git commit --allow-empty -m "Update metrics.yml from changes to data"
         git push -u origin HEAD

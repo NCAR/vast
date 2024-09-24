@@ -3,7 +3,7 @@ title  : "VAPOR"
 date   : 2022-05-03T09:23:51-06:00
 type   : software
 tagline: "The Visualization and Analysis Platform for Ocean, Atmosphere, and Solar Researchers"
-docs   : "https://www.vapor.ucar.edu/"
+docs   : "https://ncar.github.io/VaporDocumentationWebsite/index.html"
 repo   : "https://github.com/NCAR/vapor"
 image  : "images/backgrounds/BarrierReef_hires.png"
 ---

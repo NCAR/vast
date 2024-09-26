@@ -177,3 +177,46 @@ items  :
      - John Clyne
      - Kevin Paul
     year:  2020
+
+  - title: "Python Data Analysis and Visualization for Unstructured Grids Data"
+    student: Ian Franda
+    university: University of Wisconsin–Madison
+    url: "https://www.cisl.ucar.edu/sites/default/files/2023-10/Franda_Ian_slides.pdf"
+    github: "@ifranda"
+    mentors:
+     - Orhan Eroglu
+     - Philip Chmielowiec
+    year:  2023
+
+  - title: "Opening my Science: A Jupyter Book on Analyzing Sea Level Variability with Xarray"
+    student: Yuta Norden
+    university: University of Hawaiʻi at Mānoa
+    url: "https://www.cisl.ucar.edu/sites/default/files/2023-12/Norden_Yuta_Slides.pdf"
+    github: "@yutik-nn"
+    mentors:
+     - Julia Kent
+     - Deepak Cherian
+     - Scott Henderson
+     - Jessica Scheick
+    year:  2023
+
+  - title: "Scaling UXarray: Bridging the Gap for High-Performance Unstructured Grid Analysis through Dask and Documentation Enhancements"
+    student: Rachel Tam
+    university: University of Illinois Urbana-Champaign
+    url: "https://www.cisl.ucar.edu/siparcs-2024-rachel-tam"
+    github: "@rytam2"
+    mentors:
+     - Orhan Eroglu
+     - Philip Chmielowiec
+    year:  2024
+
+  - title: "Expanding GeoCAT's Climatology Resources to Support the Transition from NCL to Python"
+    student: Andy McKeen
+    university: Vermont State University Lyndon
+    url: "https://www.cisl.ucar.edu/siparcs-2024-andy-mckeen"
+    github: "@andy-theia"
+    mentors:
+     - Anissa Zacharias
+     - Katelyn FitzGerald
+    year:  2024
+    

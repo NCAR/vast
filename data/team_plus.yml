@@ -3,30 +3,48 @@ title   : MILES+
 members  :
 
 
-
-  - name        : Mariana Cains
-    designation : Postdoctoral Fellow II (MMM)
-    ncaruname   : mgcains
-    githubuname : ai2es
-
-  - name        : William Chapman
-    designation : Project Scientist I (CGD)
-    ncaruname   : wchapman
-    githubuname : WillyChap
-
-  - name        : Da Fan
-    designation : Visitor (Penn State)
-    githubuname : ncar
-
   - name        : Kirsten Mayer
     designation : Project Scientist I (CGD)
     ncaruname   : kjmayer
     githubuname : kjmayer
 
+  - name        : Kyle Sha
+    designation : Postdoc Fellow II
+    ncaruname   : ksha
+    githubuname : yingkaisha
+
   - name        : Thomas Martin
     designation : AI/ML Software Engineer (Unidata)
     ncaruname   : tmartin
     githubuname : ThomasMGeo
+
+  - name        : Arnold Kazadi
+    designation : SiParcs Intern
+    ncaruname   : ncaruname
+    githubuname : kanz76
+
+  - name        : Dhamma Kimpara
+    designation : SiParcs Intern
+    ncaruname   : ncaruname
+    githubuname : dkimpara
+
+  - name        : Da Fan
+    designation : Visitor (Penn State)
+    githubuname : ncar
+
+  - name        : Wayne Chung
+    designation : Research Associate - LEAP (Columbia)
+    githubuname : ncar
+
+  - name        : Julie Demuth
+    designation : Project Scientist III (MMM)
+    ncaruname   : jdemuth
+    githubuname : ai2es
+
+  - name        : Jeffrey Anderson
+    designation : Senior Scientist Section Head (DARES)
+    ncaruname   : jla
+    githubuname : jlaucar
 
   - name        : Jacob Radford
     designation : Research Associate (CIRA)
@@ -37,7 +55,7 @@ members  :
     ncaruname   : cdwirz
     githubuname : ai2es
 
-  - name        : Julie Demuth
-    designation : Project Scientist III (MMM)
-    ncaruname   : jdemuth
-    githubuname : ai2es
+  - name        : William Chapman
+    designation : Project Scientist I (CGD)
+    ncaruname   : wchapman
+    githubuname : WillyChap

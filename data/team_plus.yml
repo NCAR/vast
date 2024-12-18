@@ -19,22 +19,22 @@ members  :
     githubuname : ThomasMGeo
 
   - name        : Arnold Kazadi
-    designation : SiParcs Intern
-    ncaruname   : ncaruname
+    designation : SIParCS Intern
+    ncaruname   : akn7
     githubuname : kanz76
 
   - name        : Dhamma Kimpara
-    designation : SiParcs Intern
-    ncaruname   : ncaruname
+    designation : SIParCS Intern
+    ncaruname   : dkimpara
     githubuname : dkimpara
 
   - name        : Da Fan
-    designation : Visitor (Penn State)
-    githubuname : ncar
+    designation : Post Doc - LEAP
+    githubuname : dxf424
 
-  - name        : Wayne Chung
-    designation : Research Associate - LEAP (Columbia)
-    githubuname : ncar
+  - name        : Wayne Chuang
+    designation : Integration Engineer - LEAP (Columbia)
+    githubuname : wkchuang
 
   - name        : Julie Demuth
     designation : Project Scientist III (MMM)
@@ -42,7 +42,7 @@ members  :
     githubuname : ai2es
 
   - name        : Jeffrey Anderson
-    designation : Senior Scientist Section Head (DARES)
+    designation : Senior Scientist Section Head (DAReS)
     ncaruname   : jla
     githubuname : jlaucar
 

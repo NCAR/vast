@@ -26,7 +26,7 @@ places particular emphasis on teaching scientists how to contribute
 back to these communities.
 
 IMPACT also provides training on the use of its internally developed
-open source analysis packages, such as [VAPOR](https://www.vapor.ucar.edu/) and [GeoCAT](https://geocat.ucar.edu/). We organize
+open source analysis packages, such as [VAPOR](https://www.vapor.ucar.edu/), [GeoCAT](https://geocat.ucar.edu/), and [MILES](https://miles.ucar.edu/). We organize
 in-person tutorials at conferences such as AMS, AGU; hold periodic
 on-line webinars, and produce a variety of topical webcasts covering
 various aspects of the tools. Many of our recorded sessions are
